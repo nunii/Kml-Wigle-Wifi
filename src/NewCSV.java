@@ -8,7 +8,7 @@ import java.io.PrintWriter;
 import java.util.Scanner;
 import java.util.Vector;
 
-import de.micromata.opengis.kml.v_2_2_0.*;
+//import de.micromata.opengis.kml.v_2_2_0.*;
 import java.io.File;
 import java.util.Arrays;
 import java.util.List;

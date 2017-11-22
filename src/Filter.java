@@ -2,5 +2,5 @@
 
 public interface Filter {
 
-	public boolean criterion(Line samp);
+	public boolean criterion(Sample samp);
 }

@@ -10,13 +10,15 @@ import java.util.ArrayList;
 import java.util.Scanner;
 
 
+
+
 public class CsvToKml {
 	private File csv;
-	private LinesArray line;
+	private Samples sample;
 	
 	public CsvToKml(String s){
 		csv = new File(s);
-		line = new LinesArray(csv.getPath());
+		sample = new Samples(csv.getPath());
 	}
 
 	public void CreateByBest(){
@@ -29,17 +31,17 @@ public class CsvToKml {
 			for(int i=0;i<2;i++)
 				str.add(br.readLine());
 
-			while(ind<line.length()){
+			while(ind<sample.length()){
 				fr = new FileReader("C:\\Users\\Bar&Almog\\Desktop\\matala00\\KMLexam.kml");
 				br = new BufferedReader(fr);
 				for(int i=0;i<2;i++)
 					br.readLine();
 				str.add(br.readLine());
-				str.add(br.readLine().replaceAll("NAME", line.getName(ind)));
-				str.add("<description><![CDATA[BSSID: <b>"+line.getMac(ind)+"</b><br/>Capabilities: <b>SECURITY</b><br/>Frequency: <b>"+line.getFreq(ind)+"</b><br/>Timestamp: <b>1509528977000</b><br/>Date: <b>"+line.getDate(ind)+"</b>]]></description><styleUrl>#green</styleUrl>");
+				str.add(br.readLine().replaceAll("NAME", sample.getName(ind)));
+				str.add("<description><![CDATA[BSSID: <b>"+sample.getMac(ind)+"</b><br/>Capabilities: <b>SECURITY</b><br/>Frequency: <b>"+sample.getFreq(ind)+"</b><br/>Timestamp: <b>1509528977000</b><br/>Date: <b>"+sample.getDate(ind)+"</b>]]></description><styleUrl>#green</styleUrl>");
 				br.readLine();				
 				str.add(br.readLine());
-				str.add(br.readLine().replaceAll("LAT,LON",line.getPoint(ind)));
+				str.add(br.readLine().replaceAll("LAT,LON",sample.getPoint(ind)));
 				str.add(br.readLine());
 				ind++;	
 			}
@@ -60,7 +62,7 @@ public class CsvToKml {
 	public void CreateByNetName(String name){
 		
 		int ind=1;
-		if(!line.contains(name)){
+		if(!sample.contains(name)){
 			System.out.println("Net name not found");
 			return;
 		}
@@ -70,19 +72,19 @@ public class CsvToKml {
 			BufferedReader br = new BufferedReader(fr);
 			for(int i=0;i<2;i++)
 				str.add(br.readLine());
-			while(ind<line.length()){
+			while(ind<sample.length()){
 				try{
-				if(line.getLine(ind).Contains(name)){
+				if(sample.getSample(ind).Contains(name)){
 					fr = new FileReader("C:\\Users\\Bar&Almog\\Desktop\\matala00\\KMLexam.kml");
 					br = new BufferedReader(fr);
 					for(int i=0;i<2;i++)
 						br.readLine();
 					str.add(br.readLine());
 					str.add(br.readLine().replaceAll("NAME", name));
-					str.add("<description><![CDATA[BSSID: <b>"+line.getMac(ind, name)+"</b><br/>Capabilities: <b>SECURITY</b><br/>Frequency: <b>"+line.getFreq(ind, name)+"</b><br/>Timestamp: <b>1509528977000</b><br/>Date: <b>"+line.getDate(ind)+"</b>]]></description><styleUrl>#green</styleUrl>");
+					str.add("<description><![CDATA[BSSID: <b>"+sample.getMac(ind, name)+"</b><br/>Capabilities: <b>SECURITY</b><br/>Frequency: <b>"+sample.getFreq(ind, name)+"</b><br/>Timestamp: <b>1509528977000</b><br/>Date: <b>"+sample.getDate(ind)+"</b>]]></description><styleUrl>#green</styleUrl>");
 					br.readLine();				
 					str.add(br.readLine());
-					str.add(br.readLine().replaceAll("LAT,LON",line.getPoint(ind)));
+					str.add(br.readLine().replaceAll("LAT,LON",sample.getPoint(ind)));
 					str.add(br.readLine());
 				}
 				}

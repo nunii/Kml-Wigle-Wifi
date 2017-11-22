@@ -6,7 +6,7 @@ public class positionFilter implements Filter {
 		this.pos = pos;
 	}
 
-	public boolean criterion(Line samp) {
+	public boolean criterion(Sample samp) {
 		return samp.getPosition().equals(pos);
 	}
 
