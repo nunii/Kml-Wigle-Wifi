@@ -1,23 +1,27 @@
-
-
+package EX01;
 import java.io.BufferedReader;
 import java.io.FileReader;
 import java.io.IOException;
 import java.util.ArrayList;
 import java.util.List;
 
-public class LinesArray {
-	private ArrayList<Line> file = new ArrayList<>();
 
-	public LinesArray(String s){
+
+public class Samples {
+
+	private String FileName;
+
+	private ArrayList<Sample> file = new ArrayList<>();
+
+	public Samples(String FileName){
 		try {
-			FileReader fr = new FileReader(s);
+			FileReader fr = new FileReader(FileName);
 			BufferedReader br = new BufferedReader(fr);
 			String str = br.readLine();
 			if(str==null||!str.startsWith("Time,ID,Lat,Lon,Alt,#WiFi networks,SSID1,MAC1,Frequncy1,Signal1,SSID2,MAC2,Frequncy2,Signal2,SSID3,MAC3,Frequncy3,Signal3,SSID4,MAC4,Frequncy4,Signal4,SSID5,MAC5,Frequncy5,Signal5,SSID6,MAC6,Frequncy6,Signal6,SSID7,MAC7,Frequncy7,Signal7,SSID8,MAC8,Frequncy8,Signal8,SSID9,MAC9,Frequncy9,Signal9,SSID10,MAC10,Frequncy10,Signal10"))
-				throw new IOException(s);
+				throw new IOException(FileName);
 			while(str!=null){
-				file.add(new Line(str.split(",")));
+				file.add(new Sample(str.split(",")));
 				str = br.readLine();
 			}
 			br.close();
@@ -29,14 +33,13 @@ public class LinesArray {
 		}	}
 
 	public boolean contains(String name){
-		
+
 		for (int i = 0; i < file.size(); i++)
 			if(file.get(i).Contains(name))
 				return true;
 		return false;
 	}
-
-	public Line getLine(int d){
+	public Sample getSample(int d){
 		return file.get(d);
 	}
 	
@@ -44,8 +47,8 @@ public class LinesArray {
 		return file.get(d).getName();
 	}
 
-	public int getInd(String name, int line){
-		return file.get(line).getIndex(name);
+	public int getInd(String name, int sample){
+		return file.get(sample).getIndex(name);
 	}
 	
 	public String getPoint(int d){
@@ -74,4 +77,9 @@ public class LinesArray {
 	public int length(){
 		return file.size();
 	}
+	
+	
+	
+	
+	
 }

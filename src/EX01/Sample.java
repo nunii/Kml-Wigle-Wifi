@@ -1,30 +1,30 @@
+package EX01;
 
-
-public class Line {
-	private String[] line;
+public class Sample {
+	private String[] samp;
 	private Position pos;
 	private Time time;
 	private Wifi wifies; 
-	public Line(String[] s){
-		line = s;
+	public Sample(String[] s){
+		samp = s;
 		time = new Time(s[1]);
 		pos = new Position(s[2],s[3],s[4]);
 		wifies = new Wifi(s);
 
 	}
-
+	
 	public boolean Contains(String s){
 		int ind = 0;
-		while(ind<line.length){
-			if(line[ind].equals(s))
+		while(ind<samp.length){
+			if(samp[ind].equals(s))
 				return true;
 			ind++;
 		}
 		return false;
 	}
-
+	
 	public String getName(){
-		return line[6];
+		return samp[6];
 	}
 
 	public int getIndex(String s){
@@ -32,34 +32,34 @@ public class Line {
 		if(!this.Contains(s)){
 			return -1;
 		}
-		while(!line[ind].equals(s)){
+		while(!samp[ind].equals(s)){
 			ind++;
 		}
 		return ind;
 	}
 
 	public String getPoint(){
-		return line[3]+","+line[2];
+		return samp[3]+","+samp[2];
 	}
 
 	public String getMac(){
-		return line[7];
+		return samp[7];
 	}
 
 	public String getMac(String s){
-		return line[this.getIndex(s)+1];
+		return samp[this.getIndex(s)+1];
 	}
 
 	public String getFreq(){
-		return line[8];
+		return samp[8];
 	}
 
 	public String getFreq(String s){
-		return line[this.getIndex(s)+1];
+		return samp[this.getIndex(s)+1];
 	}
 
 	public String getDate(){
-		return line[0];
+		return samp[0];
 	}
 
 	public Position getPosition() {
@@ -72,5 +72,4 @@ public class Line {
 	public Wifi getWifi() {
 		return wifies;
 	}
-
 }
