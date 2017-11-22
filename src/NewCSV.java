@@ -1,5 +1,4 @@
-//this is first commit!
-//should be seen in the github
+
 import java.io.BufferedReader;
 import java.io.FileReader;
 import java.io.FileWriter;

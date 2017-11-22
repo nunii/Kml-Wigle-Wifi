@@ -2,9 +2,15 @@
 
 public class Line {
 	private String[] line;
-
+	private Position pos;
+	private Time time;
+	private Wifi wifies; 
 	public Line(String[] s){
 		line = s;
+		time = new Time(s[1]);
+		pos = new Position(s[2],s[3],s[4]);
+		wifies = new Wifi(s);
+
 	}
 
 	public boolean Contains(String s){
@@ -55,4 +61,16 @@ public class Line {
 	public String getDate(){
 		return line[0];
 	}
+
+	public Position getPosition() {
+		return pos;
+	}
+	
+	public Time getTime() {
+		return time;
+	}
+	public Wifi getWifi() {
+		return wifies;
+	}
+
 }

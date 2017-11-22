@@ -7,6 +7,7 @@ import java.io.IOException;
 import java.io.PrintWriter;
 import java.io.File;
 import java.util.ArrayList;
+import java.util.Scanner;
 
 
 public class CsvToKml {
@@ -145,9 +146,13 @@ public class CsvToKml {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		CsvToKml c = new CsvToKml("C:\\Users\\Bar&Almog\\Desktop\\matala00\\newCSV.csv");
+		Scanner reader = new Scanner(System.in);
+		System.out.println("Insert path to direcory: ");
+		String s = (String)reader.nextLine();
+		CsvToKml c = new CsvToKml(s);
 		c.CreateByBest();
 		c.CreateByNetName("GOLAN T");
+		reader.close();
 	}
 
 }
