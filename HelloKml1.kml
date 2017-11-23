@@ -1,0 +1,1397 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:xal="urn:oasis:names:tc:ciq:xsdschema:xAL:2.0">
+    <Document>
+        <Placemark>
+            <name>GOLAN T</name>
+            <open>1</open>
+            <description>&lt;![CDATA[BSSID: &lt;b&gt;42502_12671_4444887&lt;/b&gt;&lt;br/&gt;Capabilities: &lt;b&gt;SECURITY&lt;/b&gt;&lt;br/&gt;Frequency: &lt;b&gt;0&lt;/b&gt;&lt;br/&gt;Timestamp: &lt;b&gt;1509528977000&lt;/b&gt;&lt;br/&gt;Date: &lt;b&gt;Data_classes.Time@d46ca6&lt;/b&gt;]]&gt;</description>
+            <Point>
+                <coordinates>34.8899491,32.06970991</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>GOLAN T</name>
+            <open>1</open>
+            <description>&lt;![CDATA[BSSID: &lt;b&gt;42502_12671_4444886&lt;/b&gt;&lt;br/&gt;Capabilities: &lt;b&gt;SECURITY&lt;/b&gt;&lt;br/&gt;Frequency: &lt;b&gt;0&lt;/b&gt;&lt;br/&gt;Timestamp: &lt;b&gt;1509528977000&lt;/b&gt;&lt;br/&gt;Date: &lt;b&gt;Data_classes.Time@117d9a3&lt;/b&gt;]]&gt;</description>
+            <Point>
+                <coordinates>34.88891214,32.070009</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Crane</name>
+            <open>1</open>
+            <description>&lt;![CDATA[BSSID: &lt;b&gt;68:72:51:5c:b8:7b&lt;/b&gt;&lt;br/&gt;Capabilities: &lt;b&gt;SECURITY&lt;/b&gt;&lt;br/&gt;Frequency: &lt;b&gt;3&lt;/b&gt;&lt;br/&gt;Timestamp: &lt;b&gt;1509528977000&lt;/b&gt;&lt;br/&gt;Date: &lt;b&gt;Data_classes.Time@12f7a8d&lt;/b&gt;]]&gt;</description>
+            <Point>
+                <coordinates>34.88779211,32.07027545</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Crane</name>
+            <open>1</open>
+            <description>&lt;![CDATA[BSSID: &lt;b&gt;68:72:51:5c:b8:7b&lt;/b&gt;&lt;br/&gt;Capabilities: &lt;b&gt;SECURITY&lt;/b&gt;&lt;br/&gt;Frequency: &lt;b&gt;3&lt;/b&gt;&lt;br/&gt;Timestamp: &lt;b&gt;1509528977000&lt;/b&gt;&lt;br/&gt;Date: &lt;b&gt;Data_classes.Time@192e0f4&lt;/b&gt;]]&gt;</description>
+            <Point>
+                <coordinates>34.88668044,32.07053257</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Crane</name>
+            <open>1</open>
+            <description>&lt;![CDATA[BSSID: &lt;b&gt;68:72:51:5c:b8:7b&lt;/b&gt;&lt;br/&gt;Capabilities: &lt;b&gt;SECURITY&lt;/b&gt;&lt;br/&gt;Frequency: &lt;b&gt;3&lt;/b&gt;&lt;br/&gt;Timestamp: &lt;b&gt;1509528977000&lt;/b&gt;&lt;br/&gt;Date: &lt;b&gt;Data_classes.Time@a418fc&lt;/b&gt;]]&gt;</description>
+            <Point>
+                <coordinates>34.88498547,32.07074833</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Wirless-Afikim</name>
+            <open>1</open>
+            <description>&lt;![CDATA[BSSID: &lt;b&gt;00:1a:dd:e1:db:c4&lt;/b&gt;&lt;br/&gt;Capabilities: &lt;b&gt;SECURITY&lt;/b&gt;&lt;br/&gt;Frequency: &lt;b&gt;4&lt;/b&gt;&lt;br/&gt;Timestamp: &lt;b&gt;1509528977000&lt;/b&gt;&lt;br/&gt;Date: &lt;b&gt;Data_classes.Time@105068a&lt;/b&gt;]]&gt;</description>
+            <Point>
+                <coordinates>34.88379245,32.07073431</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Wirless-Afikim</name>
+            <open>1</open>
+            <description>&lt;![CDATA[BSSID: &lt;b&gt;00:1a:dd:e1:db:c4&lt;/b&gt;&lt;br/&gt;Capabilities: &lt;b&gt;SECURITY&lt;/b&gt;&lt;br/&gt;Frequency: &lt;b&gt;4&lt;/b&gt;&lt;br/&gt;Timestamp: &lt;b&gt;1509528977000&lt;/b&gt;&lt;br/&gt;Date: &lt;b&gt;Data_classes.Time@132e575&lt;/b&gt;]]&gt;</description>
+            <Point>
+                <coordinates>34.8832106,32.07068891</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>GOLAN T</name>
+            <open>1</open>
+            <description>&lt;![CDATA[BSSID: &lt;b&gt;42502_12671_4444886&lt;/b&gt;&lt;br/&gt;Capabilities: &lt;b&gt;SECURITY&lt;/b&gt;&lt;br/&gt;Frequency: &lt;b&gt;0&lt;/b&gt;&lt;br/&gt;Timestamp: &lt;b&gt;1509528977000&lt;/b&gt;&lt;br/&gt;Date: &lt;b&gt;Data_classes.Time@19f2327&lt;/b&gt;]]&gt;</description>
+            <Point>
+                <coordinates>34.88264488,32.07065094</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Wirless-Afikim</name>
+            <open>1</open>
+            <description>&lt;![CDATA[BSSID: &lt;b&gt;00:1a:dd:e1:db:c4&lt;/b&gt;&lt;br/&gt;Capabilities: &lt;b&gt;SECURITY&lt;/b&gt;&lt;br/&gt;Frequency: &lt;b&gt;4&lt;/b&gt;&lt;br/&gt;Timestamp: &lt;b&gt;1509528977000&lt;/b&gt;&lt;br/&gt;Date: &lt;b&gt;Data_classes.Time@1f4acd0&lt;/b&gt;]]&gt;</description>
+            <Point>
+                <coordinates>34.8820911,32.0706231</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>GOLAN T</name>
+            <open>1</open>
+            <description>&lt;![CDATA[BSSID: &lt;b&gt;42502_12671_4444886&lt;/b&gt;&lt;br/&gt;Capabilities: &lt;b&gt;SECURITY&lt;/b&gt;&lt;br/&gt;Frequency: &lt;b&gt;0&lt;/b&gt;&lt;br/&gt;Timestamp: &lt;b&gt;1509528977000&lt;/b&gt;&lt;br/&gt;Date: &lt;b&gt;Data_classes.Time@bedef2&lt;/b&gt;]]&gt;</description>
+            <Point>
+                <coordinates>34.8815307,32.07058193</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Wirless-Afikim</name>
+            <open>1</open>
+            <description>&lt;![CDATA[BSSID: &lt;b&gt;00:1a:dd:e1:db:c4&lt;/b&gt;&lt;br/&gt;Capabilities: &lt;b&gt;SECURITY&lt;/b&gt;&lt;br/&gt;Frequency: &lt;b&gt;4&lt;/b&gt;&lt;br/&gt;Timestamp: &lt;b&gt;1509528977000&lt;/b&gt;&lt;br/&gt;Date: &lt;b&gt;Data_classes.Time@af905d&lt;/b&gt;]]&gt;</description>
+            <Point>
+                <coordinates>34.88099416,32.07057069</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>GOLAN T</name>
+            <open>1</open>
+            <description>&lt;![CDATA[BSSID: &lt;b&gt;42502_12671_4444886&lt;/b&gt;&lt;br/&gt;Capabilities: &lt;b&gt;SECURITY&lt;/b&gt;&lt;br/&gt;Frequency: &lt;b&gt;0&lt;/b&gt;&lt;br/&gt;Timestamp: &lt;b&gt;1509528977000&lt;/b&gt;&lt;br/&gt;Date: &lt;b&gt;Data_classes.Time@7716f4&lt;/b&gt;]]&gt;</description>
+            <Point>
+                <coordinates>34.88045649,32.0705539</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Wirless-Afikim</name>
+            <open>1</open>
+            <description>&lt;![CDATA[BSSID: &lt;b&gt;00:1a:dd:e1:db:c4&lt;/b&gt;&lt;br/&gt;Capabilities: &lt;b&gt;SECURITY&lt;/b&gt;&lt;br/&gt;Frequency: &lt;b&gt;4&lt;/b&gt;&lt;br/&gt;Timestamp: &lt;b&gt;1509528977000&lt;/b&gt;&lt;br/&gt;Date: &lt;b&gt;Data_classes.Time@efb846&lt;/b&gt;]]&gt;</description>
+            <Point>
+                <coordinates>34.87991434,32.07054996</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>GOLAN T</name>
+            <open>1</open>
+            <description>&lt;![CDATA[BSSID: &lt;b&gt;42502_12671_4442776&lt;/b&gt;&lt;br/&gt;Capabilities: &lt;b&gt;SECURITY&lt;/b&gt;&lt;br/&gt;Frequency: &lt;b&gt;0&lt;/b&gt;&lt;br/&gt;Timestamp: &lt;b&gt;1509528977000&lt;/b&gt;&lt;br/&gt;Date: &lt;b&gt;Data_classes.Time@84aee7&lt;/b&gt;]]&gt;</description>
+            <Point>
+                <coordinates>34.87935259,32.07056415</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>GOLAN T</name>
+            <open>1</open>
+            <description>&lt;![CDATA[BSSID: &lt;b&gt;42502_12671_4442776&lt;/b&gt;&lt;br/&gt;Capabilities: &lt;b&gt;SECURITY&lt;/b&gt;&lt;br/&gt;Frequency: &lt;b&gt;0&lt;/b&gt;&lt;br/&gt;Timestamp: &lt;b&gt;1509528977000&lt;/b&gt;&lt;br/&gt;Date: &lt;b&gt;Data_classes.Time@9ee92&lt;/b&gt;]]&gt;</description>
+            <Point>
+                <coordinates>34.87826441,32.07064956</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>GOLAN T</name>
+            <open>1</open>
+            <description>&lt;![CDATA[BSSID: &lt;b&gt;42502_12671_4442776&lt;/b&gt;&lt;br/&gt;Capabilities: &lt;b&gt;SECURITY&lt;/b&gt;&lt;br/&gt;Frequency: &lt;b&gt;0&lt;/b&gt;&lt;br/&gt;Timestamp: &lt;b&gt;1509528977000&lt;/b&gt;&lt;br/&gt;Date: &lt;b&gt;Data_classes.Time@f39991&lt;/b&gt;]]&gt;</description>
+            <Point>
+                <coordinates>34.87714257,32.07079936</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Afikim-wifi</name>
+            <open>1</open>
+            <description>&lt;![CDATA[BSSID: &lt;b&gt;34:0b:01:19:21:7e&lt;/b&gt;&lt;br/&gt;Capabilities: &lt;b&gt;SECURITY&lt;/b&gt;&lt;br/&gt;Frequency: &lt;b&gt;7&lt;/b&gt;&lt;br/&gt;Timestamp: &lt;b&gt;1509528977000&lt;/b&gt;&lt;br/&gt;Date: &lt;b&gt;Data_classes.Time@12b3a41&lt;/b&gt;]]&gt;</description>
+            <Point>
+                <coordinates>34.87656393,32.07086443</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>KavimK-wifi</name>
+            <open>1</open>
+            <description>&lt;![CDATA[BSSID: &lt;b&gt;34:0a:12:31:21:87&lt;/b&gt;&lt;br/&gt;Capabilities: &lt;b&gt;SECURITY&lt;/b&gt;&lt;br/&gt;Frequency: &lt;b&gt;7&lt;/b&gt;&lt;br/&gt;Timestamp: &lt;b&gt;1509528977000&lt;/b&gt;&lt;br/&gt;Date: &lt;b&gt;Data_classes.Time@574795&lt;/b&gt;]]&gt;</description>
+            <Point>
+                <coordinates>34.87604252,32.07091207</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Afikim-wifi</name>
+            <open>1</open>
+            <description>&lt;![CDATA[BSSID: &lt;b&gt;34:0b:01:19:21:7e&lt;/b&gt;&lt;br/&gt;Capabilities: &lt;b&gt;SECURITY&lt;/b&gt;&lt;br/&gt;Frequency: &lt;b&gt;7&lt;/b&gt;&lt;br/&gt;Timestamp: &lt;b&gt;1509528977000&lt;/b&gt;&lt;br/&gt;Date: &lt;b&gt;Data_classes.Time@16f4d33&lt;/b&gt;]]&gt;</description>
+            <Point>
+                <coordinates>34.87554872,32.07094384</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>KavimK-wifi</name>
+            <open>1</open>
+            <description>&lt;![CDATA[BSSID: &lt;b&gt;34:0a:12:31:21:87&lt;/b&gt;&lt;br/&gt;Capabilities: &lt;b&gt;SECURITY&lt;/b&gt;&lt;br/&gt;Frequency: &lt;b&gt;7&lt;/b&gt;&lt;br/&gt;Timestamp: &lt;b&gt;1509528977000&lt;/b&gt;&lt;br/&gt;Date: &lt;b&gt;Data_classes.Time@1fc625e&lt;/b&gt;]]&gt;</description>
+            <Point>
+                <coordinates>34.87492442,32.07100595</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Afikim-wifi</name>
+            <open>1</open>
+            <description>&lt;![CDATA[BSSID: &lt;b&gt;34:0b:01:19:21:7e&lt;/b&gt;&lt;br/&gt;Capabilities: &lt;b&gt;SECURITY&lt;/b&gt;&lt;br/&gt;Frequency: &lt;b&gt;7&lt;/b&gt;&lt;br/&gt;Timestamp: &lt;b&gt;1509528977000&lt;/b&gt;&lt;br/&gt;Date: &lt;b&gt;Data_classes.Time@199bd52&lt;/b&gt;]]&gt;</description>
+            <Point>
+                <coordinates>34.87435645,32.07106284</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>KavimK-wifi</name>
+            <open>1</open>
+            <description>&lt;![CDATA[BSSID: &lt;b&gt;34:0a:12:31:21:87&lt;/b&gt;&lt;br/&gt;Capabilities: &lt;b&gt;SECURITY&lt;/b&gt;&lt;br/&gt;Frequency: &lt;b&gt;7&lt;/b&gt;&lt;br/&gt;Timestamp: &lt;b&gt;1509528977000&lt;/b&gt;&lt;br/&gt;Date: &lt;b&gt;Data_classes.Time@1023edb&lt;/b&gt;]]&gt;</description>
+            <Point>
+                <coordinates>34.87376737,32.07108035</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Uzi_2.4</name>
+            <open>1</open>
+            <description>&lt;![CDATA[BSSID: &lt;b&gt;10:5a:f7:07:3a:81&lt;/b&gt;&lt;br/&gt;Capabilities: &lt;b&gt;SECURITY&lt;/b&gt;&lt;br/&gt;Frequency: &lt;b&gt;6&lt;/b&gt;&lt;br/&gt;Timestamp: &lt;b&gt;1509528977000&lt;/b&gt;&lt;br/&gt;Date: &lt;b&gt;Data_classes.Time@71f4dd&lt;/b&gt;]]&gt;</description>
+            <Point>
+                <coordinates>34.87315205,32.07107637</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Limor_2.4</name>
+            <open>1</open>
+            <description>&lt;![CDATA[BSSID: &lt;b&gt;6c:b0:ce:a5:b8:96&lt;/b&gt;&lt;br/&gt;Capabilities: &lt;b&gt;SECURITY&lt;/b&gt;&lt;br/&gt;Frequency: &lt;b&gt;1&lt;/b&gt;&lt;br/&gt;Timestamp: &lt;b&gt;1509528977000&lt;/b&gt;&lt;br/&gt;Date: &lt;b&gt;Data_classes.Time@df9f5f&lt;/b&gt;]]&gt;</description>
+            <Point>
+                <coordinates>34.8725493,32.07107544</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Uzi_2.4</name>
+            <open>1</open>
+            <description>&lt;![CDATA[BSSID: &lt;b&gt;10:5a:f7:07:3a:81&lt;/b&gt;&lt;br/&gt;Capabilities: &lt;b&gt;SECURITY&lt;/b&gt;&lt;br/&gt;Frequency: &lt;b&gt;6&lt;/b&gt;&lt;br/&gt;Timestamp: &lt;b&gt;1509528977000&lt;/b&gt;&lt;br/&gt;Date: &lt;b&gt;Data_classes.Time@5ede7b&lt;/b&gt;]]&gt;</description>
+            <Point>
+                <coordinates>34.87190117,32.07111038</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Limor_2.4</name>
+            <open>1</open>
+            <description>&lt;![CDATA[BSSID: &lt;b&gt;6c:b0:ce:a5:b8:96&lt;/b&gt;&lt;br/&gt;Capabilities: &lt;b&gt;SECURITY&lt;/b&gt;&lt;br/&gt;Frequency: &lt;b&gt;1&lt;/b&gt;&lt;br/&gt;Timestamp: &lt;b&gt;1509528977000&lt;/b&gt;&lt;br/&gt;Date: &lt;b&gt;Data_classes.Time@74cd4d&lt;/b&gt;]]&gt;</description>
+            <Point>
+                <coordinates>34.87128232,32.07113223</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Uzi_2.4</name>
+            <open>1</open>
+            <description>&lt;![CDATA[BSSID: &lt;b&gt;10:5a:f7:07:3a:81&lt;/b&gt;&lt;br/&gt;Capabilities: &lt;b&gt;SECURITY&lt;/b&gt;&lt;br/&gt;Frequency: &lt;b&gt;6&lt;/b&gt;&lt;br/&gt;Timestamp: &lt;b&gt;1509528977000&lt;/b&gt;&lt;br/&gt;Date: &lt;b&gt;Data_classes.Time@1961c42&lt;/b&gt;]]&gt;</description>
+            <Point>
+                <coordinates>34.87063242,32.07115842</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Limor_2.4</name>
+            <open>1</open>
+            <description>&lt;![CDATA[BSSID: &lt;b&gt;6c:b0:ce:a5:b8:96&lt;/b&gt;&lt;br/&gt;Capabilities: &lt;b&gt;SECURITY&lt;/b&gt;&lt;br/&gt;Frequency: &lt;b&gt;1&lt;/b&gt;&lt;br/&gt;Timestamp: &lt;b&gt;1509528977000&lt;/b&gt;&lt;br/&gt;Date: &lt;b&gt;Data_classes.Time@1b54208&lt;/b&gt;]]&gt;</description>
+            <Point>
+                <coordinates>34.87003324,32.07118807</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Uzi_2.4</name>
+            <open>1</open>
+            <description>&lt;![CDATA[BSSID: &lt;b&gt;10:5a:f7:07:3a:81&lt;/b&gt;&lt;br/&gt;Capabilities: &lt;b&gt;SECURITY&lt;/b&gt;&lt;br/&gt;Frequency: &lt;b&gt;6&lt;/b&gt;&lt;br/&gt;Timestamp: &lt;b&gt;1509528977000&lt;/b&gt;&lt;br/&gt;Date: &lt;b&gt;Data_classes.Time@1e6f5c3&lt;/b&gt;]]&gt;</description>
+            <Point>
+                <coordinates>34.869438,32.07117783</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Limor_2.4</name>
+            <open>1</open>
+            <description>&lt;![CDATA[BSSID: &lt;b&gt;6c:b0:ce:a5:b8:96&lt;/b&gt;&lt;br/&gt;Capabilities: &lt;b&gt;SECURITY&lt;/b&gt;&lt;br/&gt;Frequency: &lt;b&gt;1&lt;/b&gt;&lt;br/&gt;Timestamp: &lt;b&gt;1509528977000&lt;/b&gt;&lt;br/&gt;Date: &lt;b&gt;Data_classes.Time@1884d57&lt;/b&gt;]]&gt;</description>
+            <Point>
+                <coordinates>34.86883435,32.07117957</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>GOLAN T</name>
+            <open>1</open>
+            <description>&lt;![CDATA[BSSID: &lt;b&gt;42502_12671_4442778&lt;/b&gt;&lt;br/&gt;Capabilities: &lt;b&gt;SECURITY&lt;/b&gt;&lt;br/&gt;Frequency: &lt;b&gt;0&lt;/b&gt;&lt;br/&gt;Timestamp: &lt;b&gt;1509528977000&lt;/b&gt;&lt;br/&gt;Date: &lt;b&gt;Data_classes.Time@af3868&lt;/b&gt;]]&gt;</description>
+            <Point>
+                <coordinates>34.86821897,32.07119558</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>GOLAN T</name>
+            <open>1</open>
+            <description>&lt;![CDATA[BSSID: &lt;b&gt;42502_12671_4442778&lt;/b&gt;&lt;br/&gt;Capabilities: &lt;b&gt;SECURITY&lt;/b&gt;&lt;br/&gt;Frequency: &lt;b&gt;0&lt;/b&gt;&lt;br/&gt;Timestamp: &lt;b&gt;1509528977000&lt;/b&gt;&lt;br/&gt;Date: &lt;b&gt;Data_classes.Time@1459877&lt;/b&gt;]]&gt;</description>
+            <Point>
+                <coordinates>34.86765892,32.07114395</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>GOLAN T</name>
+            <open>1</open>
+            <description>&lt;![CDATA[BSSID: &lt;b&gt;42502_12671_4442778&lt;/b&gt;&lt;br/&gt;Capabilities: &lt;b&gt;SECURITY&lt;/b&gt;&lt;br/&gt;Frequency: &lt;b&gt;0&lt;/b&gt;&lt;br/&gt;Timestamp: &lt;b&gt;1509528977000&lt;/b&gt;&lt;br/&gt;Date: &lt;b&gt;Data_classes.Time@12133b1&lt;/b&gt;]]&gt;</description>
+            <Point>
+                <coordinates>34.86648379,32.07094586</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>GOLAN T</name>
+            <open>1</open>
+            <description>&lt;![CDATA[BSSID: &lt;b&gt;42502_12671_4442778&lt;/b&gt;&lt;br/&gt;Capabilities: &lt;b&gt;SECURITY&lt;/b&gt;&lt;br/&gt;Frequency: &lt;b&gt;0&lt;/b&gt;&lt;br/&gt;Timestamp: &lt;b&gt;1509528977000&lt;/b&gt;&lt;br/&gt;Date: &lt;b&gt;Data_classes.Time@ea2f77&lt;/b&gt;]]&gt;</description>
+            <Point>
+                <coordinates>34.86532174,32.07061986</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>GOLAN T</name>
+            <open>1</open>
+            <description>&lt;![CDATA[BSSID: &lt;b&gt;42502_2147483647_2147483647&lt;/b&gt;&lt;br/&gt;Capabilities: &lt;b&gt;SECURITY&lt;/b&gt;&lt;br/&gt;Frequency: &lt;b&gt;0&lt;/b&gt;&lt;br/&gt;Timestamp: &lt;b&gt;1509528977000&lt;/b&gt;&lt;br/&gt;Date: &lt;b&gt;Data_classes.Time@1c7353a&lt;/b&gt;]]&gt;</description>
+            <Point>
+                <coordinates>34.86476161,32.07046167</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>GOLAN T</name>
+            <open>1</open>
+            <description>&lt;![CDATA[BSSID: &lt;b&gt;42502_2147483647_2147483647&lt;/b&gt;&lt;br/&gt;Capabilities: &lt;b&gt;SECURITY&lt;/b&gt;&lt;br/&gt;Frequency: &lt;b&gt;0&lt;/b&gt;&lt;br/&gt;Timestamp: &lt;b&gt;1509528977000&lt;/b&gt;&lt;br/&gt;Date: &lt;b&gt;Data_classes.Time@1a9515&lt;/b&gt;]]&gt;</description>
+            <Point>
+                <coordinates>34.86357284,32.07009721</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>GOLAN T</name>
+            <open>1</open>
+            <description>&lt;![CDATA[BSSID: &lt;b&gt;42502_2147483647_2147483647&lt;/b&gt;&lt;br/&gt;Capabilities: &lt;b&gt;SECURITY&lt;/b&gt;&lt;br/&gt;Frequency: &lt;b&gt;0&lt;/b&gt;&lt;br/&gt;Timestamp: &lt;b&gt;1509528977000&lt;/b&gt;&lt;br/&gt;Date: &lt;b&gt;Data_classes.Time@f49f1c&lt;/b&gt;]]&gt;</description>
+            <Point>
+                <coordinates>34.86299447,32.06993952</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>GOLAN T</name>
+            <open>1</open>
+            <description>&lt;![CDATA[BSSID: &lt;b&gt;42502_2147483647_2147483647&lt;/b&gt;&lt;br/&gt;Capabilities: &lt;b&gt;SECURITY&lt;/b&gt;&lt;br/&gt;Frequency: &lt;b&gt;0&lt;/b&gt;&lt;br/&gt;Timestamp: &lt;b&gt;1509528977000&lt;/b&gt;&lt;br/&gt;Date: &lt;b&gt;Data_classes.Time@1469ea2&lt;/b&gt;]]&gt;</description>
+            <Point>
+                <coordinates>34.86181641,32.06969187</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>mekorot</name>
+            <open>1</open>
+            <description>&lt;![CDATA[BSSID: &lt;b&gt;00:15:6d:e4:a8:3c&lt;/b&gt;&lt;br/&gt;Capabilities: &lt;b&gt;SECURITY&lt;/b&gt;&lt;br/&gt;Frequency: &lt;b&gt;1&lt;/b&gt;&lt;br/&gt;Timestamp: &lt;b&gt;1509528977000&lt;/b&gt;&lt;br/&gt;Date: &lt;b&gt;Data_classes.Time@1221655&lt;/b&gt;]]&gt;</description>
+            <Point>
+                <coordinates>34.86059394,32.06936915</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>mekorot</name>
+            <open>1</open>
+            <description>&lt;![CDATA[BSSID: &lt;b&gt;00:15:6d:e4:a8:3c&lt;/b&gt;&lt;br/&gt;Capabilities: &lt;b&gt;SECURITY&lt;/b&gt;&lt;br/&gt;Frequency: &lt;b&gt;1&lt;/b&gt;&lt;br/&gt;Timestamp: &lt;b&gt;1509528977000&lt;/b&gt;&lt;br/&gt;Date: &lt;b&gt;Data_classes.Time@12c9b19&lt;/b&gt;]]&gt;</description>
+            <Point>
+                <coordinates>34.85939309,32.06898762</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>mekorot</name>
+            <open>1</open>
+            <description>&lt;![CDATA[BSSID: &lt;b&gt;00:15:6d:e4:a8:3c&lt;/b&gt;&lt;br/&gt;Capabilities: &lt;b&gt;SECURITY&lt;/b&gt;&lt;br/&gt;Frequency: &lt;b&gt;1&lt;/b&gt;&lt;br/&gt;Timestamp: &lt;b&gt;1509528977000&lt;/b&gt;&lt;br/&gt;Date: &lt;b&gt;Data_classes.Time@1befd9f&lt;/b&gt;]]&gt;</description>
+            <Point>
+                <coordinates>34.85820685,32.0686911</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>GOLAN T</name>
+            <open>1</open>
+            <description>&lt;![CDATA[BSSID: &lt;b&gt;42502_51721_4777757&lt;/b&gt;&lt;br/&gt;Capabilities: &lt;b&gt;SECURITY&lt;/b&gt;&lt;br/&gt;Frequency: &lt;b&gt;0&lt;/b&gt;&lt;br/&gt;Timestamp: &lt;b&gt;1509528977000&lt;/b&gt;&lt;br/&gt;Date: &lt;b&gt;Data_classes.Time@20c684&lt;/b&gt;]]&gt;</description>
+            <Point>
+                <coordinates>34.85695271,32.06841261</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>GOLAN T</name>
+            <open>1</open>
+            <description>&lt;![CDATA[BSSID: &lt;b&gt;42502_51721_4777757&lt;/b&gt;&lt;br/&gt;Capabilities: &lt;b&gt;SECURITY&lt;/b&gt;&lt;br/&gt;Frequency: &lt;b&gt;0&lt;/b&gt;&lt;br/&gt;Timestamp: &lt;b&gt;1509528977000&lt;/b&gt;&lt;br/&gt;Date: &lt;b&gt;Data_classes.Time@1b3ebeb&lt;/b&gt;]]&gt;</description>
+            <Point>
+                <coordinates>34.85575708,32.06820079</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>GOLAN T</name>
+            <open>1</open>
+            <description>&lt;![CDATA[BSSID: &lt;b&gt;42502_51721_4777757&lt;/b&gt;&lt;br/&gt;Capabilities: &lt;b&gt;SECURITY&lt;/b&gt;&lt;br/&gt;Frequency: &lt;b&gt;0&lt;/b&gt;&lt;br/&gt;Timestamp: &lt;b&gt;1509528977000&lt;/b&gt;&lt;br/&gt;Date: &lt;b&gt;Data_classes.Time@8c4f57&lt;/b&gt;]]&gt;</description>
+            <Point>
+                <coordinates>34.85457721,32.06803755</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>afikim-wifi</name>
+            <open>1</open>
+            <description>&lt;![CDATA[BSSID: &lt;b&gt;34:0b:03:22:24:ba&lt;/b&gt;&lt;br/&gt;Capabilities: &lt;b&gt;SECURITY&lt;/b&gt;&lt;br/&gt;Frequency: &lt;b&gt;7&lt;/b&gt;&lt;br/&gt;Timestamp: &lt;b&gt;1509528977000&lt;/b&gt;&lt;br/&gt;Date: &lt;b&gt;Data_classes.Time@18025c&lt;/b&gt;]]&gt;</description>
+            <Point>
+                <coordinates>34.85396465,32.06796641</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>afikim-wifi</name>
+            <open>1</open>
+            <description>&lt;![CDATA[BSSID: &lt;b&gt;34:0b:03:22:24:ba&lt;/b&gt;&lt;br/&gt;Capabilities: &lt;b&gt;SECURITY&lt;/b&gt;&lt;br/&gt;Frequency: &lt;b&gt;7&lt;/b&gt;&lt;br/&gt;Timestamp: &lt;b&gt;1509528977000&lt;/b&gt;&lt;br/&gt;Date: &lt;b&gt;Data_classes.Time@16f27d&lt;/b&gt;]]&gt;</description>
+            <Point>
+                <coordinates>34.85277904,32.06782403</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>afikim-wifi</name>
+            <open>1</open>
+            <description>&lt;![CDATA[BSSID: &lt;b&gt;34:0b:03:22:24:ba&lt;/b&gt;&lt;br/&gt;Capabilities: &lt;b&gt;SECURITY&lt;/b&gt;&lt;br/&gt;Frequency: &lt;b&gt;7&lt;/b&gt;&lt;br/&gt;Timestamp: &lt;b&gt;1509528977000&lt;/b&gt;&lt;br/&gt;Date: &lt;b&gt;Data_classes.Time@7aac27&lt;/b&gt;]]&gt;</description>
+            <Point>
+                <coordinates>34.85166039,32.06765489</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>GOLAN T</name>
+            <open>1</open>
+            <description>&lt;![CDATA[BSSID: &lt;b&gt;42502_51721_4777758&lt;/b&gt;&lt;br/&gt;Capabilities: &lt;b&gt;SECURITY&lt;/b&gt;&lt;br/&gt;Frequency: &lt;b&gt;0&lt;/b&gt;&lt;br/&gt;Timestamp: &lt;b&gt;1509528977000&lt;/b&gt;&lt;br/&gt;Date: &lt;b&gt;Data_classes.Time@3abc88&lt;/b&gt;]]&gt;</description>
+            <Point>
+                <coordinates>34.85108182,32.0675934</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>GOLAN T</name>
+            <open>1</open>
+            <description>&lt;![CDATA[BSSID: &lt;b&gt;42502_51721_4777758&lt;/b&gt;&lt;br/&gt;Capabilities: &lt;b&gt;SECURITY&lt;/b&gt;&lt;br/&gt;Frequency: &lt;b&gt;0&lt;/b&gt;&lt;br/&gt;Timestamp: &lt;b&gt;1509528977000&lt;/b&gt;&lt;br/&gt;Date: &lt;b&gt;Data_classes.Time@e253f1&lt;/b&gt;]]&gt;</description>
+            <Point>
+                <coordinates>34.8499741,32.06744423</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>wifi in car-1183</name>
+            <open>1</open>
+            <description>&lt;![CDATA[BSSID: &lt;b&gt;08:97:58:33:47:66&lt;/b&gt;&lt;br/&gt;Capabilities: &lt;b&gt;SECURITY&lt;/b&gt;&lt;br/&gt;Frequency: &lt;b&gt;4&lt;/b&gt;&lt;br/&gt;Timestamp: &lt;b&gt;1509528977000&lt;/b&gt;&lt;br/&gt;Date: &lt;b&gt;Data_classes.Time@1d8d10a&lt;/b&gt;]]&gt;</description>
+            <Point>
+                <coordinates>34.84943638,32.06737075</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>GOLAN T</name>
+            <open>1</open>
+            <description>&lt;![CDATA[BSSID: &lt;b&gt;42502_51721_4777758&lt;/b&gt;&lt;br/&gt;Capabilities: &lt;b&gt;SECURITY&lt;/b&gt;&lt;br/&gt;Frequency: &lt;b&gt;0&lt;/b&gt;&lt;br/&gt;Timestamp: &lt;b&gt;1509528977000&lt;/b&gt;&lt;br/&gt;Date: &lt;b&gt;Data_classes.Time@9e54c2&lt;/b&gt;]]&gt;</description>
+            <Point>
+                <coordinates>34.84890723,32.06725736</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>wifi in car-1183</name>
+            <open>1</open>
+            <description>&lt;![CDATA[BSSID: &lt;b&gt;08:97:58:33:47:66&lt;/b&gt;&lt;br/&gt;Capabilities: &lt;b&gt;SECURITY&lt;/b&gt;&lt;br/&gt;Frequency: &lt;b&gt;4&lt;/b&gt;&lt;br/&gt;Timestamp: &lt;b&gt;1509528977000&lt;/b&gt;&lt;br/&gt;Date: &lt;b&gt;Data_classes.Time@1ab7765&lt;/b&gt;]]&gt;</description>
+            <Point>
+                <coordinates>34.84836091,32.0671062</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>GOLAN T</name>
+            <open>1</open>
+            <description>&lt;![CDATA[BSSID: &lt;b&gt;42502_51721_4777758&lt;/b&gt;&lt;br/&gt;Capabilities: &lt;b&gt;SECURITY&lt;/b&gt;&lt;br/&gt;Frequency: &lt;b&gt;0&lt;/b&gt;&lt;br/&gt;Timestamp: &lt;b&gt;1509528977000&lt;/b&gt;&lt;br/&gt;Date: &lt;b&gt;Data_classes.Time@128cdfa&lt;/b&gt;]]&gt;</description>
+            <Point>
+                <coordinates>34.84783979,32.06697694</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Chen</name>
+            <open>1</open>
+            <description>&lt;![CDATA[BSSID: &lt;b&gt;00:21:04:dd:0c:22&lt;/b&gt;&lt;br/&gt;Capabilities: &lt;b&gt;SECURITY&lt;/b&gt;&lt;br/&gt;Frequency: &lt;b&gt;1&lt;/b&gt;&lt;br/&gt;Timestamp: &lt;b&gt;1509528977000&lt;/b&gt;&lt;br/&gt;Date: &lt;b&gt;Data_classes.Time@ed1f14&lt;/b&gt;]]&gt;</description>
+            <Point>
+                <coordinates>34.84412574,32.06534938</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>GOLAN T</name>
+            <open>1</open>
+            <description>&lt;![CDATA[BSSID: &lt;b&gt;42502_51721_4738970&lt;/b&gt;&lt;br/&gt;Capabilities: &lt;b&gt;SECURITY&lt;/b&gt;&lt;br/&gt;Frequency: &lt;b&gt;0&lt;/b&gt;&lt;br/&gt;Timestamp: &lt;b&gt;1509528977000&lt;/b&gt;&lt;br/&gt;Date: &lt;b&gt;Data_classes.Time@29724f&lt;/b&gt;]]&gt;</description>
+            <Point>
+                <coordinates>34.84391093,32.06528182</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Chen</name>
+            <open>1</open>
+            <description>&lt;![CDATA[BSSID: &lt;b&gt;00:21:04:dd:0c:22&lt;/b&gt;&lt;br/&gt;Capabilities: &lt;b&gt;SECURITY&lt;/b&gt;&lt;br/&gt;Frequency: &lt;b&gt;1&lt;/b&gt;&lt;br/&gt;Timestamp: &lt;b&gt;1509528977000&lt;/b&gt;&lt;br/&gt;Date: &lt;b&gt;Data_classes.Time@873330&lt;/b&gt;]]&gt;</description>
+            <Point>
+                <coordinates>34.84309188,32.06512231</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>GOLAN T</name>
+            <open>1</open>
+            <description>&lt;![CDATA[BSSID: &lt;b&gt;42502_51721_4733700&lt;/b&gt;&lt;br/&gt;Capabilities: &lt;b&gt;SECURITY&lt;/b&gt;&lt;br/&gt;Frequency: &lt;b&gt;0&lt;/b&gt;&lt;br/&gt;Timestamp: &lt;b&gt;1509528977000&lt;/b&gt;&lt;br/&gt;Date: &lt;b&gt;Data_classes.Time@19d7047&lt;/b&gt;]]&gt;</description>
+            <Point>
+                <coordinates>34.84264101,32.0651081</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>GOLAN T</name>
+            <open>1</open>
+            <description>&lt;![CDATA[BSSID: &lt;b&gt;42502_51721_4738969&lt;/b&gt;&lt;br/&gt;Capabilities: &lt;b&gt;SECURITY&lt;/b&gt;&lt;br/&gt;Frequency: &lt;b&gt;0&lt;/b&gt;&lt;br/&gt;Timestamp: &lt;b&gt;1509528977000&lt;/b&gt;&lt;br/&gt;Date: &lt;b&gt;Data_classes.Time@16ec8df&lt;/b&gt;]]&gt;</description>
+            <Point>
+                <coordinates>34.8424558,32.06498685</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>GOLAN T</name>
+            <open>1</open>
+            <description>&lt;![CDATA[BSSID: &lt;b&gt;42502_51721_4733700&lt;/b&gt;&lt;br/&gt;Capabilities: &lt;b&gt;SECURITY&lt;/b&gt;&lt;br/&gt;Frequency: &lt;b&gt;0&lt;/b&gt;&lt;br/&gt;Timestamp: &lt;b&gt;1509528977000&lt;/b&gt;&lt;br/&gt;Date: &lt;b&gt;Data_classes.Time@ec7777&lt;/b&gt;]]&gt;</description>
+            <Point>
+                <coordinates>34.84160802,32.06505238</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>GOLAN T</name>
+            <open>1</open>
+            <description>&lt;![CDATA[BSSID: &lt;b&gt;42502_51721_4738969&lt;/b&gt;&lt;br/&gt;Capabilities: &lt;b&gt;SECURITY&lt;/b&gt;&lt;br/&gt;Frequency: &lt;b&gt;0&lt;/b&gt;&lt;br/&gt;Timestamp: &lt;b&gt;1509528977000&lt;/b&gt;&lt;br/&gt;Date: &lt;b&gt;Data_classes.Time@107d329&lt;/b&gt;]]&gt;</description>
+            <Point>
+                <coordinates>34.84116674,32.06509105</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>GOLAN T</name>
+            <open>1</open>
+            <description>&lt;![CDATA[BSSID: &lt;b&gt;42502_51721_4733700&lt;/b&gt;&lt;br/&gt;Capabilities: &lt;b&gt;SECURITY&lt;/b&gt;&lt;br/&gt;Frequency: &lt;b&gt;0&lt;/b&gt;&lt;br/&gt;Timestamp: &lt;b&gt;1509528977000&lt;/b&gt;&lt;br/&gt;Date: &lt;b&gt;Data_classes.Time@1629346&lt;/b&gt;]]&gt;</description>
+            <Point>
+                <coordinates>34.84060801,32.06514234</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>GOLAN T</name>
+            <open>1</open>
+            <description>&lt;![CDATA[BSSID: &lt;b&gt;42502_51721_4763694&lt;/b&gt;&lt;br/&gt;Capabilities: &lt;b&gt;SECURITY&lt;/b&gt;&lt;br/&gt;Frequency: &lt;b&gt;0&lt;/b&gt;&lt;br/&gt;Timestamp: &lt;b&gt;1509528977000&lt;/b&gt;&lt;br/&gt;Date: &lt;b&gt;Data_classes.Time@4b9385&lt;/b&gt;]]&gt;</description>
+            <Point>
+                <coordinates>34.83978787,32.06524472</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>GOLAN T</name>
+            <open>1</open>
+            <description>&lt;![CDATA[BSSID: &lt;b&gt;42502_51721_4763694&lt;/b&gt;&lt;br/&gt;Capabilities: &lt;b&gt;SECURITY&lt;/b&gt;&lt;br/&gt;Frequency: &lt;b&gt;0&lt;/b&gt;&lt;br/&gt;Timestamp: &lt;b&gt;1509528977000&lt;/b&gt;&lt;br/&gt;Date: &lt;b&gt;Data_classes.Time@1311334&lt;/b&gt;]]&gt;</description>
+            <Point>
+                <coordinates>34.83876456,32.06530874</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>GOLAN T</name>
+            <open>1</open>
+            <description>&lt;![CDATA[BSSID: &lt;b&gt;42502_51721_4763693&lt;/b&gt;&lt;br/&gt;Capabilities: &lt;b&gt;SECURITY&lt;/b&gt;&lt;br/&gt;Frequency: &lt;b&gt;0&lt;/b&gt;&lt;br/&gt;Timestamp: &lt;b&gt;1509528977000&lt;/b&gt;&lt;br/&gt;Date: &lt;b&gt;Data_classes.Time@2a0b20&lt;/b&gt;]]&gt;</description>
+            <Point>
+                <coordinates>34.83863222,32.06532757</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>FLOOR_2</name>
+            <open>1</open>
+            <description>&lt;![CDATA[BSSID: &lt;b&gt;60:e3:27:7b:db:ba&lt;/b&gt;&lt;br/&gt;Capabilities: &lt;b&gt;SECURITY&lt;/b&gt;&lt;br/&gt;Frequency: &lt;b&gt;7&lt;/b&gt;&lt;br/&gt;Timestamp: &lt;b&gt;1509528977000&lt;/b&gt;&lt;br/&gt;Date: &lt;b&gt;Data_classes.Time@1075dc0&lt;/b&gt;]]&gt;</description>
+            <Point>
+                <coordinates>34.83807653,32.06524609</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>GOLAN T</name>
+            <open>1</open>
+            <description>&lt;![CDATA[BSSID: &lt;b&gt;42502_51721_4772413&lt;/b&gt;&lt;br/&gt;Capabilities: &lt;b&gt;SECURITY&lt;/b&gt;&lt;br/&gt;Frequency: &lt;b&gt;0&lt;/b&gt;&lt;br/&gt;Timestamp: &lt;b&gt;1509528977000&lt;/b&gt;&lt;br/&gt;Date: &lt;b&gt;Data_classes.Time@14c265e&lt;/b&gt;]]&gt;</description>
+            <Point>
+                <coordinates>34.83761055,32.06493188</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>BezeqFree</name>
+            <open>1</open>
+            <description>&lt;![CDATA[BSSID: &lt;b&gt;5a:be:f5:37:14:85&lt;/b&gt;&lt;br/&gt;Capabilities: &lt;b&gt;SECURITY&lt;/b&gt;&lt;br/&gt;Frequency: &lt;b&gt;9&lt;/b&gt;&lt;br/&gt;Timestamp: &lt;b&gt;1509528977000&lt;/b&gt;&lt;br/&gt;Date: &lt;b&gt;Data_classes.Time@8139f0&lt;/b&gt;]]&gt;</description>
+            <Point>
+                <coordinates>34.83763247,32.06489724</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>rony</name>
+            <open>1</open>
+            <description>&lt;![CDATA[BSSID: &lt;b&gt;a0:4f:d4:3b:4b:61&lt;/b&gt;&lt;br/&gt;Capabilities: &lt;b&gt;SECURITY&lt;/b&gt;&lt;br/&gt;Frequency: &lt;b&gt;1&lt;/b&gt;&lt;br/&gt;Timestamp: &lt;b&gt;1509528977000&lt;/b&gt;&lt;br/&gt;Date: &lt;b&gt;Data_classes.Time@ca494b&lt;/b&gt;]]&gt;</description>
+            <Point>
+                <coordinates>34.83757054,32.06480668</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>GOLAN T</name>
+            <open>1</open>
+            <description>&lt;![CDATA[BSSID: &lt;b&gt;42502_2147483647_2147483647&lt;/b&gt;&lt;br/&gt;Capabilities: &lt;b&gt;SECURITY&lt;/b&gt;&lt;br/&gt;Frequency: &lt;b&gt;0&lt;/b&gt;&lt;br/&gt;Timestamp: &lt;b&gt;1509528977000&lt;/b&gt;&lt;br/&gt;Date: &lt;b&gt;Data_classes.Time@1a4f24f&lt;/b&gt;]]&gt;</description>
+            <Point>
+                <coordinates>34.83754569,32.06475505</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>GOLAN T</name>
+            <open>1</open>
+            <description>&lt;![CDATA[BSSID: &lt;b&gt;42502_51721_4758693&lt;/b&gt;&lt;br/&gt;Capabilities: &lt;b&gt;SECURITY&lt;/b&gt;&lt;br/&gt;Frequency: &lt;b&gt;0&lt;/b&gt;&lt;br/&gt;Timestamp: &lt;b&gt;1509528977000&lt;/b&gt;&lt;br/&gt;Date: &lt;b&gt;Data_classes.Time@19a45b3&lt;/b&gt;]]&gt;</description>
+            <Point>
+                <coordinates>34.83753802,32.06470636</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Metropoline 072</name>
+            <open>1</open>
+            <description>&lt;![CDATA[BSSID: &lt;b&gt;00:80:48:7f:b3:1d&lt;/b&gt;&lt;br/&gt;Capabilities: &lt;b&gt;SECURITY&lt;/b&gt;&lt;br/&gt;Frequency: &lt;b&gt;1&lt;/b&gt;&lt;br/&gt;Timestamp: &lt;b&gt;1509528977000&lt;/b&gt;&lt;br/&gt;Date: &lt;b&gt;Data_classes.Time@99a589&lt;/b&gt;]]&gt;</description>
+            <Point>
+                <coordinates>34.83751843,32.06454698</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>FLOOR_2</name>
+            <open>1</open>
+            <description>&lt;![CDATA[BSSID: &lt;b&gt;60:e3:27:7b:db:ba&lt;/b&gt;&lt;br/&gt;Capabilities: &lt;b&gt;SECURITY&lt;/b&gt;&lt;br/&gt;Frequency: &lt;b&gt;7&lt;/b&gt;&lt;br/&gt;Timestamp: &lt;b&gt;1509528977000&lt;/b&gt;&lt;br/&gt;Date: &lt;b&gt;Data_classes.Time@372a00&lt;/b&gt;]]&gt;</description>
+            <Point>
+                <coordinates>34.83742171,32.06419593</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Shirley</name>
+            <open>1</open>
+            <description>&lt;![CDATA[BSSID: &lt;b&gt;a0:4f:d4:44:4c:61&lt;/b&gt;&lt;br/&gt;Capabilities: &lt;b&gt;SECURITY&lt;/b&gt;&lt;br/&gt;Frequency: &lt;b&gt;1&lt;/b&gt;&lt;br/&gt;Timestamp: &lt;b&gt;1509528977000&lt;/b&gt;&lt;br/&gt;Date: &lt;b&gt;Data_classes.Time@dd8dc3&lt;/b&gt;]]&gt;</description>
+            <Point>
+                <coordinates>34.8373797,32.06406299</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>ifat_2.4</name>
+            <open>1</open>
+            <description>&lt;![CDATA[BSSID: &lt;b&gt;14:ae:db:3c:70:2a&lt;/b&gt;&lt;br/&gt;Capabilities: &lt;b&gt;SECURITY&lt;/b&gt;&lt;br/&gt;Frequency: &lt;b&gt;10&lt;/b&gt;&lt;br/&gt;Timestamp: &lt;b&gt;1509528977000&lt;/b&gt;&lt;br/&gt;Date: &lt;b&gt;Data_classes.Time@103e736&lt;/b&gt;]]&gt;</description>
+            <Point>
+                <coordinates>34.83730272,32.06382173</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>FLOOR_2</name>
+            <open>1</open>
+            <description>&lt;![CDATA[BSSID: &lt;b&gt;60:e3:27:7b:db:ba&lt;/b&gt;&lt;br/&gt;Capabilities: &lt;b&gt;SECURITY&lt;/b&gt;&lt;br/&gt;Frequency: &lt;b&gt;7&lt;/b&gt;&lt;br/&gt;Timestamp: &lt;b&gt;1509528977000&lt;/b&gt;&lt;br/&gt;Date: &lt;b&gt;Data_classes.Time@8db2f2&lt;/b&gt;]]&gt;</description>
+            <Point>
+                <coordinates>34.83724576,32.06365567</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Sellam</name>
+            <open>1</open>
+            <description>&lt;![CDATA[BSSID: &lt;b&gt;40:65:a3:23:99:84&lt;/b&gt;&lt;br/&gt;Capabilities: &lt;b&gt;SECURITY&lt;/b&gt;&lt;br/&gt;Frequency: &lt;b&gt;1&lt;/b&gt;&lt;br/&gt;Timestamp: &lt;b&gt;1509528977000&lt;/b&gt;&lt;br/&gt;Date: &lt;b&gt;Data_classes.Time@18bf509&lt;/b&gt;]]&gt;</description>
+            <Point>
+                <coordinates>34.83715251,32.06342625</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Baram</name>
+            <open>1</open>
+            <description>&lt;![CDATA[BSSID: &lt;b&gt;10:5a:f7:0c:73:d5&lt;/b&gt;&lt;br/&gt;Capabilities: &lt;b&gt;SECURITY&lt;/b&gt;&lt;br/&gt;Frequency: &lt;b&gt;1&lt;/b&gt;&lt;br/&gt;Timestamp: &lt;b&gt;1509528977000&lt;/b&gt;&lt;br/&gt;Date: &lt;b&gt;Data_classes.Time@1d0d5ae&lt;/b&gt;]]&gt;</description>
+            <Point>
+                <coordinates>34.83707747,32.06322903</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>FLOOR_2</name>
+            <open>1</open>
+            <description>&lt;![CDATA[BSSID: &lt;b&gt;60:e3:27:7b:db:ba&lt;/b&gt;&lt;br/&gt;Capabilities: &lt;b&gt;SECURITY&lt;/b&gt;&lt;br/&gt;Frequency: &lt;b&gt;7&lt;/b&gt;&lt;br/&gt;Timestamp: &lt;b&gt;1509528977000&lt;/b&gt;&lt;br/&gt;Date: &lt;b&gt;Data_classes.Time@198a335&lt;/b&gt;]]&gt;</description>
+            <Point>
+                <coordinates>34.83701468,32.0630256</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>?? ??? ????</name>
+            <open>1</open>
+            <description>&lt;![CDATA[BSSID: &lt;b&gt;ae:5f:3e:5f:86:82&lt;/b&gt;&lt;br/&gt;Capabilities: &lt;b&gt;SECURITY&lt;/b&gt;&lt;br/&gt;Frequency: &lt;b&gt;11&lt;/b&gt;&lt;br/&gt;Timestamp: &lt;b&gt;1509528977000&lt;/b&gt;&lt;br/&gt;Date: &lt;b&gt;Data_classes.Time@b98e56&lt;/b&gt;]]&gt;</description>
+            <Point>
+                <coordinates>34.83694539,32.06280936</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>rony</name>
+            <open>1</open>
+            <description>&lt;![CDATA[BSSID: &lt;b&gt;a0:4f:d4:3b:4b:61&lt;/b&gt;&lt;br/&gt;Capabilities: &lt;b&gt;SECURITY&lt;/b&gt;&lt;br/&gt;Frequency: &lt;b&gt;1&lt;/b&gt;&lt;br/&gt;Timestamp: &lt;b&gt;1509528977000&lt;/b&gt;&lt;br/&gt;Date: &lt;b&gt;Data_classes.Time@f20235&lt;/b&gt;]]&gt;</description>
+            <Point>
+                <coordinates>34.83683205,32.0625611</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>ifat_2.4</name>
+            <open>1</open>
+            <description>&lt;![CDATA[BSSID: &lt;b&gt;14:ae:db:3c:70:2a&lt;/b&gt;&lt;br/&gt;Capabilities: &lt;b&gt;SECURITY&lt;/b&gt;&lt;br/&gt;Frequency: &lt;b&gt;10&lt;/b&gt;&lt;br/&gt;Timestamp: &lt;b&gt;1509528977000&lt;/b&gt;&lt;br/&gt;Date: &lt;b&gt;Data_classes.Time@1d6c5e0&lt;/b&gt;]]&gt;</description>
+            <Point>
+                <coordinates>34.8365681,32.06201179</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>?? ??? ????</name>
+            <open>1</open>
+            <description>&lt;![CDATA[BSSID: &lt;b&gt;ae:5f:3e:5f:86:82&lt;/b&gt;&lt;br/&gt;Capabilities: &lt;b&gt;SECURITY&lt;/b&gt;&lt;br/&gt;Frequency: &lt;b&gt;11&lt;/b&gt;&lt;br/&gt;Timestamp: &lt;b&gt;1509528977000&lt;/b&gt;&lt;br/&gt;Date: &lt;b&gt;Data_classes.Time@13f5b24&lt;/b&gt;]]&gt;</description>
+            <Point>
+                <coordinates>34.83641024,32.06176304</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>YICarCam_fad25e</name>
+            <open>1</open>
+            <description>&lt;![CDATA[BSSID: &lt;b&gt;58:70:c6:fa:d2:5e&lt;/b&gt;&lt;br/&gt;Capabilities: &lt;b&gt;SECURITY&lt;/b&gt;&lt;br/&gt;Frequency: &lt;b&gt;7&lt;/b&gt;&lt;br/&gt;Timestamp: &lt;b&gt;1509528977000&lt;/b&gt;&lt;br/&gt;Date: &lt;b&gt;Data_classes.Time@1aeb7ab&lt;/b&gt;]]&gt;</description>
+            <Point>
+                <coordinates>34.83630374,32.06146437</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>wifi in car-2051</name>
+            <open>1</open>
+            <description>&lt;![CDATA[BSSID: &lt;b&gt;08:97:58:32:bd:2c&lt;/b&gt;&lt;br/&gt;Capabilities: &lt;b&gt;SECURITY&lt;/b&gt;&lt;br/&gt;Frequency: &lt;b&gt;2&lt;/b&gt;&lt;br/&gt;Timestamp: &lt;b&gt;1509528977000&lt;/b&gt;&lt;br/&gt;Date: &lt;b&gt;Data_classes.Time@123ec81&lt;/b&gt;]]&gt;</description>
+            <Point>
+                <coordinates>34.83619243,32.06115876</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>wifi in car-2446</name>
+            <open>1</open>
+            <description>&lt;![CDATA[BSSID: &lt;b&gt;08:97:58:33:bc:e4&lt;/b&gt;&lt;br/&gt;Capabilities: &lt;b&gt;SECURITY&lt;/b&gt;&lt;br/&gt;Frequency: &lt;b&gt;1&lt;/b&gt;&lt;br/&gt;Timestamp: &lt;b&gt;1509528977000&lt;/b&gt;&lt;br/&gt;Date: &lt;b&gt;Data_classes.Time@cbcfc0&lt;/b&gt;]]&gt;</description>
+            <Point>
+                <coordinates>34.83607119,32.06085495</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>NIPPON_3946</name>
+            <open>1</open>
+            <description>&lt;![CDATA[BSSID: &lt;b&gt;08:97:58:33:f0:be&lt;/b&gt;&lt;br/&gt;Capabilities: &lt;b&gt;SECURITY&lt;/b&gt;&lt;br/&gt;Frequency: &lt;b&gt;1&lt;/b&gt;&lt;br/&gt;Timestamp: &lt;b&gt;1509528977000&lt;/b&gt;&lt;br/&gt;Date: &lt;b&gt;Data_classes.Time@1184fc6&lt;/b&gt;]]&gt;</description>
+            <Point>
+                <coordinates>34.83593933,32.06055899</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>YICarCam_fad25e</name>
+            <open>1</open>
+            <description>&lt;![CDATA[BSSID: &lt;b&gt;58:70:c6:fa:d2:5e&lt;/b&gt;&lt;br/&gt;Capabilities: &lt;b&gt;SECURITY&lt;/b&gt;&lt;br/&gt;Frequency: &lt;b&gt;7&lt;/b&gt;&lt;br/&gt;Timestamp: &lt;b&gt;1509528977000&lt;/b&gt;&lt;br/&gt;Date: &lt;b&gt;Data_classes.Time@1eba861&lt;/b&gt;]]&gt;</description>
+            <Point>
+                <coordinates>34.83582305,32.06024123</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>wifi in car-2051</name>
+            <open>1</open>
+            <description>&lt;![CDATA[BSSID: &lt;b&gt;08:97:58:32:bd:2c&lt;/b&gt;&lt;br/&gt;Capabilities: &lt;b&gt;SECURITY&lt;/b&gt;&lt;br/&gt;Frequency: &lt;b&gt;2&lt;/b&gt;&lt;br/&gt;Timestamp: &lt;b&gt;1509528977000&lt;/b&gt;&lt;br/&gt;Date: &lt;b&gt;Data_classes.Time@1480cf9&lt;/b&gt;]]&gt;</description>
+            <Point>
+                <coordinates>34.83568056,32.05992844</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>wifi in car-0669</name>
+            <open>1</open>
+            <description>&lt;![CDATA[BSSID: &lt;b&gt;08:97:58:33:83:d0&lt;/b&gt;&lt;br/&gt;Capabilities: &lt;b&gt;SECURITY&lt;/b&gt;&lt;br/&gt;Frequency: &lt;b&gt;2&lt;/b&gt;&lt;br/&gt;Timestamp: &lt;b&gt;1509528977000&lt;/b&gt;&lt;br/&gt;Date: &lt;b&gt;Data_classes.Time@1496d9f&lt;/b&gt;]]&gt;</description>
+            <Point>
+                <coordinates>34.83555208,32.05961347</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>YICarCam_fb1bc7</name>
+            <open>1</open>
+            <description>&lt;![CDATA[BSSID: &lt;b&gt;58:70:c6:fb:1b:c7&lt;/b&gt;&lt;br/&gt;Capabilities: &lt;b&gt;SECURITY&lt;/b&gt;&lt;br/&gt;Frequency: &lt;b&gt;1&lt;/b&gt;&lt;br/&gt;Timestamp: &lt;b&gt;1509528977000&lt;/b&gt;&lt;br/&gt;Date: &lt;b&gt;Data_classes.Time@3279cf&lt;/b&gt;]]&gt;</description>
+            <Point>
+                <coordinates>34.83543565,32.05927113</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>abba</name>
+            <open>1</open>
+            <description>&lt;![CDATA[BSSID: &lt;b&gt;bc:f5:ac:fc:d0:f3&lt;/b&gt;&lt;br/&gt;Capabilities: &lt;b&gt;SECURITY&lt;/b&gt;&lt;br/&gt;Frequency: &lt;b&gt;6&lt;/b&gt;&lt;br/&gt;Timestamp: &lt;b&gt;1509528977000&lt;/b&gt;&lt;br/&gt;Date: &lt;b&gt;Data_classes.Time@f87f48&lt;/b&gt;]]&gt;</description>
+            <Point>
+                <coordinates>34.83530342,32.05892599</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>abba</name>
+            <open>1</open>
+            <description>&lt;![CDATA[BSSID: &lt;b&gt;bc:f5:ac:fc:d0:f3&lt;/b&gt;&lt;br/&gt;Capabilities: &lt;b&gt;SECURITY&lt;/b&gt;&lt;br/&gt;Frequency: &lt;b&gt;6&lt;/b&gt;&lt;br/&gt;Timestamp: &lt;b&gt;1509528977000&lt;/b&gt;&lt;br/&gt;Date: &lt;b&gt;Data_classes.Time@14c966a&lt;/b&gt;]]&gt;</description>
+            <Point>
+                <coordinates>34.83497639,32.05785563</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>abba</name>
+            <open>1</open>
+            <description>&lt;![CDATA[BSSID: &lt;b&gt;bc:f5:ac:fc:d0:f3&lt;/b&gt;&lt;br/&gt;Capabilities: &lt;b&gt;SECURITY&lt;/b&gt;&lt;br/&gt;Frequency: &lt;b&gt;6&lt;/b&gt;&lt;br/&gt;Timestamp: &lt;b&gt;1509528977000&lt;/b&gt;&lt;br/&gt;Date: &lt;b&gt;Data_classes.Time@14d3709&lt;/b&gt;]]&gt;</description>
+            <Point>
+                <coordinates>34.83487193,32.05668965</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>GOLAN T</name>
+            <open>1</open>
+            <description>&lt;![CDATA[BSSID: &lt;b&gt;42502_722_3937825&lt;/b&gt;&lt;br/&gt;Capabilities: &lt;b&gt;SECURITY&lt;/b&gt;&lt;br/&gt;Frequency: &lt;b&gt;0&lt;/b&gt;&lt;br/&gt;Timestamp: &lt;b&gt;1509528977000&lt;/b&gt;&lt;br/&gt;Date: &lt;b&gt;Data_classes.Time@50df2e&lt;/b&gt;]]&gt;</description>
+            <Point>
+                <coordinates>34.83452672,32.05516704</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Dan-Free-WiFi</name>
+            <open>1</open>
+            <description>&lt;![CDATA[BSSID: &lt;b&gt;00:1a:dd:f5:c7:24&lt;/b&gt;&lt;br/&gt;Capabilities: &lt;b&gt;SECURITY&lt;/b&gt;&lt;br/&gt;Frequency: &lt;b&gt;1&lt;/b&gt;&lt;br/&gt;Timestamp: &lt;b&gt;1509528977000&lt;/b&gt;&lt;br/&gt;Date: &lt;b&gt;Data_classes.Time@181eb93&lt;/b&gt;]]&gt;</description>
+            <Point>
+                <coordinates>34.83402349,32.05446294</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>ismail</name>
+            <open>1</open>
+            <description>&lt;![CDATA[BSSID: &lt;b&gt;b0:89:00:d8:94:c3&lt;/b&gt;&lt;br/&gt;Capabilities: &lt;b&gt;SECURITY&lt;/b&gt;&lt;br/&gt;Frequency: &lt;b&gt;3&lt;/b&gt;&lt;br/&gt;Timestamp: &lt;b&gt;1509528977000&lt;/b&gt;&lt;br/&gt;Date: &lt;b&gt;Data_classes.Time@91c18f&lt;/b&gt;]]&gt;</description>
+            <Point>
+                <coordinates>34.83368522,32.05419426</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Egged.co.il</name>
+            <open>1</open>
+            <description>&lt;![CDATA[BSSID: &lt;b&gt;00:0c:42:51:cb:3f&lt;/b&gt;&lt;br/&gt;Capabilities: &lt;b&gt;SECURITY&lt;/b&gt;&lt;br/&gt;Frequency: &lt;b&gt;1&lt;/b&gt;&lt;br/&gt;Timestamp: &lt;b&gt;1509528977000&lt;/b&gt;&lt;br/&gt;Date: &lt;b&gt;Data_classes.Time@a245ab&lt;/b&gt;]]&gt;</description>
+            <Point>
+                <coordinates>34.83342746,32.05383714</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>ismail</name>
+            <open>1</open>
+            <description>&lt;![CDATA[BSSID: &lt;b&gt;b0:89:00:d8:94:c3&lt;/b&gt;&lt;br/&gt;Capabilities: &lt;b&gt;SECURITY&lt;/b&gt;&lt;br/&gt;Frequency: &lt;b&gt;3&lt;/b&gt;&lt;br/&gt;Timestamp: &lt;b&gt;1509528977000&lt;/b&gt;&lt;br/&gt;Date: &lt;b&gt;Data_classes.Time@c355be&lt;/b&gt;]]&gt;</description>
+            <Point>
+                <coordinates>34.83284743,32.05314652</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Egged.co.il</name>
+            <open>1</open>
+            <description>&lt;![CDATA[BSSID: &lt;b&gt;00:0c:42:51:cb:3f&lt;/b&gt;&lt;br/&gt;Capabilities: &lt;b&gt;SECURITY&lt;/b&gt;&lt;br/&gt;Frequency: &lt;b&gt;1&lt;/b&gt;&lt;br/&gt;Timestamp: &lt;b&gt;1509528977000&lt;/b&gt;&lt;br/&gt;Date: &lt;b&gt;Data_classes.Time@8cf4c6&lt;/b&gt;]]&gt;</description>
+            <Point>
+                <coordinates>34.83258884,32.05282767</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>GOLAN T</name>
+            <open>1</open>
+            <description>&lt;![CDATA[BSSID: &lt;b&gt;42502_722_3939360&lt;/b&gt;&lt;br/&gt;Capabilities: &lt;b&gt;SECURITY&lt;/b&gt;&lt;br/&gt;Frequency: &lt;b&gt;0&lt;/b&gt;&lt;br/&gt;Timestamp: &lt;b&gt;1509528977000&lt;/b&gt;&lt;br/&gt;Date: &lt;b&gt;Data_classes.Time@edcd21&lt;/b&gt;]]&gt;</description>
+            <Point>
+                <coordinates>34.83238345,32.05253144</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>wifi in car-1626</name>
+            <open>1</open>
+            <description>&lt;![CDATA[BSSID: &lt;b&gt;08:97:58:33:b6:7c&lt;/b&gt;&lt;br/&gt;Capabilities: &lt;b&gt;SECURITY&lt;/b&gt;&lt;br/&gt;Frequency: &lt;b&gt;3&lt;/b&gt;&lt;br/&gt;Timestamp: &lt;b&gt;1509528977000&lt;/b&gt;&lt;br/&gt;Date: &lt;b&gt;Data_classes.Time@c45dca&lt;/b&gt;]]&gt;</description>
+            <Point>
+                <coordinates>34.83212726,32.05203406</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>GOLAN T</name>
+            <open>1</open>
+            <description>&lt;![CDATA[BSSID: &lt;b&gt;42502_722_3939360&lt;/b&gt;&lt;br/&gt;Capabilities: &lt;b&gt;SECURITY&lt;/b&gt;&lt;br/&gt;Frequency: &lt;b&gt;0&lt;/b&gt;&lt;br/&gt;Timestamp: &lt;b&gt;1509528977000&lt;/b&gt;&lt;br/&gt;Date: &lt;b&gt;Data_classes.Time@cc8049&lt;/b&gt;]]&gt;</description>
+            <Point>
+                <coordinates>34.83171085,32.05130741</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>HUAWEI-BCD1</name>
+            <open>1</open>
+            <description>&lt;![CDATA[BSSID: &lt;b&gt;a4:71:74:2a:bc:d1&lt;/b&gt;&lt;br/&gt;Capabilities: &lt;b&gt;SECURITY&lt;/b&gt;&lt;br/&gt;Frequency: &lt;b&gt;5&lt;/b&gt;&lt;br/&gt;Timestamp: &lt;b&gt;1509528977000&lt;/b&gt;&lt;br/&gt;Date: &lt;b&gt;Data_classes.Time@16f7412&lt;/b&gt;]]&gt;</description>
+            <Point>
+                <coordinates>34.8316972,32.05101692</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>GOLAN T</name>
+            <open>1</open>
+            <description>&lt;![CDATA[BSSID: &lt;b&gt;42502_722_3939360&lt;/b&gt;&lt;br/&gt;Capabilities: &lt;b&gt;SECURITY&lt;/b&gt;&lt;br/&gt;Frequency: &lt;b&gt;0&lt;/b&gt;&lt;br/&gt;Timestamp: &lt;b&gt;1509528977000&lt;/b&gt;&lt;br/&gt;Date: &lt;b&gt;Data_classes.Time@1973e9b&lt;/b&gt;]]&gt;</description>
+            <Point>
+                <coordinates>34.83122472,32.05009911</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>GOLAN T</name>
+            <open>1</open>
+            <description>&lt;![CDATA[BSSID: &lt;b&gt;42502_722_3939360&lt;/b&gt;&lt;br/&gt;Capabilities: &lt;b&gt;SECURITY&lt;/b&gt;&lt;br/&gt;Frequency: &lt;b&gt;0&lt;/b&gt;&lt;br/&gt;Timestamp: &lt;b&gt;1509528977000&lt;/b&gt;&lt;br/&gt;Date: &lt;b&gt;Data_classes.Time@12b1dae&lt;/b&gt;]]&gt;</description>
+            <Point>
+                <coordinates>34.8308319,32.04886398</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>wifi in car-0970</name>
+            <open>1</open>
+            <description>&lt;![CDATA[BSSID: &lt;b&gt;08:97:58:33:86:2a&lt;/b&gt;&lt;br/&gt;Capabilities: &lt;b&gt;SECURITY&lt;/b&gt;&lt;br/&gt;Frequency: &lt;b&gt;2&lt;/b&gt;&lt;br/&gt;Timestamp: &lt;b&gt;1509528977000&lt;/b&gt;&lt;br/&gt;Date: &lt;b&gt;Data_classes.Time@1530d0a&lt;/b&gt;]]&gt;</description>
+            <Point>
+                <coordinates>34.83059469,32.048603</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>GOLAN T</name>
+            <open>1</open>
+            <description>&lt;![CDATA[BSSID: &lt;b&gt;42502_722_3939360&lt;/b&gt;&lt;br/&gt;Capabilities: &lt;b&gt;SECURITY&lt;/b&gt;&lt;br/&gt;Frequency: &lt;b&gt;0&lt;/b&gt;&lt;br/&gt;Timestamp: &lt;b&gt;1509528977000&lt;/b&gt;&lt;br/&gt;Date: &lt;b&gt;Data_classes.Time@1bc2616&lt;/b&gt;]]&gt;</description>
+            <Point>
+                <coordinates>34.83023565,32.04771463</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>wifi in car-0970</name>
+            <open>1</open>
+            <description>&lt;![CDATA[BSSID: &lt;b&gt;08:97:58:33:86:2a&lt;/b&gt;&lt;br/&gt;Capabilities: &lt;b&gt;SECURITY&lt;/b&gt;&lt;br/&gt;Frequency: &lt;b&gt;2&lt;/b&gt;&lt;br/&gt;Timestamp: &lt;b&gt;1509528977000&lt;/b&gt;&lt;br/&gt;Date: &lt;b&gt;Data_classes.Time@141a79c&lt;/b&gt;]]&gt;</description>
+            <Point>
+                <coordinates>34.83013788,32.04735102</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>GOLAN T</name>
+            <open>1</open>
+            <description>&lt;![CDATA[BSSID: &lt;b&gt;42502_722_3939360&lt;/b&gt;&lt;br/&gt;Capabilities: &lt;b&gt;SECURITY&lt;/b&gt;&lt;br/&gt;Frequency: &lt;b&gt;0&lt;/b&gt;&lt;br/&gt;Timestamp: &lt;b&gt;1509528977000&lt;/b&gt;&lt;br/&gt;Date: &lt;b&gt;Data_classes.Time@6e1b77&lt;/b&gt;]]&gt;</description>
+            <Point>
+                <coordinates>34.82984784,32.04660801</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>AndroidAP</name>
+            <open>1</open>
+            <description>&lt;![CDATA[BSSID: &lt;b&gt;62:f1:89:67:70:33&lt;/b&gt;&lt;br/&gt;Capabilities: &lt;b&gt;SECURITY&lt;/b&gt;&lt;br/&gt;Frequency: &lt;b&gt;6&lt;/b&gt;&lt;br/&gt;Timestamp: &lt;b&gt;1509528977000&lt;/b&gt;&lt;br/&gt;Date: &lt;b&gt;Data_classes.Time@1ca772d&lt;/b&gt;]]&gt;</description>
+            <Point>
+                <coordinates>34.82967871,32.04578766</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>GOLAN T</name>
+            <open>1</open>
+            <description>&lt;![CDATA[BSSID: &lt;b&gt;42502_722_3939360&lt;/b&gt;&lt;br/&gt;Capabilities: &lt;b&gt;SECURITY&lt;/b&gt;&lt;br/&gt;Frequency: &lt;b&gt;0&lt;/b&gt;&lt;br/&gt;Timestamp: &lt;b&gt;1509528977000&lt;/b&gt;&lt;br/&gt;Date: &lt;b&gt;Data_classes.Time@1807454&lt;/b&gt;]]&gt;</description>
+            <Point>
+                <coordinates>34.82966764,32.04539027</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>AndroidAP</name>
+            <open>1</open>
+            <description>&lt;![CDATA[BSSID: &lt;b&gt;62:f1:89:67:70:33&lt;/b&gt;&lt;br/&gt;Capabilities: &lt;b&gt;SECURITY&lt;/b&gt;&lt;br/&gt;Frequency: &lt;b&gt;6&lt;/b&gt;&lt;br/&gt;Timestamp: &lt;b&gt;1509528977000&lt;/b&gt;&lt;br/&gt;Date: &lt;b&gt;Data_classes.Time@1494fbf&lt;/b&gt;]]&gt;</description>
+            <Point>
+                <coordinates>34.82964685,32.04472353</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Egged.co.il</name>
+            <open>1</open>
+            <description>&lt;![CDATA[BSSID: &lt;b&gt;6c:fd:b9:68:52:c7&lt;/b&gt;&lt;br/&gt;Capabilities: &lt;b&gt;SECURITY&lt;/b&gt;&lt;br/&gt;Frequency: &lt;b&gt;1&lt;/b&gt;&lt;br/&gt;Timestamp: &lt;b&gt;1509528977000&lt;/b&gt;&lt;br/&gt;Date: &lt;b&gt;Data_classes.Time@1dc4ec2&lt;/b&gt;]]&gt;</description>
+            <Point>
+                <coordinates>34.82963279,32.04449463</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>YICarCam_f34782</name>
+            <open>1</open>
+            <description>&lt;![CDATA[BSSID: &lt;b&gt;58:70:c6:f3:47:82&lt;/b&gt;&lt;br/&gt;Capabilities: &lt;b&gt;SECURITY&lt;/b&gt;&lt;br/&gt;Frequency: &lt;b&gt;7&lt;/b&gt;&lt;br/&gt;Timestamp: &lt;b&gt;1509528977000&lt;/b&gt;&lt;br/&gt;Date: &lt;b&gt;Data_classes.Time@133314b&lt;/b&gt;]]&gt;</description>
+            <Point>
+                <coordinates>34.82960893,32.04428389</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>NIPPON_7363</name>
+            <open>1</open>
+            <description>&lt;![CDATA[BSSID: &lt;b&gt;08:97:58:33:5e:f6&lt;/b&gt;&lt;br/&gt;Capabilities: &lt;b&gt;SECURITY&lt;/b&gt;&lt;br/&gt;Frequency: &lt;b&gt;3&lt;/b&gt;&lt;br/&gt;Timestamp: &lt;b&gt;1509528977000&lt;/b&gt;&lt;br/&gt;Date: &lt;b&gt;Data_classes.Time@11bc7ed&lt;/b&gt;]]&gt;</description>
+            <Point>
+                <coordinates>34.82957406,32.04379908</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>GelenaMobile</name>
+            <open>1</open>
+            <description>&lt;![CDATA[BSSID: &lt;b&gt;4e:66:41:c3:52:91&lt;/b&gt;&lt;br/&gt;Capabilities: &lt;b&gt;SECURITY&lt;/b&gt;&lt;br/&gt;Frequency: &lt;b&gt;6&lt;/b&gt;&lt;br/&gt;Timestamp: &lt;b&gt;1509528977000&lt;/b&gt;&lt;br/&gt;Date: &lt;b&gt;Data_classes.Time@d84586&lt;/b&gt;]]&gt;</description>
+            <Point>
+                <coordinates>34.82954694,32.04356887</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>GOLAN T</name>
+            <open>1</open>
+            <description>&lt;![CDATA[BSSID: &lt;b&gt;42502_901_3840799&lt;/b&gt;&lt;br/&gt;Capabilities: &lt;b&gt;SECURITY&lt;/b&gt;&lt;br/&gt;Frequency: &lt;b&gt;0&lt;/b&gt;&lt;br/&gt;Timestamp: &lt;b&gt;1509528977000&lt;/b&gt;&lt;br/&gt;Date: &lt;b&gt;Data_classes.Time@10dae81&lt;/b&gt;]]&gt;</description>
+            <Point>
+                <coordinates>34.82954915,32.04336274</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Afikim_Wifi</name>
+            <open>1</open>
+            <description>&lt;![CDATA[BSSID: &lt;b&gt;00:1a:dd:f4:f2:65&lt;/b&gt;&lt;br/&gt;Capabilities: &lt;b&gt;SECURITY&lt;/b&gt;&lt;br/&gt;Frequency: &lt;b&gt;8&lt;/b&gt;&lt;br/&gt;Timestamp: &lt;b&gt;1509528977000&lt;/b&gt;&lt;br/&gt;Date: &lt;b&gt;Data_classes.Time@12c6ec2&lt;/b&gt;]]&gt;</description>
+            <Point>
+                <coordinates>34.82955135,32.04286418</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>NIPPON_7363</name>
+            <open>1</open>
+            <description>&lt;![CDATA[BSSID: &lt;b&gt;08:97:58:33:5e:f6&lt;/b&gt;&lt;br/&gt;Capabilities: &lt;b&gt;SECURITY&lt;/b&gt;&lt;br/&gt;Frequency: &lt;b&gt;3&lt;/b&gt;&lt;br/&gt;Timestamp: &lt;b&gt;1509528977000&lt;/b&gt;&lt;br/&gt;Date: &lt;b&gt;Data_classes.Time@dde6e5&lt;/b&gt;]]&gt;</description>
+            <Point>
+                <coordinates>34.82953828,32.04257788</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>GelenaMobile</name>
+            <open>1</open>
+            <description>&lt;![CDATA[BSSID: &lt;b&gt;4e:66:41:c3:52:91&lt;/b&gt;&lt;br/&gt;Capabilities: &lt;b&gt;SECURITY&lt;/b&gt;&lt;br/&gt;Frequency: &lt;b&gt;6&lt;/b&gt;&lt;br/&gt;Timestamp: &lt;b&gt;1509528977000&lt;/b&gt;&lt;br/&gt;Date: &lt;b&gt;Data_classes.Time@177ecd&lt;/b&gt;]]&gt;</description>
+            <Point>
+                <coordinates>34.82953652,32.04228517</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Afikim_Wifi</name>
+            <open>1</open>
+            <description>&lt;![CDATA[BSSID: &lt;b&gt;00:1a:dd:f4:f2:65&lt;/b&gt;&lt;br/&gt;Capabilities: &lt;b&gt;SECURITY&lt;/b&gt;&lt;br/&gt;Frequency: &lt;b&gt;8&lt;/b&gt;&lt;br/&gt;Timestamp: &lt;b&gt;1509528977000&lt;/b&gt;&lt;br/&gt;Date: &lt;b&gt;Data_classes.Time@80bfe8&lt;/b&gt;]]&gt;</description>
+            <Point>
+                <coordinates>34.82952312,32.04162627</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>GelenaMobile</name>
+            <open>1</open>
+            <description>&lt;![CDATA[BSSID: &lt;b&gt;4e:66:41:c3:52:91&lt;/b&gt;&lt;br/&gt;Capabilities: &lt;b&gt;SECURITY&lt;/b&gt;&lt;br/&gt;Frequency: &lt;b&gt;6&lt;/b&gt;&lt;br/&gt;Timestamp: &lt;b&gt;1509528977000&lt;/b&gt;&lt;br/&gt;Date: &lt;b&gt;Data_classes.Time@a29884&lt;/b&gt;]]&gt;</description>
+            <Point>
+                <coordinates>34.8295455,32.04125604</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Xxrc8835</name>
+            <open>1</open>
+            <description>&lt;![CDATA[BSSID: &lt;b&gt;2e:0e:3d:8a:3b:f7&lt;/b&gt;&lt;br/&gt;Capabilities: &lt;b&gt;SECURITY&lt;/b&gt;&lt;br/&gt;Frequency: &lt;b&gt;6&lt;/b&gt;&lt;br/&gt;Timestamp: &lt;b&gt;1509528977000&lt;/b&gt;&lt;br/&gt;Date: &lt;b&gt;Data_classes.Time@169b07b&lt;/b&gt;]]&gt;</description>
+            <Point>
+                <coordinates>34.82960079,32.04085626</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>?-iPhone ?? ron</name>
+            <open>1</open>
+            <description>&lt;![CDATA[BSSID: &lt;b&gt;f6:dc:cd:ab:f9:61&lt;/b&gt;&lt;br/&gt;Capabilities: &lt;b&gt;SECURITY&lt;/b&gt;&lt;br/&gt;Frequency: &lt;b&gt;1&lt;/b&gt;&lt;br/&gt;Timestamp: &lt;b&gt;1509528977000&lt;/b&gt;&lt;br/&gt;Date: &lt;b&gt;Data_classes.Time@c34f4d&lt;/b&gt;]]&gt;</description>
+            <Point>
+                <coordinates>34.8295987,32.04047309</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>GelenaMobile</name>
+            <open>1</open>
+            <description>&lt;![CDATA[BSSID: &lt;b&gt;4e:66:41:c3:52:91&lt;/b&gt;&lt;br/&gt;Capabilities: &lt;b&gt;SECURITY&lt;/b&gt;&lt;br/&gt;Frequency: &lt;b&gt;6&lt;/b&gt;&lt;br/&gt;Timestamp: &lt;b&gt;1509528977000&lt;/b&gt;&lt;br/&gt;Date: &lt;b&gt;Data_classes.Time@1a7cec2&lt;/b&gt;]]&gt;</description>
+            <Point>
+                <coordinates>34.82964067,32.0400574</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>GelenaMobile</name>
+            <open>1</open>
+            <description>&lt;![CDATA[BSSID: &lt;b&gt;4e:66:41:c3:52:91&lt;/b&gt;&lt;br/&gt;Capabilities: &lt;b&gt;SECURITY&lt;/b&gt;&lt;br/&gt;Frequency: &lt;b&gt;6&lt;/b&gt;&lt;br/&gt;Timestamp: &lt;b&gt;1509528977000&lt;/b&gt;&lt;br/&gt;Date: &lt;b&gt;Data_classes.Time@1b3120a&lt;/b&gt;]]&gt;</description>
+            <Point>
+                <coordinates>34.82966626,32.03964036</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>?-iPhone ?? ron</name>
+            <open>1</open>
+            <description>&lt;![CDATA[BSSID: &lt;b&gt;f6:dc:cd:ab:f9:61&lt;/b&gt;&lt;br/&gt;Capabilities: &lt;b&gt;SECURITY&lt;/b&gt;&lt;br/&gt;Frequency: &lt;b&gt;1&lt;/b&gt;&lt;br/&gt;Timestamp: &lt;b&gt;1509528977000&lt;/b&gt;&lt;br/&gt;Date: &lt;b&gt;Data_classes.Time@1539caf&lt;/b&gt;]]&gt;</description>
+            <Point>
+                <coordinates>34.82968972,32.03920953</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name> ??13</name>
+            <open>1</open>
+            <description>&lt;![CDATA[BSSID: &lt;b&gt;ac:5f:3e:09:2a:f6&lt;/b&gt;&lt;br/&gt;Capabilities: &lt;b&gt;SECURITY&lt;/b&gt;&lt;br/&gt;Frequency: &lt;b&gt;6&lt;/b&gt;&lt;br/&gt;Timestamp: &lt;b&gt;1509528977000&lt;/b&gt;&lt;br/&gt;Date: &lt;b&gt;Data_classes.Time@1fc0f2f&lt;/b&gt;]]&gt;</description>
+            <Point>
+                <coordinates>34.82972606,32.03874667</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>GelenaMobile</name>
+            <open>1</open>
+            <description>&lt;![CDATA[BSSID: &lt;b&gt;4e:66:41:c3:52:91&lt;/b&gt;&lt;br/&gt;Capabilities: &lt;b&gt;SECURITY&lt;/b&gt;&lt;br/&gt;Frequency: &lt;b&gt;6&lt;/b&gt;&lt;br/&gt;Timestamp: &lt;b&gt;1509528977000&lt;/b&gt;&lt;br/&gt;Date: &lt;b&gt;Data_classes.Time@40f0c&lt;/b&gt;]]&gt;</description>
+            <Point>
+                <coordinates>34.82971806,32.03829585</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Eliahu_2.4</name>
+            <open>1</open>
+            <description>&lt;![CDATA[BSSID: &lt;b&gt;14:ae:db:31:78:d2&lt;/b&gt;&lt;br/&gt;Capabilities: &lt;b&gt;SECURITY&lt;/b&gt;&lt;br/&gt;Frequency: &lt;b&gt;4&lt;/b&gt;&lt;br/&gt;Timestamp: &lt;b&gt;1509528977000&lt;/b&gt;&lt;br/&gt;Date: &lt;b&gt;Data_classes.Time@1da6444&lt;/b&gt;]]&gt;</description>
+            <Point>
+                <coordinates>34.82970106,32.03737886</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>GelenaMobile</name>
+            <open>1</open>
+            <description>&lt;![CDATA[BSSID: &lt;b&gt;4e:66:41:c3:52:91&lt;/b&gt;&lt;br/&gt;Capabilities: &lt;b&gt;SECURITY&lt;/b&gt;&lt;br/&gt;Frequency: &lt;b&gt;6&lt;/b&gt;&lt;br/&gt;Timestamp: &lt;b&gt;1509528977000&lt;/b&gt;&lt;br/&gt;Date: &lt;b&gt;Data_classes.Time@9f23b4&lt;/b&gt;]]&gt;</description>
+            <Point>
+                <coordinates>34.8296266,32.03699341</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>GOLAN T</name>
+            <open>1</open>
+            <description>&lt;![CDATA[BSSID: &lt;b&gt;42502_901_3840801&lt;/b&gt;&lt;br/&gt;Capabilities: &lt;b&gt;SECURITY&lt;/b&gt;&lt;br/&gt;Frequency: &lt;b&gt;0&lt;/b&gt;&lt;br/&gt;Timestamp: &lt;b&gt;1509528977000&lt;/b&gt;&lt;br/&gt;Date: &lt;b&gt;Data_classes.Time@183da3f&lt;/b&gt;]]&gt;</description>
+            <Point>
+                <coordinates>34.82956516,32.03656308</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>UFI_UF230_733</name>
+            <open>1</open>
+            <description>&lt;![CDATA[BSSID: &lt;b&gt;00:0b:6c:4d:87:33&lt;/b&gt;&lt;br/&gt;Capabilities: &lt;b&gt;SECURITY&lt;/b&gt;&lt;br/&gt;Frequency: &lt;b&gt;6&lt;/b&gt;&lt;br/&gt;Timestamp: &lt;b&gt;1509528977000&lt;/b&gt;&lt;br/&gt;Date: &lt;b&gt;Data_classes.Time@18fd1ac&lt;/b&gt;]]&gt;</description>
+            <Point>
+                <coordinates>34.82948276,32.03613502</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>GelenaMobile</name>
+            <open>1</open>
+            <description>&lt;![CDATA[BSSID: &lt;b&gt;4e:66:41:c3:52:91&lt;/b&gt;&lt;br/&gt;Capabilities: &lt;b&gt;SECURITY&lt;/b&gt;&lt;br/&gt;Frequency: &lt;b&gt;6&lt;/b&gt;&lt;br/&gt;Timestamp: &lt;b&gt;1509528977000&lt;/b&gt;&lt;br/&gt;Date: &lt;b&gt;Data_classes.Time@1097b5d&lt;/b&gt;]]&gt;</description>
+            <Point>
+                <coordinates>34.82940803,32.03568707</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>GOLAN T</name>
+            <open>1</open>
+            <description>&lt;![CDATA[BSSID: &lt;b&gt;42502_901_3840801&lt;/b&gt;&lt;br/&gt;Capabilities: &lt;b&gt;SECURITY&lt;/b&gt;&lt;br/&gt;Frequency: &lt;b&gt;0&lt;/b&gt;&lt;br/&gt;Timestamp: &lt;b&gt;1509528977000&lt;/b&gt;&lt;br/&gt;Date: &lt;b&gt;Data_classes.Time@2c634b&lt;/b&gt;]]&gt;</description>
+            <Point>
+                <coordinates>34.82931672,32.03525442</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>UFI_UF230_733</name>
+            <open>1</open>
+            <description>&lt;![CDATA[BSSID: &lt;b&gt;00:0b:6c:4d:87:33&lt;/b&gt;&lt;br/&gt;Capabilities: &lt;b&gt;SECURITY&lt;/b&gt;&lt;br/&gt;Frequency: &lt;b&gt;6&lt;/b&gt;&lt;br/&gt;Timestamp: &lt;b&gt;1509528977000&lt;/b&gt;&lt;br/&gt;Date: &lt;b&gt;Data_classes.Time@1a71e93&lt;/b&gt;]]&gt;</description>
+            <Point>
+                <coordinates>34.82926358,32.03481532</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>GelenaMobile</name>
+            <open>1</open>
+            <description>&lt;![CDATA[BSSID: &lt;b&gt;4e:66:41:c3:52:91&lt;/b&gt;&lt;br/&gt;Capabilities: &lt;b&gt;SECURITY&lt;/b&gt;&lt;br/&gt;Frequency: &lt;b&gt;6&lt;/b&gt;&lt;br/&gt;Timestamp: &lt;b&gt;1509528977000&lt;/b&gt;&lt;br/&gt;Date: &lt;b&gt;Data_classes.Time@6cbb7a&lt;/b&gt;]]&gt;</description>
+            <Point>
+                <coordinates>34.8291995,32.03434414</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>GOLAN T</name>
+            <open>1</open>
+            <description>&lt;![CDATA[BSSID: &lt;b&gt;42502_901_3840801&lt;/b&gt;&lt;br/&gt;Capabilities: &lt;b&gt;SECURITY&lt;/b&gt;&lt;br/&gt;Frequency: &lt;b&gt;0&lt;/b&gt;&lt;br/&gt;Timestamp: &lt;b&gt;1509528977000&lt;/b&gt;&lt;br/&gt;Date: &lt;b&gt;Data_classes.Time@3df479&lt;/b&gt;]]&gt;</description>
+            <Point>
+                <coordinates>34.82915815,32.03388469</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>GelenaMobile</name>
+            <open>1</open>
+            <description>&lt;![CDATA[BSSID: &lt;b&gt;4e:66:41:c3:52:91&lt;/b&gt;&lt;br/&gt;Capabilities: &lt;b&gt;SECURITY&lt;/b&gt;&lt;br/&gt;Frequency: &lt;b&gt;6&lt;/b&gt;&lt;br/&gt;Timestamp: &lt;b&gt;1509528977000&lt;/b&gt;&lt;br/&gt;Date: &lt;b&gt;Data_classes.Time@106e68e&lt;/b&gt;]]&gt;</description>
+            <Point>
+                <coordinates>34.82911782,32.03294095</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>GOLAN T</name>
+            <open>1</open>
+            <description>&lt;![CDATA[BSSID: &lt;b&gt;42502_901_3840801&lt;/b&gt;&lt;br/&gt;Capabilities: &lt;b&gt;SECURITY&lt;/b&gt;&lt;br/&gt;Frequency: &lt;b&gt;0&lt;/b&gt;&lt;br/&gt;Timestamp: &lt;b&gt;1509528977000&lt;/b&gt;&lt;br/&gt;Date: &lt;b&gt;Data_classes.Time@da2dbb&lt;/b&gt;]]&gt;</description>
+            <Point>
+                <coordinates>34.8290991,32.03251275</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>GelenaMobile</name>
+            <open>1</open>
+            <description>&lt;![CDATA[BSSID: &lt;b&gt;4e:66:41:c3:52:91&lt;/b&gt;&lt;br/&gt;Capabilities: &lt;b&gt;SECURITY&lt;/b&gt;&lt;br/&gt;Frequency: &lt;b&gt;6&lt;/b&gt;&lt;br/&gt;Timestamp: &lt;b&gt;1509528977000&lt;/b&gt;&lt;br/&gt;Date: &lt;b&gt;Data_classes.Time@176fe71&lt;/b&gt;]]&gt;</description>
+            <Point>
+                <coordinates>34.82906812,32.03164073</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>GOLAN T</name>
+            <open>1</open>
+            <description>&lt;![CDATA[BSSID: &lt;b&gt;42502_901_3840801&lt;/b&gt;&lt;br/&gt;Capabilities: &lt;b&gt;SECURITY&lt;/b&gt;&lt;br/&gt;Frequency: &lt;b&gt;0&lt;/b&gt;&lt;br/&gt;Timestamp: &lt;b&gt;1509528977000&lt;/b&gt;&lt;br/&gt;Date: &lt;b&gt;Data_classes.Time@fb509a&lt;/b&gt;]]&gt;</description>
+            <Point>
+                <coordinates>34.82903443,32.03123161</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>GelenaMobile</name>
+            <open>1</open>
+            <description>&lt;![CDATA[BSSID: &lt;b&gt;4e:66:41:c3:52:91&lt;/b&gt;&lt;br/&gt;Capabilities: &lt;b&gt;SECURITY&lt;/b&gt;&lt;br/&gt;Frequency: &lt;b&gt;6&lt;/b&gt;&lt;br/&gt;Timestamp: &lt;b&gt;1509528977000&lt;/b&gt;&lt;br/&gt;Date: &lt;b&gt;Data_classes.Time@ffa5d&lt;/b&gt;]]&gt;</description>
+            <Point>
+                <coordinates>34.82898653,32.03041588</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>GOLAN T</name>
+            <open>1</open>
+            <description>&lt;![CDATA[BSSID: &lt;b&gt;42502_901_3840801&lt;/b&gt;&lt;br/&gt;Capabilities: &lt;b&gt;SECURITY&lt;/b&gt;&lt;br/&gt;Frequency: &lt;b&gt;0&lt;/b&gt;&lt;br/&gt;Timestamp: &lt;b&gt;1509528977000&lt;/b&gt;&lt;br/&gt;Date: &lt;b&gt;Data_classes.Time@117ae12&lt;/b&gt;]]&gt;</description>
+            <Point>
+                <coordinates>34.82895159,32.02999487</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>NIPPON_2740</name>
+            <open>1</open>
+            <description>&lt;![CDATA[BSSID: &lt;b&gt;08:97:58:33:db:64&lt;/b&gt;&lt;br/&gt;Capabilities: &lt;b&gt;SECURITY&lt;/b&gt;&lt;br/&gt;Frequency: &lt;b&gt;4&lt;/b&gt;&lt;br/&gt;Timestamp: &lt;b&gt;1509528977000&lt;/b&gt;&lt;br/&gt;Date: &lt;b&gt;Data_classes.Time@1405ef7&lt;/b&gt;]]&gt;</description>
+            <Point>
+                <coordinates>34.82562655,32.02417758</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>NIPPON_2740</name>
+            <open>1</open>
+            <description>&lt;![CDATA[BSSID: &lt;b&gt;08:97:58:33:db:64&lt;/b&gt;&lt;br/&gt;Capabilities: &lt;b&gt;SECURITY&lt;/b&gt;&lt;br/&gt;Frequency: &lt;b&gt;4&lt;/b&gt;&lt;br/&gt;Timestamp: &lt;b&gt;1509528977000&lt;/b&gt;&lt;br/&gt;Date: &lt;b&gt;Data_classes.Time@193b845&lt;/b&gt;]]&gt;</description>
+            <Point>
+                <coordinates>34.82895159,32.02999487</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>NIPPON_2740</name>
+            <open>1</open>
+            <description>&lt;![CDATA[BSSID: &lt;b&gt;08:97:58:33:db:64&lt;/b&gt;&lt;br/&gt;Capabilities: &lt;b&gt;SECURITY&lt;/b&gt;&lt;br/&gt;Frequency: &lt;b&gt;4&lt;/b&gt;&lt;br/&gt;Timestamp: &lt;b&gt;1509528977000&lt;/b&gt;&lt;br/&gt;Date: &lt;b&gt;Data_classes.Time@817b38&lt;/b&gt;]]&gt;</description>
+            <Point>
+                <coordinates>34.82513483,32.02373747</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>GOLAN T</name>
+            <open>1</open>
+            <description>&lt;![CDATA[BSSID: &lt;b&gt;42502_901_3840801&lt;/b&gt;&lt;br/&gt;Capabilities: &lt;b&gt;SECURITY&lt;/b&gt;&lt;br/&gt;Frequency: &lt;b&gt;0&lt;/b&gt;&lt;br/&gt;Timestamp: &lt;b&gt;1509528977000&lt;/b&gt;&lt;br/&gt;Date: &lt;b&gt;Data_classes.Time@4437c4&lt;/b&gt;]]&gt;</description>
+            <Point>
+                <coordinates>34.82456739,32.02298975</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>NIPPON_2740</name>
+            <open>1</open>
+            <description>&lt;![CDATA[BSSID: &lt;b&gt;08:97:58:33:db:64&lt;/b&gt;&lt;br/&gt;Capabilities: &lt;b&gt;SECURITY&lt;/b&gt;&lt;br/&gt;Frequency: &lt;b&gt;4&lt;/b&gt;&lt;br/&gt;Timestamp: &lt;b&gt;1509528977000&lt;/b&gt;&lt;br/&gt;Date: &lt;b&gt;Data_classes.Time@13c675d&lt;/b&gt;]]&gt;</description>
+            <Point>
+                <coordinates>34.82427333,32.02261258</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>GOLAN T</name>
+            <open>1</open>
+            <description>&lt;![CDATA[BSSID: &lt;b&gt;42502_901_3844640&lt;/b&gt;&lt;br/&gt;Capabilities: &lt;b&gt;SECURITY&lt;/b&gt;&lt;br/&gt;Frequency: &lt;b&gt;0&lt;/b&gt;&lt;br/&gt;Timestamp: &lt;b&gt;1509528977000&lt;/b&gt;&lt;br/&gt;Date: &lt;b&gt;Data_classes.Time@191beef&lt;/b&gt;]]&gt;</description>
+            <Point>
+                <coordinates>34.82368806,32.02177972</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>GOLAN T</name>
+            <open>1</open>
+            <description>&lt;![CDATA[BSSID: &lt;b&gt;42502_893_3434015&lt;/b&gt;&lt;br/&gt;Capabilities: &lt;b&gt;SECURITY&lt;/b&gt;&lt;br/&gt;Frequency: &lt;b&gt;0&lt;/b&gt;&lt;br/&gt;Timestamp: &lt;b&gt;1509528977000&lt;/b&gt;&lt;br/&gt;Date: &lt;b&gt;Data_classes.Time@6c5a9e&lt;/b&gt;]]&gt;</description>
+            <Point>
+                <coordinates>34.82344119,32.02136005</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>ConnectedCAM1180</name>
+            <open>1</open>
+            <description>&lt;![CDATA[BSSID: &lt;b&gt;14:8f:21:d7:c0:a1&lt;/b&gt;&lt;br/&gt;Capabilities: &lt;b&gt;SECURITY&lt;/b&gt;&lt;br/&gt;Frequency: &lt;b&gt;11&lt;/b&gt;&lt;br/&gt;Timestamp: &lt;b&gt;1509528977000&lt;/b&gt;&lt;br/&gt;Date: &lt;b&gt;Data_classes.Time@1bba400&lt;/b&gt;]]&gt;</description>
+            <Point>
+                <coordinates>34.82272995,32.02032071</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>ConnectedCAM1180</name>
+            <open>1</open>
+            <description>&lt;![CDATA[BSSID: &lt;b&gt;14:8f:21:d7:c0:a1&lt;/b&gt;&lt;br/&gt;Capabilities: &lt;b&gt;SECURITY&lt;/b&gt;&lt;br/&gt;Frequency: &lt;b&gt;11&lt;/b&gt;&lt;br/&gt;Timestamp: &lt;b&gt;1509528977000&lt;/b&gt;&lt;br/&gt;Date: &lt;b&gt;Data_classes.Time@19d3b25&lt;/b&gt;]]&gt;</description>
+            <Point>
+                <coordinates>34.82244332,32.01991634</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>GOLAN T</name>
+            <open>1</open>
+            <description>&lt;![CDATA[BSSID: &lt;b&gt;42502_901_3844640&lt;/b&gt;&lt;br/&gt;Capabilities: &lt;b&gt;SECURITY&lt;/b&gt;&lt;br/&gt;Frequency: &lt;b&gt;0&lt;/b&gt;&lt;br/&gt;Timestamp: &lt;b&gt;1509528977000&lt;/b&gt;&lt;br/&gt;Date: &lt;b&gt;Data_classes.Time@14989ff&lt;/b&gt;]]&gt;</description>
+            <Point>
+                <coordinates>34.82193619,32.01914527</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>ConnectedCAM1180</name>
+            <open>1</open>
+            <description>&lt;![CDATA[BSSID: &lt;b&gt;14:8f:21:d7:c0:a1&lt;/b&gt;&lt;br/&gt;Capabilities: &lt;b&gt;SECURITY&lt;/b&gt;&lt;br/&gt;Frequency: &lt;b&gt;11&lt;/b&gt;&lt;br/&gt;Timestamp: &lt;b&gt;1509528977000&lt;/b&gt;&lt;br/&gt;Date: &lt;b&gt;Data_classes.Time@1099f62&lt;/b&gt;]]&gt;</description>
+            <Point>
+                <coordinates>34.82167497,32.01874115</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>AndroidAP</name>
+            <open>1</open>
+            <description>&lt;![CDATA[BSSID: &lt;b&gt;00:ae:fa:68:48:13&lt;/b&gt;&lt;br/&gt;Capabilities: &lt;b&gt;SECURITY&lt;/b&gt;&lt;br/&gt;Frequency: &lt;b&gt;11&lt;/b&gt;&lt;br/&gt;Timestamp: &lt;b&gt;1509528977000&lt;/b&gt;&lt;br/&gt;Date: &lt;b&gt;Data_classes.Time@1f8bb67&lt;/b&gt;]]&gt;</description>
+            <Point>
+                <coordinates>34.82082162,32.01751249</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>AndroidAP</name>
+            <open>1</open>
+            <description>&lt;![CDATA[BSSID: &lt;b&gt;00:ae:fa:68:48:13&lt;/b&gt;&lt;br/&gt;Capabilities: &lt;b&gt;SECURITY&lt;/b&gt;&lt;br/&gt;Frequency: &lt;b&gt;11&lt;/b&gt;&lt;br/&gt;Timestamp: &lt;b&gt;1509528977000&lt;/b&gt;&lt;br/&gt;Date: &lt;b&gt;Data_classes.Time@1c2faae&lt;/b&gt;]]&gt;</description>
+            <Point>
+                <coordinates>34.82057726,32.01712014</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>GOLAN T</name>
+            <open>1</open>
+            <description>&lt;![CDATA[BSSID: &lt;b&gt;42502_893_3434015&lt;/b&gt;&lt;br/&gt;Capabilities: &lt;b&gt;SECURITY&lt;/b&gt;&lt;br/&gt;Frequency: &lt;b&gt;0&lt;/b&gt;&lt;br/&gt;Timestamp: &lt;b&gt;1509528977000&lt;/b&gt;&lt;br/&gt;Date: &lt;b&gt;Data_classes.Time@ad9418&lt;/b&gt;]]&gt;</description>
+            <Point>
+                <coordinates>34.81988153,32.01626557</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>AndroidAP</name>
+            <open>1</open>
+            <description>&lt;![CDATA[BSSID: &lt;b&gt;00:ae:fa:68:48:13&lt;/b&gt;&lt;br/&gt;Capabilities: &lt;b&gt;SECURITY&lt;/b&gt;&lt;br/&gt;Frequency: &lt;b&gt;11&lt;/b&gt;&lt;br/&gt;Timestamp: &lt;b&gt;1509528977000&lt;/b&gt;&lt;br/&gt;Date: &lt;b&gt;Data_classes.Time@1cefde0&lt;/b&gt;]]&gt;</description>
+            <Point>
+                <coordinates>34.81953422,32.01580807</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>GOLAN T</name>
+            <open>1</open>
+            <description>&lt;![CDATA[BSSID: &lt;b&gt;42502_893_3434015&lt;/b&gt;&lt;br/&gt;Capabilities: &lt;b&gt;SECURITY&lt;/b&gt;&lt;br/&gt;Frequency: &lt;b&gt;0&lt;/b&gt;&lt;br/&gt;Timestamp: &lt;b&gt;1509528977000&lt;/b&gt;&lt;br/&gt;Date: &lt;b&gt;Data_classes.Time@19f5b3d&lt;/b&gt;]]&gt;</description>
+            <Point>
+                <coordinates>34.81878836,32.0150114</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>AndroidAP</name>
+            <open>1</open>
+            <description>&lt;![CDATA[BSSID: &lt;b&gt;00:ae:fa:68:48:13&lt;/b&gt;&lt;br/&gt;Capabilities: &lt;b&gt;SECURITY&lt;/b&gt;&lt;br/&gt;Frequency: &lt;b&gt;11&lt;/b&gt;&lt;br/&gt;Timestamp: &lt;b&gt;1509528977000&lt;/b&gt;&lt;br/&gt;Date: &lt;b&gt;Data_classes.Time@156ce6a&lt;/b&gt;]]&gt;</description>
+            <Point>
+                <coordinates>34.81836659,32.01465665</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>NIPPON_3103</name>
+            <open>1</open>
+            <description>&lt;![CDATA[BSSID: &lt;b&gt;08:97:58:32:aa:d4&lt;/b&gt;&lt;br/&gt;Capabilities: &lt;b&gt;SECURITY&lt;/b&gt;&lt;br/&gt;Frequency: &lt;b&gt;2&lt;/b&gt;&lt;br/&gt;Timestamp: &lt;b&gt;1509528977000&lt;/b&gt;&lt;br/&gt;Date: &lt;b&gt;Data_classes.Time@197848c&lt;/b&gt;]]&gt;</description>
+            <Point>
+                <coordinates>34.81755586,32.01391981</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>AndroidAP</name>
+            <open>1</open>
+            <description>&lt;![CDATA[BSSID: &lt;b&gt;00:ae:fa:68:48:13&lt;/b&gt;&lt;br/&gt;Capabilities: &lt;b&gt;SECURITY&lt;/b&gt;&lt;br/&gt;Frequency: &lt;b&gt;11&lt;/b&gt;&lt;br/&gt;Timestamp: &lt;b&gt;1509528977000&lt;/b&gt;&lt;br/&gt;Date: &lt;b&gt;Data_classes.Time@1f052a3&lt;/b&gt;]]&gt;</description>
+            <Point>
+                <coordinates>34.81713669,32.01356153</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>NIPPON_3103</name>
+            <open>1</open>
+            <description>&lt;![CDATA[BSSID: &lt;b&gt;08:97:58:32:aa:d4&lt;/b&gt;&lt;br/&gt;Capabilities: &lt;b&gt;SECURITY&lt;/b&gt;&lt;br/&gt;Frequency: &lt;b&gt;2&lt;/b&gt;&lt;br/&gt;Timestamp: &lt;b&gt;1509528977000&lt;/b&gt;&lt;br/&gt;Date: &lt;b&gt;Data_classes.Time@fa5d3&lt;/b&gt;]]&gt;</description>
+            <Point>
+                <coordinates>34.81629894,32.01286615</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>YICarCam_fb6916</name>
+            <open>1</open>
+            <description>&lt;![CDATA[BSSID: &lt;b&gt;58:70:c6:fb:69:16&lt;/b&gt;&lt;br/&gt;Capabilities: &lt;b&gt;SECURITY&lt;/b&gt;&lt;br/&gt;Frequency: &lt;b&gt;5&lt;/b&gt;&lt;br/&gt;Timestamp: &lt;b&gt;1509528977000&lt;/b&gt;&lt;br/&gt;Date: &lt;b&gt;Data_classes.Time@1010be6&lt;/b&gt;]]&gt;</description>
+            <Point>
+                <coordinates>34.81555782,32.01216423</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>YICarCam_fb6916</name>
+            <open>1</open>
+            <description>&lt;![CDATA[BSSID: &lt;b&gt;58:70:c6:fb:69:16&lt;/b&gt;&lt;br/&gt;Capabilities: &lt;b&gt;SECURITY&lt;/b&gt;&lt;br/&gt;Frequency: &lt;b&gt;5&lt;/b&gt;&lt;br/&gt;Timestamp: &lt;b&gt;1509528977000&lt;/b&gt;&lt;br/&gt;Date: &lt;b&gt;Data_classes.Time@5f4c2e&lt;/b&gt;]]&gt;</description>
+            <Point>
+                <coordinates>34.81462088,32.01079721</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>GOLAN T</name>
+            <open>1</open>
+            <description>&lt;![CDATA[BSSID: &lt;b&gt;42502_893_3434017&lt;/b&gt;&lt;br/&gt;Capabilities: &lt;b&gt;SECURITY&lt;/b&gt;&lt;br/&gt;Frequency: &lt;b&gt;0&lt;/b&gt;&lt;br/&gt;Timestamp: &lt;b&gt;1509528977000&lt;/b&gt;&lt;br/&gt;Date: &lt;b&gt;Data_classes.Time@1af6ecc&lt;/b&gt;]]&gt;</description>
+            <Point>
+                <coordinates>34.81389673,32.0095716</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>GOLAN T</name>
+            <open>1</open>
+            <description>&lt;![CDATA[BSSID: &lt;b&gt;42502_893_3434017&lt;/b&gt;&lt;br/&gt;Capabilities: &lt;b&gt;SECURITY&lt;/b&gt;&lt;br/&gt;Frequency: &lt;b&gt;0&lt;/b&gt;&lt;br/&gt;Timestamp: &lt;b&gt;1509528977000&lt;/b&gt;&lt;br/&gt;Date: &lt;b&gt;Data_classes.Time@5d6d97&lt;/b&gt;]]&gt;</description>
+            <Point>
+                <coordinates>34.81321819,32.00828529</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>MANOF50TOP</name>
+            <open>1</open>
+            <description>&lt;![CDATA[BSSID: &lt;b&gt;b8:55:10:4b:67:1c&lt;/b&gt;&lt;br/&gt;Capabilities: &lt;b&gt;SECURITY&lt;/b&gt;&lt;br/&gt;Frequency: &lt;b&gt;11&lt;/b&gt;&lt;br/&gt;Timestamp: &lt;b&gt;1509528977000&lt;/b&gt;&lt;br/&gt;Date: &lt;b&gt;Data_classes.Time@18e0d81&lt;/b&gt;]]&gt;</description>
+            <Point>
+                <coordinates>34.81239245,32.00704162</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>GOLAN T</name>
+            <open>1</open>
+            <description>&lt;![CDATA[BSSID: &lt;b&gt;42502_901_3429919&lt;/b&gt;&lt;br/&gt;Capabilities: &lt;b&gt;SECURITY&lt;/b&gt;&lt;br/&gt;Frequency: &lt;b&gt;0&lt;/b&gt;&lt;br/&gt;Timestamp: &lt;b&gt;1509528977000&lt;/b&gt;&lt;br/&gt;Date: &lt;b&gt;Data_classes.Time@1221be2&lt;/b&gt;]]&gt;</description>
+            <Point>
+                <coordinates>34.81172113,32.0062083</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>MANOF50TOP</name>
+            <open>1</open>
+            <description>&lt;![CDATA[BSSID: &lt;b&gt;b8:55:10:4b:67:1c&lt;/b&gt;&lt;br/&gt;Capabilities: &lt;b&gt;SECURITY&lt;/b&gt;&lt;br/&gt;Frequency: &lt;b&gt;11&lt;/b&gt;&lt;br/&gt;Timestamp: &lt;b&gt;1509528977000&lt;/b&gt;&lt;br/&gt;Date: &lt;b&gt;Data_classes.Time@17dca04&lt;/b&gt;]]&gt;</description>
+            <Point>
+                <coordinates>34.81137476,32.00583036</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>NIPPON_0381</name>
+            <open>1</open>
+            <description>&lt;![CDATA[BSSID: &lt;b&gt;08:97:58:32:61:6e&lt;/b&gt;&lt;br/&gt;Capabilities: &lt;b&gt;SECURITY&lt;/b&gt;&lt;br/&gt;Frequency: &lt;b&gt;4&lt;/b&gt;&lt;br/&gt;Timestamp: &lt;b&gt;1509528977000&lt;/b&gt;&lt;br/&gt;Date: &lt;b&gt;Data_classes.Time@8938a9&lt;/b&gt;]]&gt;</description>
+            <Point>
+                <coordinates>34.81098752,32.00545973</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>GOLAN T</name>
+            <open>1</open>
+            <description>&lt;![CDATA[BSSID: &lt;b&gt;42502_901_3429919&lt;/b&gt;&lt;br/&gt;Capabilities: &lt;b&gt;SECURITY&lt;/b&gt;&lt;br/&gt;Frequency: &lt;b&gt;0&lt;/b&gt;&lt;br/&gt;Timestamp: &lt;b&gt;1509528977000&lt;/b&gt;&lt;br/&gt;Date: &lt;b&gt;Data_classes.Time@1b8d17c&lt;/b&gt;]]&gt;</description>
+            <Point>
+                <coordinates>34.81064019,32.00504202</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>NIPPON_0381</name>
+            <open>1</open>
+            <description>&lt;![CDATA[BSSID: &lt;b&gt;08:97:58:32:61:6e&lt;/b&gt;&lt;br/&gt;Capabilities: &lt;b&gt;SECURITY&lt;/b&gt;&lt;br/&gt;Frequency: &lt;b&gt;4&lt;/b&gt;&lt;br/&gt;Timestamp: &lt;b&gt;1509528977000&lt;/b&gt;&lt;br/&gt;Date: &lt;b&gt;Data_classes.Time@6433a2&lt;/b&gt;]]&gt;</description>
+            <Point>
+                <coordinates>34.81003606,32.00427103</coordinates>
+            </Point>
+        </Placemark>
+    </Document>
+</kml>
