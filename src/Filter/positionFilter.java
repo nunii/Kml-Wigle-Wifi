@@ -12,11 +12,9 @@ public class positionFilter implements Filter {
 	}
 
 	public boolean criterion(Sample samp) {
-		System.out.println(samp.getPosition().toString());
 		return this.test(samp.getPosition());
 	}
 	public boolean test(Position other) {
-		System.out.println(other.dist2D(pos));
 		return other.dist2D(pos)<=_radius;
 	}	
 	

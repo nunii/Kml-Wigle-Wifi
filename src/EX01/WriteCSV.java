@@ -8,11 +8,8 @@ import java.util.ArrayList;
 public class WriteCSV {
 	public static ArrayList<String> ListToWrite;
 	//method that write the summarize csv file of the directory
-		public WriteCSV(ArrayList<String> list){
+		public static void Write(ArrayList<String> list){
 			ListToWrite = list;
-		}
-		
-		public void write(){
 			int q=0;
 			try {
 				String str;

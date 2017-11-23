@@ -50,7 +50,7 @@ public class Position {
 	 * @author BarJan
 	 */
 	public double dist2D(Position p){
-		double R = 6371*1000; // metres 
+		double R = 6371*1000; // meters 
 		double L1 = Math.toRadians(LAT);
 		double L2 = Math.toRadians(p.getLAT());
 		double lon1 = LON;

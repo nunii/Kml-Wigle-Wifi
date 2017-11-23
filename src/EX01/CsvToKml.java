@@ -12,7 +12,6 @@ import java.util.Scanner;
 
 import Data_classes.Samples;
 import de.micromata.opengis.kml.v_2_2_0.*;
-import de.micromata.opengis.kml.*;
 
 
 
@@ -163,4 +162,3 @@ public class CsvToKml {
 	}
 
 }
-//C:\\Users\\Bar&Almog\\Desktop\\matala00\\newCSV.csv
