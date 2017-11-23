@@ -6,13 +6,19 @@ import java.io.IOException;
 
 public class ReadCSV {
 	
+	/**
+	 * @author Bar Janach, Amit nuni.
+	 * This function enters the csv file into a matrix.
+	 * @param fileName
+	 * @return
+	 */
 	public static String[][] CSVtoMatrix(String fileName){
 		int raws, lines;
 		raws = 11;
 		lines = LCtr(fileName);
 		String[][] mtx = new String[lines][raws];
 		
-		//enter the file to matrix
+		
 		try {
 			FileReader fr = new FileReader(fileName);
 			BufferedReader br = new BufferedReader(fr);
@@ -33,7 +39,11 @@ public class ReadCSV {
 		return mtx;
 	}
 	
-	//returns sum of lines in the file
+	/**
+	 * 
+	 * @param fileName
+	 * @return sum of lines in the file
+	 */
 		private static int LCtr(String fileName){
 			int lines = 0;
 			try {

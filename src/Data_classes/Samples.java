@@ -10,10 +10,18 @@ import Filter.Filter;
 
 
 public class Samples {
+	/**
+	 * @author Bar Janach, Amit Nuni.
+	 * This class is taking a given CSV file and enters each line into another cell at an ArrayList.
+	 */
 
 	private String FileName;
 	private ArrayList<Sample> file;
 
+	/**
+	 * the constructor.
+	 * @param FileName
+	 */
 	public Samples(String FileName){
 		file = new ArrayList<>();
 		try {
@@ -46,6 +54,12 @@ public class Samples {
 	public void add(Sample s){
 		file.add(s);
 	}
+	
+	/**
+	 * This function makes a filtered Samples.
+	 * @param f 
+	 * @return a filtered Samples
+	 */
 	
 	public Samples Filter(Filter f){
 		Samples s = new Samples();

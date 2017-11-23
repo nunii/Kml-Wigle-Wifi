@@ -3,12 +3,31 @@ package Data_classes;
 import java.util.Deque;
 
 public class Position {
+	/**
+	 * @author Bar Janach, Amit Nuni.
+	 * This class represents the position of a recorded wifi signal.
+	 * The position is determined by latitude, longitude, altitude.
+	 */
 	private double LAT,LON,ALT=0;
+	
+	/**
+	 * This is the constructor
+	 * @param lat Latitude
+	 * @param lon Longitude
+	 * @param alt Altitude
+	 */
+	
 	public Position(String lat, String lon, String alt){
 		LAT = Double.parseDouble(lat);
 		LON = Double.parseDouble(lon);
 		ALT = Double.parseDouble(alt);
 	}
+	
+	/**
+	 * This is a constructor without Altitude.
+	 * @param lon
+	 * @param lat
+	 */
 	public Position(String lon, String lat){
 		LAT = Double.parseDouble(lat);
 		LON = Double.parseDouble(lon);
@@ -29,7 +48,7 @@ public class Position {
 	public double getALT(){
 		return ALT;
 	}
-	
+
 	public String toString(){
 		return LON+","+LAT;
 	}
@@ -38,6 +57,8 @@ public class Position {
 		return(p1.getLAT()==this.getLAT()&&p1.getLON()==this.getLON()&&p1.getALT()==this.getALT());
 	}
 	/**
+	 * This function calculates the distance between two given points.
+	 * 
 	 * learned the calculating method and implementation from:
 	 *  https://www.movable-type.co.uk/scripts/latlong.html
 	 * @param p
@@ -47,7 +68,6 @@ public class Position {
 	 * L2 = parameter's latitude
 	 * dL = latitudes delta
 	 * dG = longitudes delta
-	 * @author BarJan
 	 */
 	public double dist2D(Position p){
 		double R = 6371*1000; // meters 
@@ -55,7 +75,7 @@ public class Position {
 		double L2 = Math.toRadians(p.getLAT());
 		double lon1 = LON;
 		double lon2 = p.getLON();		
-		
+
 		double dL = Math.toRadians(p.getLAT()-LAT);
 		double dG = Math.toRadians(lon2-lon1);
 

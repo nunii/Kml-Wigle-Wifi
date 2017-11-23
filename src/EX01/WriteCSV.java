@@ -7,7 +7,10 @@ import java.util.ArrayList;
 
 public class WriteCSV {
 	public static ArrayList<String> ListToWrite;
-	//method that write the summarize csv file of the directory
+	/**
+	 * Method that writes the summarize csv file of the directory
+	 * @param list
+	 */
 		public static void Write(ArrayList<String> list){
 			ListToWrite = list;
 			int q=0;

@@ -8,6 +8,10 @@ import java.text.SimpleDateFormat;
 import Data_classes.Sample;
 
 public class timeFilter implements Filter{
+	/**
+	 * @author Bar Janach, Amit Nuni
+	 * This class is used to to filter the file by time.
+	 */
 	private DateFormat df;
 	private Date startTime;
 	private Date endTime;

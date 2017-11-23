@@ -4,6 +4,10 @@ import Data_classes.Position;
 import Data_classes.Sample;
 
 public class positionFilter implements Filter {
+	/**
+	 * @author Bar Janach, Amit Nuni
+	 * This class is used to to filter the file by position.
+	 */
 	private Position pos;
 	private double _radius;
 	public positionFilter(Position pos,double rad){

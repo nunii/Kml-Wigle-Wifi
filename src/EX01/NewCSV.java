@@ -8,6 +8,11 @@ import java.util.ArrayList;
 
 
 public class NewCSV {
+	
+	/**
+	 * @author Bar Janach, Amit Nuni.
+	 * This class functions lets u make a new CSV file by filtering 10best wifi signals.
+	 */
 
 	static ArrayList<String> FinalFile = new ArrayList<>();
 	
@@ -19,7 +24,10 @@ public class NewCSV {
 		WriteCSV.Write(FinalFile);
 	}
 	
-	//take only the relevant sample lines into a new List-matrix
+	/**
+	 * take only the relevant sample lines into a new Sample-matrix
+	 * @param mtx
+	 */
 	private static void Best10(String[][] mtx)	{
 		if(mtx == null)
 			return;
@@ -85,7 +93,13 @@ public class NewCSV {
 	}
 
 	
-// returns the index of max negative int
+/**
+ *  returns the index of max negative int
+ * @param arr
+ * @param l
+ * @param r
+ * @return
+ */
 	private static int FindMax(int[] arr, int l, int r){
 		int maxind;
 		while(arr[l]==1)
@@ -100,7 +114,11 @@ public class NewCSV {
 
 
 
-	// returns array of relevant csv files to work with
+	/**
+	 *  returns array of relevant csv files to work with
+	 * @param s
+	 * @return
+	 */
 	public static File[] getDir(String s){
 		File folder = new File(s);
 		File[] listOfFiles = folder.listFiles();
@@ -120,7 +138,9 @@ public class NewCSV {
 		}	
 		return ListOfGoods;
 	}
-
+/**
+ * Asks for a path to directory and starts activating the other functions of this class.
+ */
 	public static void start() {
 		Scanner reader = new Scanner(System.in);
 		System.out.println("Insert path to direcory: ");

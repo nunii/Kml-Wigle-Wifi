@@ -7,6 +7,12 @@ import Data_classes.Samples;
 import de.micromata.opengis.kml.v_2_2_0.*;
 
 public class WriteToKml {
+	/**
+	 * This class writes a kml file.
+	 * taken from:
+	 * https://labs.micromata.de/projects/jak/quickstart.html
+	 * 
+	 */
 	private Samples samples;
 	private Kml kml; 
 	

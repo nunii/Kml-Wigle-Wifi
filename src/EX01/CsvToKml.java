@@ -16,6 +16,12 @@ import de.micromata.opengis.kml.v_2_2_0.*;
 
 
 public class CsvToKml {
+	
+	/**
+	 * @author Bar Janach, Amit Nuni.
+	 * This class is used for taking an existing CSV file and making a new KML file out of it.
+	 */
+	
 	private File csv;
 	private Samples samples;
 	private final Kml kml = new Kml();
@@ -25,6 +31,11 @@ public class CsvToKml {
 		samples = new Samples(csv.getPath());
 	}
 
+	/**
+	 * This function filters the 10 highest wifi signals at the same time.
+	 * As we most likely get more than 10 wifi signals at the same time, we were asked to take the 10 with the highest signal.
+	 * 
+	 */
 	public void CreateByBest(){
 		int ind = 1;
 		ArrayList<String> str = new ArrayList<>();
@@ -63,51 +74,7 @@ public class CsvToKml {
 		WTK(str);
 	}
 
-	public void CreateByNetName(String name){
-
-		int ind=1;
-		if(!samples.contains(name)){
-			System.out.println("Net name not found");
-			return;
-		}
-		ArrayList<String> str = new ArrayList<>();
-		try{
-			FileReader fr = new FileReader("C:\\Users\\Bar&Almog\\Desktop\\matala00\\KMLexam.kml");
-			BufferedReader br = new BufferedReader(fr);
-			for(int i=0;i<2;i++)
-				str.add(br.readLine());
-			while(ind<samples.length()){
-				try{
-					if(samples.getSample(ind).Contains(name)){
-						fr = new FileReader("C:\\Users\\Bar&Almog\\Desktop\\matala00\\KMLexam.kml");
-						br = new BufferedReader(fr);
-						for(int i=0;i<2;i++)
-							br.readLine();
-						str.add(br.readLine());
-						str.add(br.readLine().replaceAll("NAME", name));
-						str.add("<description><![CDATA[BSSID: <b>"+samples.getMac(ind, name)+"</b><br/>Capabilities: <b>SECURITY</b><br/>Frequency: <b>"+samples.getFreq(ind, name)+"</b><br/>Timestamp: <b>1509528977000</b><br/>Date: <b>"+samples.getDate(ind)+"</b>]]></description><styleUrl>#green</styleUrl>");
-						br.readLine();				
-						str.add(br.readLine());
-						str.add(br.readLine().replaceAll("LAT,LON",samples.getPoint(ind)));
-						str.add(br.readLine());
-					}
-				}
-				catch(ArrayIndexOutOfBoundsException ex) {
-				}
-				ind++;	
-			}
-			for(int i=0;i<2;i++)
-				str.add(br.readLine());	
-
-			br.close();
-			fr.close();
-		}
-		catch(IOException ex) {
-			System.out.print("Error reading file\n" + ex);
-			System.exit(2);
-		}
-		WTK(str,name);
-	}
+	
 
 	public static void WTK(ArrayList<String> s,String name){
 		int q=0;

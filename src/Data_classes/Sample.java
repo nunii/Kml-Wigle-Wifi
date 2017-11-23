@@ -1,11 +1,20 @@
 package Data_classes;
 
 public class Sample {
+	/**
+	 *  @author Bar Janach, Amit nuni.
+	 * This class takes one line from the CSV file, which is actually taking a one cell from the Samples ArrayList.
+	 */
+	
 	private String[] samp;
 	private Position pos;
 	private Time time;
 	private Wifi wifies; 
 	
+	/**
+	 * The constructor. Takes a Line from the CSV file which presented as "Sample", and divides the line into parameters.
+	 * @param s
+	 */
 	public Sample(String[] s){
 		samp = s;
 		time = new Time(s[1]);
