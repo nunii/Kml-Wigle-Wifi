@@ -1,4 +1,4 @@
-package EX01;
+package Data_classes;
 
 public class Time {
 

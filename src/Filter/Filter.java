@@ -1,5 +1,6 @@
-package EX01;
+package Filter;
 
+import Data_classes.Sample;
 
 public interface Filter {
 

@@ -1,26 +1,20 @@
-package EX01;
+package Data_classes;
 
 public class Sample {
 	private String[] samp;
 	private Position pos;
 	private Time time;
 	private Wifi wifies; 
+	
 	public Sample(String[] s){
 		samp = s;
 		time = new Time(s[1]);
 		pos = new Position(s[2],s[3],s[4]);
 		wifies = new Wifi(s);
-
 	}
 	
 	public boolean Contains(String s){
-		int ind = 0;
-		while(ind<samp.length){
-			if(samp[ind].equals(s))
-				return true;
-			ind++;
-		}
-		return false;
+		return wifies.Contains(s);
 	}
 	
 	public String getName(){
@@ -39,7 +33,7 @@ public class Sample {
 	}
 
 	public String getPoint(){
-		return samp[3]+","+samp[2];
+		return pos.toString();
 	}
 
 	public String getMac(){
@@ -59,7 +53,7 @@ public class Sample {
 	}
 
 	public String getDate(){
-		return samp[0];
+		return time.toString();
 	}
 
 	public Position getPosition() {

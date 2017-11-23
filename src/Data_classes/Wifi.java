@@ -1,4 +1,4 @@
-package EX01;
+package Data_classes;
 import java.util.Arrays;
 
 public class Wifi {
@@ -10,17 +10,18 @@ public class Wifi {
 		}
 	}
 	
+	
 	public String toString(){
 		return Arrays.toString(wifs);
 	}
 	
-	public boolean equals(String other){
+	public boolean Contains(String other){
 		int i=0;
-		while(!wifs[i].equals(other)){
+		while(i<wifs.length){
+			if(wifs[i].equals(other))
+				return true;
 			i++;
-			if(i==wifs.length)
-				return false;
 		}
-		return true;
+		return false;
 	}
 }
