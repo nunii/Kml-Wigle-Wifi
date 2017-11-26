@@ -11,7 +11,8 @@ public class NewCSV {
 	
 	/**
 	 * @author Bar Janach, Amit Nuni.
-	 * This class functions lets u make a new CSV file by filtering 10best wifi signals.
+	 * This class functions lets u make a new CSV file from an exported csv file from the app "WiGLE WiFi"
+	 * The class is doing it by filtering 10best wifi signals of each record.
 	 */
 
 	static ArrayList<String> FinalFile = new ArrayList<>();
@@ -25,7 +26,7 @@ public class NewCSV {
 	}
 	
 	/**
-	 * take only the relevant sample lines into a new Sample-matrix
+	 * Takes only the relevant sample lines into a new Sample-matrix
 	 * @param mtx
 	 */
 	private static void Best10(String[][] mtx)	{
@@ -94,11 +95,11 @@ public class NewCSV {
 
 	
 /**
- *  returns the index of max negative int
+ *  Returns the index of max negative int
  * @param arr
  * @param l
  * @param r
- * @return
+ * @return the index of max negative int
  */
 	private static int FindMax(int[] arr, int l, int r){
 		int maxind;
@@ -117,7 +118,7 @@ public class NewCSV {
 	/**
 	 *  returns array of relevant csv files to work with
 	 * @param s
-	 * @return
+	 * @return array of relevant csv files to work with
 	 */
 	public static File[] getDir(String s){
 		File folder = new File(s);
@@ -163,28 +164,5 @@ public class NewCSV {
 			reader.close();
 	}
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 

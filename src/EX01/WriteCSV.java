@@ -8,9 +8,12 @@ import java.util.ArrayList;
 public class WriteCSV {
 	public static ArrayList<String> ListToWrite;
 	/**
-	 * Method that writes the summarize csv file of the directory
+	 * Method that writes the summarize csv file of the directory.
+	 * Theres no Junit for this class, since the ArrayList is representing sorted data from a verified file.
 	 * @param list
 	 */
+	
+	
 		public static void Write(ArrayList<String> list){
 			ListToWrite = list;
 			int q=0;

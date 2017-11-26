@@ -2,7 +2,7 @@ package Data_classes;
 
 public class Sample {
 	/**
-	 *  @author Bar Janach, Amit nuni.
+	 *  @author Bar Janah, Amit nuni.
 	 * This class takes one line from the CSV file, which is actually taking a one cell from the Samples ArrayList.
 	 */
 	
@@ -17,7 +17,7 @@ public class Sample {
 	 */
 	public Sample(String[] s){
 		samp = s;
-		time = new Time(s[1]);
+		time = new Time(s[0]);
 		pos = new Position(s[2],s[3],s[4]);
 		wifies = new Wifi(s);
 	}
@@ -62,6 +62,7 @@ public class Sample {
 	}
 
 	public String getDate(){
+		System.out.println(time.toString());
 		return time.toString();
 	}
 

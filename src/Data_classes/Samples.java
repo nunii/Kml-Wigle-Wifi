@@ -12,7 +12,10 @@ import Filter.Filter;
 public class Samples {
 	/**
 	 * @author Bar Janach, Amit Nuni.
-	 * This class is taking a given CSV file and enters each line into another cell at an ArrayList.
+	 * This class is taking a given CSV file and
+	 * enters each line f the file into a Sample object which is another cell at an ArrayList<Sample>.
+	 * the constructor receives String which is the path to csv file
+	 * this means the Samples obj is a matrix of the csv file
 	 */
 
 	private String FileName;

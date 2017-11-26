@@ -10,4 +10,8 @@ public class Time {
 	public Time(String s){
 		time = s;
 	}
+	
+	public String toString() {
+		return time;
+	}
 }

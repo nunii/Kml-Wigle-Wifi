@@ -28,7 +28,7 @@ public class Position {
 	 * @param lon
 	 * @param lat
 	 */
-	public Position(String lon, String lat){
+	public Position(String lat, String lon){
 		LAT = Double.parseDouble(lat);
 		LON = Double.parseDouble(lon);
 		ALT = 0;
@@ -70,7 +70,7 @@ public class Position {
 	 * dG = longitudes delta
 	 */
 	public double dist2D(Position p){
-		double R = 6371*1000; // meters 
+		double R = 6371; // meters 
 		double L1 = Math.toRadians(LAT);
 		double L2 = Math.toRadians(p.getLAT());
 		double lon1 = LON;

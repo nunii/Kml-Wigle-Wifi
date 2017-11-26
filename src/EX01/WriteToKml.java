@@ -9,31 +9,32 @@ import de.micromata.opengis.kml.v_2_2_0.*;
 public class WriteToKml {
 	/**
 	 * This class writes a kml file.
+	 * @param Samples, String
+	 * recieves Sampled object and a String,
+	 * and writing the data from the Samples object to a kml file (using the JAK jars from the below link)
 	 * taken from:
 	 * https://labs.micromata.de/projects/jak/quickstart.html
 	 * 
 	 */
-	private Samples samples;
-	private Kml kml; 
+	private static Samples samples;
+	private static Kml kml; 
 	
-	public WriteToKml(Samples samp){
+	public static void write(Samples samp,String s){
+		if(samp.length()==0)
+			return;
+		//C:\\Users\\abc\\git\\Kml-WiGLE-WiFi
 		samples = samp;
-	}
-	
-	public void write(){
 		kml = new Kml();
-		kml.createAndSetPlacemark()
-		   .withName(samples.getName(0)).withOpen(Boolean.TRUE).withDescription("<![CDATA[BSSID: <b>"+samples.getMac(0)+"</b><br/>Capabilities: <b>SECURITY</b><br/>Frequency: <b>"+samples.getFreq(0)+"</b><br/>Timestamp: <b>1509528977000</b><br/>Date: <b>"+samples.getDate(0)+"</b>]]>")
-		   .createAndSetPoint().addToCoordinates(samples.getPoint(0));
 		Document document = kml.createAndSetDocument();
-		for (int i = 1; i < samples.length(); i++) {
-			document.createAndAddPlacemark()
-			   .withName(samples.getName(i)).withOpen(Boolean.TRUE).withDescription("<![CDATA[BSSID: <b>"+samples.getMac(i)+"</b><br/>Capabilities: <b>SECURITY</b><br/>Frequency: <b>"+samples.getFreq(i)+"</b><br/>Timestamp: <b>1509528977000</b><br/>Date: <b>"+samples.getDate(i)+"</b>]]>")
+		for (int i = 0; i < samples.length(); i++) {
+				Placemark place = document.createAndAddPlacemark().withName(samples.getName(i)).withOpen(Boolean.TRUE);
+				place.withDescription("<![CDATA[BSSID: <b>"+samples.getMac(i)+"</b><br/>Capabilities: <b>SECURITY</b><br/>Frequency: <b>"+samples.getFreq(i)+"</b><br/>Timestamp: <b>1509528977000</b><br/>Date: <b>"+samples.getDate(i)+"</b>]]>")
 			   .createAndSetPoint().addToCoordinates(samples.getPoint(i));
+				place.createAndSetTimeStamp().withWhen(samples.getDate(i));
 		}
 		kml.setFeature(document);
 		try {
-			kml.marshal(new File("HelloKml.kml"));
+			kml.marshal(new File(s));
 		} catch (FileNotFoundException e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
