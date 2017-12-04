@@ -19,7 +19,7 @@ public class WriteCSV {
 			int q=0;
 			try {
 				String str;
-				FileWriter fw = new FileWriter("newCSV.csv");
+				FileWriter fw = new FileWriter("C:\\EX01\\newCSV.csv");
 				PrintWriter outs = new PrintWriter(fw);
 				while(q<ListToWrite.size()){
 					str = ListToWrite.get(q);

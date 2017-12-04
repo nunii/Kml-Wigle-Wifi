@@ -14,4 +14,11 @@ public class Time {
 	public String toString() {
 		return time;
 	}
+	
+	public String getTimestamp() {
+		System.out.println(time);
+		String[] s = time.split(" ");
+		String str = s[0]+"T"+s[1]+"Z";
+		return str;
+	}
 }

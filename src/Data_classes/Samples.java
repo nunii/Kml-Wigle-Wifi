@@ -113,7 +113,11 @@ public class Samples {
 	public String getDate(int d){
 		return file.get(d).getDate();
 	}
-
+	
+	public String getTimestamp(int d) {
+		return file.get(d).getTimestamp();
+	}
+	
 	public int length(){
 		return file.size();
 	}

@@ -62,7 +62,6 @@ public class Sample {
 	}
 
 	public String getDate(){
-		System.out.println(time.toString());
 		return time.toString();
 	}
 
@@ -70,8 +69,8 @@ public class Sample {
 		return pos;
 	}
 	
-	public Time getTime() {
-		return time;
+	public String getTimestamp() {
+		return time.getTimestamp();
 	}
 	public Wifi getWifi() {
 		return wifies;
