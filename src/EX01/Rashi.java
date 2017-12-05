@@ -12,17 +12,17 @@ public class Rashi {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		//32.17245298	34.80157306
-		NewCSV.start();
-		File file = new File("C:\\EX01\\newCSV.csv");
+		String path = NewCSV.start();
+		File file = new File(path+"newCSV.csv");
 		Samples samps = new Samples(file.getPath());
-		WriteToKml.write(samps, "C:\\EX01\\NoFilt.kml");
-		Position pos = new Position("32.17245298","34.80157306","37");
+		WriteToKml.write(samps, path+"NoFilt.kml");
+		Position pos = new Position(samps.getPos(830));
 		Filter posfilt = new positionFilter(pos,0.5);
-		WriteToKml.write(samps.Filter(posfilt),"C:\\EX01\\PosFilt.kml");
-		Time STtime = new Time("2017-10-27  16:22:02");
-		Time ENdtime = new Time("2017-10-27  16:30:00");
+		WriteToKml.write(samps.Filter(posfilt),path+"PosFilt.kml");
+		Time STtime = new Time("2017-11-05  14:00:02");
+		Time ENdtime = new Time("2017-11-05  14:34:10");
 		Filter timfilt = new timeFilter(STtime.toString(),ENdtime.toString());
-		WriteToKml.write(samps.Filter(timfilt), "C:\\EX01\\TimeFilt.kml");
+		WriteToKml.write(samps.Filter(timfilt), path+"TimeFilt.kml");
 	}
 
 }

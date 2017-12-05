@@ -19,7 +19,7 @@ public class WriteToKml {
 	private static Samples samples;
 	private static Kml kml; 
 	
-	public static void write(Samples samp,String s){
+	public static void write(Samples samp, String s){
 		if(samp.length()==0)
 			return;
 		//C:\\Users\\abc\\git\\Kml-WiGLE-WiFi
@@ -29,7 +29,7 @@ public class WriteToKml {
 		for (int i = 0; i < samples.length(); i++) {
 				Placemark place = document.createAndAddPlacemark().withName(samples.getName(i)).withOpen(Boolean.TRUE);
 				place.withDescription("<![CDATA[BSSID: <b>"+samples.getMac(i)+"</b><br/>Capabilities: <b>SECURITY</b><br/>Frequency: <b>"+samples.getFreq(i)+"</b><br/>Timestamp: <b>1509528977000</b><br/>Date: <b>"+samples.getDate(i)+"</b>]]>")
-			   .createAndSetPoint().addToCoordinates(samples.getPoint(i));
+			   .createAndSetPoint().addToCoordinates(samples.getPos(i).toString());
 				place.createAndSetTimeStamp().withWhen(samples.getTimestamp(i));
 		}
 		kml.setFeature(document);

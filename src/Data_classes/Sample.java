@@ -41,8 +41,8 @@ public class Sample {
 		return ind;
 	}
 
-	public String getPoint(){
-		return pos.toString();
+	public Position getPos(){
+		return pos;
 	}
 
 	public String getMac(){

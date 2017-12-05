@@ -91,8 +91,8 @@ public class Samples {
 		return file.get(sample).getIndex(name);
 	}
 	
-	public String getPoint(int d){
-		return file.get(d).getPoint();
+	public Position getPos(int d){
+		return file.get(d).getPos();
 	}
 	
 	public String getMac(int d){

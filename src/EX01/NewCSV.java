@@ -17,12 +17,12 @@ public class NewCSV {
 
 	static ArrayList<String> FinalFile = new ArrayList<>();
 	
-	private static void DirToCsv(File[] fileslist){
+	private static void DirToCsv(File[] fileslist, String s){
 		FinalFile.add("Time,ID,Lat,Lon,Alt,#WiFi networks,SSID1,MAC1,Frequncy1,Signal1,SSID2,MAC2,Frequncy2,Signal2,SSID3,MAC3,Frequncy3,Signal3,SSID4,MAC4,Frequncy4,Signal4,SSID5,MAC5,Frequncy5,Signal5,SSID6,MAC6,Frequncy6,Signal6,SSID7,MAC7,Frequncy7,Signal7,SSID8,MAC8,Frequncy8,Signal8,SSID9,MAC9,Frequncy9,Signal9,SSID10,MAC10,Frequncy10,Signal10");
 		for(File i:fileslist){
 			Best10(ReadCSV.CSVtoMatrix(i.getPath()));
 		}
-		WriteCSV.Write(FinalFile);
+		WriteCSV.Write(FinalFile, s);
 	}
 	
 	/**
@@ -142,10 +142,12 @@ public class NewCSV {
 /**
  * Asks for a path to directory and starts activating the other functions of this class.
  */
-	public static void start() {
+	public static String start() {
 		Scanner reader = new Scanner(System.in);
 		System.out.println("Insert path to direcory: ");
 		String s = (String)reader.nextLine();
+		if(!s.endsWith("\\"))
+			s+="\\";
 		File[] listOfFiles = new File[1];
 		boolean bool = true;
 		while(bool){
@@ -160,8 +162,10 @@ public class NewCSV {
 				bool = true;
 			}
 		}
-			DirToCsv(listOfFiles);
+			DirToCsv(listOfFiles, s);
 			reader.close();
+			
+			return s;
 	}
 }
 
