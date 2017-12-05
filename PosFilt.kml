@@ -1,0 +1,313 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:xal="urn:oasis:names:tc:ciq:xsdschema:xAL:2.0">
+    <Document>
+        <Placemark>
+            <name>Shai Katzir Work</name>
+            <open>1</open>
+            <description>&lt;![CDATA[BSSID: &lt;b&gt;60:e3:ac:db:7d:ec&lt;/b&gt;&lt;br/&gt;Capabilities: &lt;b&gt;SECURITY&lt;/b&gt;&lt;br/&gt;Frequency: &lt;b&gt;4&lt;/b&gt;&lt;br/&gt;Timestamp: &lt;b&gt;1509528977000&lt;/b&gt;&lt;br/&gt;Date: &lt;b&gt;2017-11-05 14:39:39&lt;/b&gt;]]&gt;</description>
+            <TimeStamp>
+                <when>2017-11-05T14:39:39Z</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>34.94776711,32.15144287</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>nael</name>
+            <open>1</open>
+            <description>&lt;![CDATA[BSSID: &lt;b&gt;48:ee:0c:3a:38:03&lt;/b&gt;&lt;br/&gt;Capabilities: &lt;b&gt;SECURITY&lt;/b&gt;&lt;br/&gt;Frequency: &lt;b&gt;9&lt;/b&gt;&lt;br/&gt;Timestamp: &lt;b&gt;1509528977000&lt;/b&gt;&lt;br/&gt;Date: &lt;b&gt;2017-11-05 14:39:41&lt;/b&gt;]]&gt;</description>
+            <TimeStamp>
+                <when>2017-11-05T14:39:41Z</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>34.94777886,32.1510319</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>NIPPON_5834</name>
+            <open>1</open>
+            <description>&lt;![CDATA[BSSID: &lt;b&gt;08:97:58:33:31:ae&lt;/b&gt;&lt;br/&gt;Capabilities: &lt;b&gt;SECURITY&lt;/b&gt;&lt;br/&gt;Frequency: &lt;b&gt;2&lt;/b&gt;&lt;br/&gt;Timestamp: &lt;b&gt;1509528977000&lt;/b&gt;&lt;br/&gt;Date: &lt;b&gt;2017-11-05 14:39:43&lt;/b&gt;]]&gt;</description>
+            <TimeStamp>
+                <when>2017-11-05T14:39:43Z</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>34.94776764,32.15064408</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Shai Katzir Work</name>
+            <open>1</open>
+            <description>&lt;![CDATA[BSSID: &lt;b&gt;60:e3:ac:db:7d:ec&lt;/b&gt;&lt;br/&gt;Capabilities: &lt;b&gt;SECURITY&lt;/b&gt;&lt;br/&gt;Frequency: &lt;b&gt;4&lt;/b&gt;&lt;br/&gt;Timestamp: &lt;b&gt;1509528977000&lt;/b&gt;&lt;br/&gt;Date: &lt;b&gt;2017-11-05 14:39:45&lt;/b&gt;]]&gt;</description>
+            <TimeStamp>
+                <when>2017-11-05T14:39:45Z</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>34.94775455,32.1502645</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>GOLAN T</name>
+            <open>1</open>
+            <description>&lt;![CDATA[BSSID: &lt;b&gt;42502_811_3956257&lt;/b&gt;&lt;br/&gt;Capabilities: &lt;b&gt;SECURITY&lt;/b&gt;&lt;br/&gt;Frequency: &lt;b&gt;0&lt;/b&gt;&lt;br/&gt;Timestamp: &lt;b&gt;1509528977000&lt;/b&gt;&lt;br/&gt;Date: &lt;b&gt;2017-11-05 14:39:47&lt;/b&gt;]]&gt;</description>
+            <TimeStamp>
+                <when>2017-11-05T14:39:47Z</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>34.94771895,32.14989056</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>NIPPON_5834</name>
+            <open>1</open>
+            <description>&lt;![CDATA[BSSID: &lt;b&gt;08:97:58:33:31:ae&lt;/b&gt;&lt;br/&gt;Capabilities: &lt;b&gt;SECURITY&lt;/b&gt;&lt;br/&gt;Frequency: &lt;b&gt;2&lt;/b&gt;&lt;br/&gt;Timestamp: &lt;b&gt;1509528977000&lt;/b&gt;&lt;br/&gt;Date: &lt;b&gt;2017-11-05 14:39:49&lt;/b&gt;]]&gt;</description>
+            <TimeStamp>
+                <when>2017-11-05T14:39:49Z</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>34.9476567,32.14959032</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Shai Katzir Work</name>
+            <open>1</open>
+            <description>&lt;![CDATA[BSSID: &lt;b&gt;60:e3:ac:db:7d:ec&lt;/b&gt;&lt;br/&gt;Capabilities: &lt;b&gt;SECURITY&lt;/b&gt;&lt;br/&gt;Frequency: &lt;b&gt;4&lt;/b&gt;&lt;br/&gt;Timestamp: &lt;b&gt;1509528977000&lt;/b&gt;&lt;br/&gt;Date: &lt;b&gt;2017-11-05 14:39:53&lt;/b&gt;]]&gt;</description>
+            <TimeStamp>
+                <when>2017-11-05T14:39:53Z</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>34.94754397,32.14915178</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>YC</name>
+            <open>1</open>
+            <description>&lt;![CDATA[BSSID: &lt;b&gt;2e:0e:3d:77:74:16&lt;/b&gt;&lt;br/&gt;Capabilities: &lt;b&gt;SECURITY&lt;/b&gt;&lt;br/&gt;Frequency: &lt;b&gt;11&lt;/b&gt;&lt;br/&gt;Timestamp: &lt;b&gt;1509528977000&lt;/b&gt;&lt;br/&gt;Date: &lt;b&gt;2017-11-05 14:39:55&lt;/b&gt;]]&gt;</description>
+            <TimeStamp>
+                <when>2017-11-05T14:39:55Z</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>34.94748114,32.14900367</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>GOLAN T</name>
+            <open>1</open>
+            <description>&lt;![CDATA[BSSID: &lt;b&gt;42502_811_3956257&lt;/b&gt;&lt;br/&gt;Capabilities: &lt;b&gt;SECURITY&lt;/b&gt;&lt;br/&gt;Frequency: &lt;b&gt;0&lt;/b&gt;&lt;br/&gt;Timestamp: &lt;b&gt;1509528977000&lt;/b&gt;&lt;br/&gt;Date: &lt;b&gt;2017-11-05 14:39:57&lt;/b&gt;]]&gt;</description>
+            <TimeStamp>
+                <when>2017-11-05T14:39:57Z</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>34.9474336,32.14888479</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Shai Katzir Work</name>
+            <open>1</open>
+            <description>&lt;![CDATA[BSSID: &lt;b&gt;60:e3:ac:db:7d:ec&lt;/b&gt;&lt;br/&gt;Capabilities: &lt;b&gt;SECURITY&lt;/b&gt;&lt;br/&gt;Frequency: &lt;b&gt;4&lt;/b&gt;&lt;br/&gt;Timestamp: &lt;b&gt;1509528977000&lt;/b&gt;&lt;br/&gt;Date: &lt;b&gt;2017-11-05 14:39:59&lt;/b&gt;]]&gt;</description>
+            <TimeStamp>
+                <when>2017-11-05T14:39:59Z</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>34.94740154,32.14881733</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Shai Katzir Work</name>
+            <open>1</open>
+            <description>&lt;![CDATA[BSSID: &lt;b&gt;60:e3:ac:db:7d:ec&lt;/b&gt;&lt;br/&gt;Capabilities: &lt;b&gt;SECURITY&lt;/b&gt;&lt;br/&gt;Frequency: &lt;b&gt;4&lt;/b&gt;&lt;br/&gt;Timestamp: &lt;b&gt;1509528977000&lt;/b&gt;&lt;br/&gt;Date: &lt;b&gt;2017-11-05 14:40:01&lt;/b&gt;]]&gt;</description>
+            <TimeStamp>
+                <when>2017-11-05T14:40:01Z</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>34.94737422,32.14876145</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Shai Katzir Work</name>
+            <open>1</open>
+            <description>&lt;![CDATA[BSSID: &lt;b&gt;60:e3:ac:db:7d:ec&lt;/b&gt;&lt;br/&gt;Capabilities: &lt;b&gt;SECURITY&lt;/b&gt;&lt;br/&gt;Frequency: &lt;b&gt;4&lt;/b&gt;&lt;br/&gt;Timestamp: &lt;b&gt;1509528977000&lt;/b&gt;&lt;br/&gt;Date: &lt;b&gt;2017-11-05 14:40:12&lt;/b&gt;]]&gt;</description>
+            <TimeStamp>
+                <when>2017-11-05T14:40:12Z</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>34.9473555,32.14870417</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Shai Katzir Work</name>
+            <open>1</open>
+            <description>&lt;![CDATA[BSSID: &lt;b&gt;60:e3:ac:db:7d:ec&lt;/b&gt;&lt;br/&gt;Capabilities: &lt;b&gt;SECURITY&lt;/b&gt;&lt;br/&gt;Frequency: &lt;b&gt;4&lt;/b&gt;&lt;br/&gt;Timestamp: &lt;b&gt;1509528977000&lt;/b&gt;&lt;br/&gt;Date: &lt;b&gt;2017-11-05 14:40:27&lt;/b&gt;]]&gt;</description>
+            <TimeStamp>
+                <when>2017-11-05T14:40:27Z</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>34.94735688,32.14870052</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>GOLAN T</name>
+            <open>1</open>
+            <description>&lt;![CDATA[BSSID: &lt;b&gt;42502_811_3956257&lt;/b&gt;&lt;br/&gt;Capabilities: &lt;b&gt;SECURITY&lt;/b&gt;&lt;br/&gt;Frequency: &lt;b&gt;0&lt;/b&gt;&lt;br/&gt;Timestamp: &lt;b&gt;1509528977000&lt;/b&gt;&lt;br/&gt;Date: &lt;b&gt;2017-11-05 14:40:45&lt;/b&gt;]]&gt;</description>
+            <TimeStamp>
+                <when>2017-11-05T14:40:45Z</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>34.94695616,32.14777213</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Shai Katzir Work</name>
+            <open>1</open>
+            <description>&lt;![CDATA[BSSID: &lt;b&gt;60:e3:ac:db:7d:ec&lt;/b&gt;&lt;br/&gt;Capabilities: &lt;b&gt;SECURITY&lt;/b&gt;&lt;br/&gt;Frequency: &lt;b&gt;4&lt;/b&gt;&lt;br/&gt;Timestamp: &lt;b&gt;1509528977000&lt;/b&gt;&lt;br/&gt;Date: &lt;b&gt;2017-11-05 14:40:47&lt;/b&gt;]]&gt;</description>
+            <TimeStamp>
+                <when>2017-11-05T14:40:47Z</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>34.94686348,32.14758958</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Telenor 4G-5005</name>
+            <open>1</open>
+            <description>&lt;![CDATA[BSSID: &lt;b&gt;44:c3:46:fd:50:05&lt;/b&gt;&lt;br/&gt;Capabilities: &lt;b&gt;SECURITY&lt;/b&gt;&lt;br/&gt;Frequency: &lt;b&gt;1&lt;/b&gt;&lt;br/&gt;Timestamp: &lt;b&gt;1509528977000&lt;/b&gt;&lt;br/&gt;Date: &lt;b&gt;2017-11-05 14:40:57&lt;/b&gt;]]&gt;</description>
+            <TimeStamp>
+                <when>2017-11-05T14:40:57Z</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>34.94592301,32.1470787</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Shai Katzir Work</name>
+            <open>1</open>
+            <description>&lt;![CDATA[BSSID: &lt;b&gt;60:e3:ac:db:7d:ec&lt;/b&gt;&lt;br/&gt;Capabilities: &lt;b&gt;SECURITY&lt;/b&gt;&lt;br/&gt;Frequency: &lt;b&gt;4&lt;/b&gt;&lt;br/&gt;Timestamp: &lt;b&gt;1509528977000&lt;/b&gt;&lt;br/&gt;Date: &lt;b&gt;2017-11-05 14:40:59&lt;/b&gt;]]&gt;</description>
+            <TimeStamp>
+                <when>2017-11-05T14:40:59Z</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>34.94571047,32.14717619</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Hagor-1</name>
+            <open>1</open>
+            <description>&lt;![CDATA[BSSID: &lt;b&gt;00:18:25:16:c3:a0&lt;/b&gt;&lt;br/&gt;Capabilities: &lt;b&gt;SECURITY&lt;/b&gt;&lt;br/&gt;Frequency: &lt;b&gt;1&lt;/b&gt;&lt;br/&gt;Timestamp: &lt;b&gt;1509528977000&lt;/b&gt;&lt;br/&gt;Date: &lt;b&gt;2017-11-05 14:41:05&lt;/b&gt;]]&gt;</description>
+            <TimeStamp>
+                <when>2017-11-05T14:41:05Z</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>34.94557698,32.14773354</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Hagor-1</name>
+            <open>1</open>
+            <description>&lt;![CDATA[BSSID: &lt;b&gt;00:18:25:16:c3:a0&lt;/b&gt;&lt;br/&gt;Capabilities: &lt;b&gt;SECURITY&lt;/b&gt;&lt;br/&gt;Frequency: &lt;b&gt;1&lt;/b&gt;&lt;br/&gt;Timestamp: &lt;b&gt;1509528977000&lt;/b&gt;&lt;br/&gt;Date: &lt;b&gt;2017-11-05 14:41:15&lt;/b&gt;]]&gt;</description>
+            <TimeStamp>
+                <when>2017-11-05T14:41:15Z</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>34.94666409,32.14775441</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>GOLAN T</name>
+            <open>1</open>
+            <description>&lt;![CDATA[BSSID: &lt;b&gt;42502_811_3956257&lt;/b&gt;&lt;br/&gt;Capabilities: &lt;b&gt;SECURITY&lt;/b&gt;&lt;br/&gt;Frequency: &lt;b&gt;0&lt;/b&gt;&lt;br/&gt;Timestamp: &lt;b&gt;1509528977000&lt;/b&gt;&lt;br/&gt;Date: &lt;b&gt;2017-11-05 14:41:17&lt;/b&gt;]]&gt;</description>
+            <TimeStamp>
+                <when>2017-11-05T14:41:17Z</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>34.94692482,32.14758405</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Hagor-1</name>
+            <open>1</open>
+            <description>&lt;![CDATA[BSSID: &lt;b&gt;00:18:25:16:c3:a0&lt;/b&gt;&lt;br/&gt;Capabilities: &lt;b&gt;SECURITY&lt;/b&gt;&lt;br/&gt;Frequency: &lt;b&gt;1&lt;/b&gt;&lt;br/&gt;Timestamp: &lt;b&gt;1509528977000&lt;/b&gt;&lt;br/&gt;Date: &lt;b&gt;2017-11-05 14:41:23&lt;/b&gt;]]&gt;</description>
+            <TimeStamp>
+                <when>2017-11-05T14:41:23Z</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>34.94780852,32.14705755</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>GOLAN T</name>
+            <open>1</open>
+            <description>&lt;![CDATA[BSSID: &lt;b&gt;42502_811_3956257&lt;/b&gt;&lt;br/&gt;Capabilities: &lt;b&gt;SECURITY&lt;/b&gt;&lt;br/&gt;Frequency: &lt;b&gt;0&lt;/b&gt;&lt;br/&gt;Timestamp: &lt;b&gt;1509528977000&lt;/b&gt;&lt;br/&gt;Date: &lt;b&gt;2017-11-05 14:41:25&lt;/b&gt;]]&gt;</description>
+            <TimeStamp>
+                <when>2017-11-05T14:41:25Z</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>34.94814154,32.14685861</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Hagor-1</name>
+            <open>1</open>
+            <description>&lt;![CDATA[BSSID: &lt;b&gt;00:18:25:16:c3:a0&lt;/b&gt;&lt;br/&gt;Capabilities: &lt;b&gt;SECURITY&lt;/b&gt;&lt;br/&gt;Frequency: &lt;b&gt;1&lt;/b&gt;&lt;br/&gt;Timestamp: &lt;b&gt;1509528977000&lt;/b&gt;&lt;br/&gt;Date: &lt;b&gt;2017-11-05 14:41:27&lt;/b&gt;]]&gt;</description>
+            <TimeStamp>
+                <when>2017-11-05T14:41:27Z</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>34.94850014,32.14664691</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>BezeqFree</name>
+            <open>1</open>
+            <description>&lt;![CDATA[BSSID: &lt;b&gt;72:ee:0c:3d:9f:5d&lt;/b&gt;&lt;br/&gt;Capabilities: &lt;b&gt;SECURITY&lt;/b&gt;&lt;br/&gt;Frequency: &lt;b&gt;11&lt;/b&gt;&lt;br/&gt;Timestamp: &lt;b&gt;1509528977000&lt;/b&gt;&lt;br/&gt;Date: &lt;b&gt;2017-11-05 14:41:31&lt;/b&gt;]]&gt;</description>
+            <TimeStamp>
+                <when>2017-11-05T14:41:31Z</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>34.94929537,32.14616366</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Hagor-1</name>
+            <open>1</open>
+            <description>&lt;![CDATA[BSSID: &lt;b&gt;00:18:25:16:c3:a0&lt;/b&gt;&lt;br/&gt;Capabilities: &lt;b&gt;SECURITY&lt;/b&gt;&lt;br/&gt;Frequency: &lt;b&gt;1&lt;/b&gt;&lt;br/&gt;Timestamp: &lt;b&gt;1509528977000&lt;/b&gt;&lt;br/&gt;Date: &lt;b&gt;2017-11-05 14:41:33&lt;/b&gt;]]&gt;</description>
+            <TimeStamp>
+                <when>2017-11-05T14:41:33Z</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>34.94972433,32.14590386</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>adslfixlanova</name>
+            <open>1</open>
+            <description>&lt;![CDATA[BSSID: &lt;b&gt;48:ee:0c:3d:9f:5c&lt;/b&gt;&lt;br/&gt;Capabilities: &lt;b&gt;SECURITY&lt;/b&gt;&lt;br/&gt;Frequency: &lt;b&gt;11&lt;/b&gt;&lt;br/&gt;Timestamp: &lt;b&gt;1509528977000&lt;/b&gt;&lt;br/&gt;Date: &lt;b&gt;2017-11-05 14:41:37&lt;/b&gt;]]&gt;</description>
+            <TimeStamp>
+                <when>2017-11-05T14:41:37Z</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>34.95063147,32.14534858</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Hagor-1</name>
+            <open>1</open>
+            <description>&lt;![CDATA[BSSID: &lt;b&gt;00:18:25:16:c3:a0&lt;/b&gt;&lt;br/&gt;Capabilities: &lt;b&gt;SECURITY&lt;/b&gt;&lt;br/&gt;Frequency: &lt;b&gt;1&lt;/b&gt;&lt;br/&gt;Timestamp: &lt;b&gt;1509528977000&lt;/b&gt;&lt;br/&gt;Date: &lt;b&gt;2017-11-05 14:41:39&lt;/b&gt;]]&gt;</description>
+            <TimeStamp>
+                <when>2017-11-05T14:41:39Z</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>34.95108599,32.14506215</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>adslfixlanova</name>
+            <open>1</open>
+            <description>&lt;![CDATA[BSSID: &lt;b&gt;48:ee:0c:3d:9f:5c&lt;/b&gt;&lt;br/&gt;Capabilities: &lt;b&gt;SECURITY&lt;/b&gt;&lt;br/&gt;Frequency: &lt;b&gt;11&lt;/b&gt;&lt;br/&gt;Timestamp: &lt;b&gt;1509528977000&lt;/b&gt;&lt;br/&gt;Date: &lt;b&gt;2017-11-05 14:41:43&lt;/b&gt;]]&gt;</description>
+            <TimeStamp>
+                <when>2017-11-05T14:41:43Z</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>34.95191548,32.14451189</coordinates>
+            </Point>
+        </Placemark>
+    </Document>
+</kml>
