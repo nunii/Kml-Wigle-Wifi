@@ -49,10 +49,14 @@ public class Position {
 		return ALT;
 	}
 
-	public String toString(){
+	public String PostoKml(){
 		return LON+","+LAT;
 	}
 
+	public String toString(){
+		return LAT+","+LON+","+ALT;
+	}
+	
 	public boolean equals(Position p1) {
 		return(p1.getLAT()==this.getLAT()&&p1.getLON()==this.getLON()&&p1.getALT()==this.getALT());
 	}

@@ -5,6 +5,8 @@ import java.util.Collections;
 import java.util.List;
 import java.util.Scanner;
 
+import Algos.Alg1;
+import Data_classes.Position;
 import Data_classes.Samples;
 import Data_classes.Wifi;
 import Filter.*;
@@ -22,14 +24,15 @@ public class MacPos {
 		Samples samps1 = samps.Filter(wf);
 		
 		for (int i = 0; i < samps1.length(); i++) 
-			if(samps1.getSample(i).Contains(mac))
-				wifiAr.add(samps.getSample(i).FindMac(mac));
+				wifiAr.add(samps1.getSample(i).FindMac(mac));
 		
 		Collections.sort(wifiAr);
 		
-		//Position macPos = new Position(alg1(wifiAr.g))
+		System.out.println(wifiAr.get(0).toString()+"\n"+wifiAr.get(1).toString()+"\n"+wifiAr.get(2).toString());
 		
-		
+		Position macPos = new Position(Alg1.MacNewPos(wifiAr.get(0),wifiAr.get(1),wifiAr.get(2)));
+		System.out.println(macPos.toString());
+		//Alg1 a = new Alg1(wifiAr.get(0),wifiAr.get(1),wifiAr.get(2));
 	}
 	
 }
