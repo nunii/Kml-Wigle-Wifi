@@ -23,7 +23,7 @@ public class Sample {
 		pos = new Position(s[2],s[3],s[4]);
 		wifies = new Wifi[Integer.parseInt(s[5])];
 		for (int i = 0; i < wifies.length; i++) {
-			wifies[i] = new Wifi(s,i+1);
+			wifies[i] = new Wifi(s,i);
 		}
 	}
 	

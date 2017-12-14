@@ -16,7 +16,6 @@ public class Wifi implements Comparable<Wifi> {
 	 * @param s
 	 */
 	public Wifi(String[] s,int ind){
-		//wifs = new String[Integer.parseInt(s[5])];
 		this.ind = ind;
 		ssid = s[(ind*4)+6];
 		mac = s[(ind*4)+7];
@@ -26,6 +25,16 @@ public class Wifi implements Comparable<Wifi> {
 		pos = new Position(s[2],s[3],s[4]);
 	}
 
+	public Wifi(Wifi w){
+		this.ind = w.getInd();
+		ssid = w.getSsid();
+		mac = w.getMac();
+		freq = w.getFreq();
+		sig = w.getSig();
+		time = w.getTime();
+		pos = w.getPos();
+	}
+	
 	public String getSsid() {
 		return ssid;
 	}
@@ -53,10 +62,16 @@ public class Wifi implements Comparable<Wifi> {
 	public Position getPos() {
 		return pos;
 	}
+	
+	public String toString(){
+		return "The "+ind+"#"+"wifi parameters:\n"
+	+" Record position: "+pos.toString()+" Record time: "+time.toString()
+	+" wifi SSID: "+ssid+" MAC: "+mac+" Freq: "+freq+" Sig power: "+sig;
+	}
 
 	@Override
 	public int compareTo(Wifi w) {
-		return (this.sig-w.getSig());
+		return ((-1)*(this.sig-w.getSig()));
 	}
 
 	
