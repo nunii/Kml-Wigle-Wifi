@@ -16,7 +16,7 @@ public class WifiFilter implements Filter {
 	}
 
 	public boolean criterion(Sample samp) {
-		return samp.getWifi().Contains(wf);
+		return samp.ContainsMac(wf);
 	}
 	
 	

@@ -7,9 +7,10 @@ public class Sample {
 	 */
 	
 	private String[] samp;
+	//private MacAddress addr;
 	private Position pos;
 	private Time time;
-	private Wifi wifies; 
+	private Wifi[] wifies; 
 	
 	/**
 	 * The constructor. Takes a Line from the CSV file which presented as "Sample", and divides the line into parameters.
@@ -17,13 +18,49 @@ public class Sample {
 	 */
 	public Sample(String[] s){
 		samp = s;
+	//	addr = new MacAddress(s);
 		time = new Time(s[0]);
 		pos = new Position(s[2],s[3],s[4]);
-		wifies = new Wifi(s);
+		wifies = new Wifi[Integer.parseInt(s[5])];
+		for (int i = 0; i < wifies.length; i++) {
+			wifies[i] = new Wifi(s,i+1);
+		}
 	}
 	
 	public boolean Contains(String s){
-		return wifies.Contains(s);
+		boolean b = false;
+		int i=0;
+		while(i<wifies.length) {
+			if(wifies[i].getSsid().equals(s))
+				return !b;
+			i++;
+		}
+		return b;
+	}
+	
+	public boolean ContainsMac(String s){
+		boolean b = false;
+		int i=0;
+		while(i<wifies.length) {
+			if(wifies[i].getMac().equals(s))
+				return !b;
+			i++;
+		}
+		return b;
+	}
+	
+	public Wifi FindMac(String s){
+		int i=0;
+		while(i<wifies.length) {
+			if(wifies[i].getMac().equals(s))
+				break;
+			i++;
+		}
+		return wifies[i];
+	}
+	
+	public String getMacSig(){
+		return samp[6];
 	}
 	
 	public String getName(){
@@ -72,7 +109,7 @@ public class Sample {
 	public String getTimestamp() {
 		return time.getTimestamp();
 	}
-	public Wifi getWifi() {
-		return wifies;
+	public Wifi getWifi(int ind) {
+		return wifies[ind];
 	}
 }
