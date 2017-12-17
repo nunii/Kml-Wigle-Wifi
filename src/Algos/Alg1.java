@@ -17,17 +17,20 @@ public class Alg1 {
 		m2 = new Wifi(w2);
 		m3 = new Wifi(w3);
 
+
 		calcWeight();
 		calcNewPoses();
 		return calcMacPos();
 	}
 
+  
 	private static void calcWeight(){
 		w1=1.0/((m1.getSig()*m1.getSig()));
 		w2=1.0/((m2.getSig()*m2.getSig()));
 		w3=1.0/((m3.getSig()*m3.getSig()));
 
 	}
+
 
 	private static void calcNewPoses(){
 		String Lat = Double.toString(m1.getPos().getLAT()*w1);
@@ -61,5 +64,6 @@ public class Alg1 {
 		return new Position(Lat,Lon,Alt);
 
 	}
+
 
 }
