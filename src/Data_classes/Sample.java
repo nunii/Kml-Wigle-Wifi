@@ -53,10 +53,14 @@ public class Sample {
 		int i=0;
 		while(i<wifies.length) {
 			if(wifies[i].getMac().equals(s))
-				break;
+				return wifies[i];
 			i++;
 		}
-		return wifies[i];
+		return null;
+	}
+	
+	public int getMount(){
+		return wifies.length;
 	}
 	
 	public String getMacSig(){
