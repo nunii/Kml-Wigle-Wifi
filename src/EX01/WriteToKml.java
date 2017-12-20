@@ -22,7 +22,6 @@ public class WriteToKml {
 	public static void write(Samples samp, String s){
 		if(samp.length()==0)
 			return;
-		//C:\\Users\\abc\\git\\Kml-WiGLE-WiFi
 		samples = samp;
 		kml = new Kml();
 		Document document = kml.createAndSetDocument();

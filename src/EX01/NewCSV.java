@@ -8,7 +8,7 @@ import java.util.ArrayList;
 
 
 public class NewCSV {
-	
+
 	/**
 	 * @author Bar Janach, Amit Nuni.
 	 * This class functions lets u make a new CSV file from an exported csv file from the app "WiGLE WiFi"
@@ -16,15 +16,15 @@ public class NewCSV {
 	 */
 
 	static ArrayList<String> FinalFile = new ArrayList<>();
-	
+
 	private static void DirToCsv(File[] fileslist, String s){
 		FinalFile.add("Time,ID,Lat,Lon,Alt,#WiFi networks,SSID1,MAC1,Frequncy1,Signal1,SSID2,MAC2,Frequncy2,Signal2,SSID3,MAC3,Frequncy3,Signal3,SSID4,MAC4,Frequncy4,Signal4,SSID5,MAC5,Frequncy5,Signal5,SSID6,MAC6,Frequncy6,Signal6,SSID7,MAC7,Frequncy7,Signal7,SSID8,MAC8,Frequncy8,Signal8,SSID9,MAC9,Frequncy9,Signal9,SSID10,MAC10,Frequncy10,Signal10");
 		for(File i:fileslist){
-			Best10(ReadCSV.CSVtoMatrix(i.getPath()));
+			Best10(ReadCSV.CSVtoMatrix(i.getPath()+"newCSV.csv"));
 		}
 		WriteCSV.Write(FinalFile, s);
 	}
-	
+
 	/**
 	 * Takes only the relevant sample lines into a new Sample-matrix
 	 * @param mtx
@@ -41,11 +41,11 @@ public class NewCSV {
 
 		for(int k=2;k<mtx.length;k++)
 			time.add(mtx[k][3]);
-		
+
 		for(int j=0;j<db.length;j++){
 			db[j] = Integer.parseInt(mtx[j+2][5]);
 		}
-		
+
 		//save only relevant samples:
 		while(f<time.size()){
 			while(f<(time.size()-1)&&(time.get(f).equals(time.get(f+1)))){
@@ -63,7 +63,7 @@ public class NewCSV {
 				k++;
 			}
 			sum.add(k);
-			
+
 			c=0;
 			while(c<10&&c<((f-l)+1)){
 				samp.add(mtx[ar[c]+2]);
@@ -73,7 +73,7 @@ public class NewCSV {
 			f++;
 			l=f;
 		}
-		
+
 		//enter the new lines into the final matrix 
 		String st;
 		l=1;
@@ -93,14 +93,14 @@ public class NewCSV {
 
 	}
 
-	
-/**
- *  Returns the index of max negative int
- * @param arr
- * @param l
- * @param r
- * @return the index of max negative int
- */
+
+	/**
+	 *  Returns the index of max negative int
+	 * @param arr
+	 * @param l
+	 * @param r
+	 * @return the index of max negative int
+	 */
 	private static int FindMax(int[] arr, int l, int r){
 		int maxind;
 		while(arr[l]==1)
@@ -111,7 +111,7 @@ public class NewCSV {
 				maxind=i;
 		return maxind;
 	}
-	
+
 
 
 
@@ -139,9 +139,9 @@ public class NewCSV {
 		}	
 		return ListOfGoods;
 	}
-/**
- * Asks for a path to directory and starts activating the other functions of this class.
- */
+	/**
+	 * Asks for a path to directory and starts activating the other functions of this class.
+	 */
 	public static String start() {
 		Scanner reader = new Scanner(System.in);
 		System.out.println("Insert path to direcory: ");
@@ -162,10 +162,10 @@ public class NewCSV {
 				bool = true;
 			}
 		}
-			DirToCsv(listOfFiles, s);
-			reader.close();
-			
-			return s;
+		DirToCsv(listOfFiles, s);
+		reader.close();
+
+		return s;
 	}
 }
 

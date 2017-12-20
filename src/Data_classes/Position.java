@@ -34,9 +34,9 @@ public class Position {
 		ALT = 0;
 	}
 	public Position(Position other){
-		this.LAT = other.getLAT();
-		this.LON = other.getLON();
-		this.ALT = other.getALT();
+		LAT = other.getLAT();
+		LON = other.getLON();
+		ALT = other.getALT();
 	}
 
 	public double getLAT(){

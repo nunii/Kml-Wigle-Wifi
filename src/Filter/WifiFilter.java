@@ -19,5 +19,4 @@ public class WifiFilter implements Filter {
 		return samp.ContainsMac(wf);
 	}
 	
-	
 }

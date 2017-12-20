@@ -20,7 +20,7 @@ public class Wifi implements Comparable<Wifi> {
 		ssid = s[(ind*4)+6];
 		mac = s[(ind*4)+7];
 		freq = Integer.parseInt(s[(ind*4)+8]);
-		sig = Integer.parseInt(s[(ind*4)+9]);
+		sig = (int)(Double.parseDouble(s[(ind*4)+9]));
 		time = new Time(s[0]);
 		pos = new Position(s[2],s[3],s[4]);
 	}
@@ -63,10 +63,13 @@ public class Wifi implements Comparable<Wifi> {
 		return pos;
 	}
 	
+	public void setPos(Position p){
+		pos = new Position(p);
+	}
+	
 	public String toString(){
-		return "The "+ind+"#"+"wifi parameters:\n"
-	+" Record position: "+pos.toString()+" Record time: "+time.toString()
-	+" wifi SSID: "+ssid+" MAC: "+mac+" Freq: "+freq+" Sig power: "+sig;
+		return time.toString()+ ","+ pos.toString()+ ","+
+				ssid+ ","+ mac+ ","+ freq+ ","+ sig;
 	}
 
 	@Override
