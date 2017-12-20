@@ -6,7 +6,8 @@ public class Time {
 	 * This class represents the time which the Wifi signal has been recorded.
 	 */
 	
-	String time;
+	private String time;
+	
 	public Time(String s){
 		time = s;
 	}

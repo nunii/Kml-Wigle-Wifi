@@ -125,6 +125,10 @@ public class Sample {
 	}
 	
 	public String toString(){
-		return Arrays.toString(samp);
+		String s = time+","+samp[1]+","+pos+",";
+		for(int i=0;i<wifies.length;i++){
+			s+=","+wifies[i].toString();
+		}
+		return s;
 	}
 }
