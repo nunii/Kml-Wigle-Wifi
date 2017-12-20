@@ -6,6 +6,13 @@ import ex02.WeightedSum;
 
 public class Alg1 {
 
+	/**
+	 * @author Amit Nuni, Bar Janach
+	 * This is the executing class of alg1.
+	 */
+	
+	 
+
 	private static Wifi m1,m2,m3;
 	private static double wt1,wt2,wt3;
 
@@ -21,7 +28,9 @@ public class Alg1 {
 		Position pos = new Position(WeightedSum.calcNewPos(wt1,wt2,wt3,m1.getPos(),m2.getPos(),m3.getPos()));
 		return pos;
 	}
-
+/**
+ * This func calculates the weight of each signal.
+ */
 	private static void calcWeight(){
 		wt1=1.0/((m1.getSig()*m1.getSig()));
 		wt2=1.0/((m2.getSig()*m2.getSig()));
