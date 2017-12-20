@@ -8,9 +8,29 @@ import ex02.WeightedSum;
 
 public class Alg2 {
 
+	/**
+	 * @author Amit Nuni, Bar Janach
+	 * This class is executing the 2nd algorithem.
+	 */
+	
+	
+	
 	private static final int power=2,norm=10000,minSig=3,noSig=-120,noSigDiff=100;
 	private static final double sigDiff=0.4;
 
+	/**
+	 * 
+	 * @param empty The sample with the missing position. 
+	 * @param full The sample with the correct positions.
+	 * @return returns our calculated locations.
+	 */
+	
+	/**
+	 * The main funciton of alg2
+	 * @param empty
+	 * @param full
+	 * @return
+	 */
 	public static Position calcPos(Sample empty, Samples full){
 
 		ArrayList<Double> Pis = new ArrayList<Double>();
@@ -48,10 +68,19 @@ public class Alg2 {
 
 	}
 
+
+	/**
+	 * calculates the pi
+	 * @param empty
+	 * @param full
+	 * @return
+	 */
 	public static double calcPI(Sample empty, Sample full){
 		
 		double pi=1;
 		
+
+	
 		for(int i=0;i<empty.getMount();i++){
 			if(full.ContainsMac(empty.getWifi(i).getMac()))
 				pi *= wCalc(empty.getWifi(i).getSig(),full.FindMac(empty.getWifi(i).getMac()).getSig());
@@ -60,7 +89,12 @@ public class Alg2 {
 		}
 		return pi;
 	}
-
+/**
+ * weight calculating
+ * @param sig1
+ * @param sig2
+ * @return
+ */
 	private static double wCalc(int sig1,int sig2 ) {
 
 		int diff=((sig2==noSig)? noSigDiff : Math.max((sig1-sig2), minSig));
