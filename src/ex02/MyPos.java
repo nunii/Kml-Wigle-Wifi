@@ -13,30 +13,11 @@ public class MyPos {
 
 	public static void fillPoses(Samples empty, Samples full,String path) {
 		Position pos;
-		for(int i =0;i<empty.length();i++) {
-			//for(int j=0;j<full.length();j++) {
+		for(int i = 0;i<empty.length();i++) {
 			pos = (Alg2.calcPos(empty.getSample(i),full));
-			//System.out.println(pos.toString());
 			empty.getSample(i).setPosition(pos);
-			//System.out.println(empty.getSample(i).getPosition().toString());
-			//}
 		}
 		empty.toCSV(path);
-		/*
-				int k=0;
-				boolean contain = false;
-				while(k < empty.getSample(i).getMount()&&!contain){
-					if(full.getSample(j).ContainsMac(empty.getSample(i).getWifi(k).getMac()))
-						contain = true;
-					k++;
-				}
-				if(contain)
-					Pis.add(Alg2.calcPI(empty.getSample(i),full.getSample(j)));
-				else
-					Pis.add(0.0);
-			}
-		 */
-
 
 	}
 

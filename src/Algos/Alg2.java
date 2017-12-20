@@ -10,7 +10,6 @@ public class Alg2 {
 
 	private static final int power=2,norm=10000,minSig=3,noSig=-120,noSigDiff=100;
 	private static final double sigDiff=0.4;
-	private static double pi;
 
 	public static Position calcPos(Sample empty, Samples full){
 
@@ -45,28 +44,27 @@ public class Alg2 {
 		p2 = full.getSample(ind[1]).getPosition();
 		p3 = full.getSample(ind[2]).getPosition();
 		Position pos = new Position(WeightedSum.calcNewPos(arr[0],arr[1],arr[2],p1,p2,p3));
-		//System.out.println(pos);
-		return pos;//WeightedSum.calcNewPos(arr[0],arr[1],arr[2],p1,p2,p3);
+		return pos;
 
 	}
 
-	private static double calcPI(Sample empty, Sample full){
-
+	public static double calcPI(Sample empty, Sample full){
+		
+		double pi=1;
+		
 		for(int i=0;i<empty.getMount();i++){
 			if(full.ContainsMac(empty.getWifi(i).getMac()))
 				pi *= wCalc(empty.getWifi(i).getSig(),full.FindMac(empty.getWifi(i).getMac()).getSig());
 			else
 				pi *= wCalc(empty.getWifi(i).getSig(),-120);
 		}
-
 		return pi;
 	}
 
 	private static double wCalc(int sig1,int sig2 ) {
 
 		int diff=((sig2==noSig)? noSigDiff : Math.max((sig1-sig2), minSig));
-		double w = norm/((Math.pow(diff, sigDiff))*(Math.pow(sig2, 2)));
-
+		double w = norm/((Math.pow(diff, sigDiff))*sig2*sig2);//(Math.pow(sig2, 2)));
 		return w;
 	}
 

@@ -37,7 +37,7 @@ public class MacList extends ArrayList<Wifi> {
 	public void toCSVfile(String s){
 		ArrayList<String> csv = new ArrayList<String>();
 		for (int i = 0; i < this.size(); i++) {
-			csv.add(this.get(i).toString());
+			csv.add(this.get(i).FulltoString());
 		}
 		WriteCSV.Write(csv, s);
 	}

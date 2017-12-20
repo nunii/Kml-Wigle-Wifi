@@ -67,11 +67,15 @@ public class Wifi implements Comparable<Wifi> {
 		pos = new Position(p);
 	}
 	
-	public String toString(){
+	public String FulltoString(){
 		return time.toString()+ ","+ pos.toString()+ ","+
 				ssid+ ","+ mac+ ","+ freq+ ","+ sig;
 	}
 
+	public String toString(){
+		return ssid+ ","+ mac+ ","+ freq+ ","+ sig;
+	}
+	
 	@Override
 	public int compareTo(Wifi w) {
 		return ((-1)*(this.sig-w.getSig()));
