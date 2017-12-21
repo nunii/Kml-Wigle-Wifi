@@ -4,18 +4,21 @@ import java.util.ArrayList;
 import java.util.Collections;
 
 import Data_classes.*;
-import ex02.WeightedSum;
 
 public class Alg2 {
 
 	/**
 	 * @author Amit Nuni, Bar Janach
-	 * This class is executing the 2nd algorithem.
+	 * This class implements the 2nd algorithm.
 	 */
 	
 	
-	
-	private static final int power=2,norm=10000,minSig=3,noSig=-120,noSigDiff=100;
+	/**
+	 * @param minSig The minimum signal value possible.
+	 * @param noSig	Default	signal value if there is no record.
+	 * @param noSigDiff	Default diff value if there is no record.
+	 */
+	private static final int normal=10000,minSig=3,noSig=-120,noSigDiff=100;
 	private static final double sigDiff=0.4;
 
 	/**
@@ -25,6 +28,7 @@ public class Alg2 {
 	 * @return returns our calculated locations.
 	 */
 	
+	
 	/**
 	 * The main funciton of alg2
 	 * @param empty
@@ -33,6 +37,8 @@ public class Alg2 {
 	 */
 	public static Position calcPos(Sample empty, Samples full){
 
+		
+	
 		ArrayList<Double> Pis = new ArrayList<Double>();
 		int cnt = 0;
 		for (int i = 0; i < full.length(); i++) {
@@ -97,11 +103,15 @@ public class Alg2 {
  */
 	private static double wCalc(int sig1,int sig2 ) {
 
-		int diff=((sig2==noSig)? noSigDiff : Math.max((sig1-sig2), minSig));
-		double w = norm/((Math.pow(diff, sigDiff))*sig2*sig2);//(Math.pow(sig2, 2)));
+		int diff = ((sig2==noSig)? noSigDiff : Math.max(Math.abs((sig1-sig2)), minSig));
+		double w = normal/((Math.pow(diff, sigDiff))*sig1*sig1);
 		return w;
 	}
-
+ /**
+  * Finds the max pi
+  * @param pis
+  * @return
+  */
 	private static int FindMax(ArrayList<Double> pis){
 		int maxind = 0;
 		for(int i = 1;i < pis.size();i++)

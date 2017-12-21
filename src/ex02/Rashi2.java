@@ -5,6 +5,12 @@ import Data_classes.Sample;
 import Data_classes.Samples;
 
 public class Rashi2 {
+	
+	
+	/**
+	 * @author Amit Nuni, Bar Janach
+	 * This is the executing class of Ex2
+	 */
 
 	public static void main(String[] args) {
 		String s = "Ex2\\testing\\_comb_all_BM2_.csv";

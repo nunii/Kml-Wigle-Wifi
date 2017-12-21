@@ -8,8 +8,12 @@ import Data_classes.Samples;
 
 public class MyPos {
 
+	/**
+	 * @author Amit Nuni, Bar Janach
+	 * this class is used for calculating my position by the 2nd algorithm.
+	 */
 
-	private ArrayList<Double> Pis = new ArrayList<Double>();
+	
 
 	public static void fillPoses(Samples empty, Samples full,String path) {
 		Position pos;

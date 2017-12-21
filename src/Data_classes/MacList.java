@@ -7,6 +7,13 @@ import EX01.WriteCSV;
 
 public class MacList extends ArrayList<Wifi> {
 
+	
+	/**
+	 * @author Bar Janach, Amit Nuni
+	 * Class used for making a filtered wifiList which removes duplicates.
+	 * It also writes the list to a csv file.
+	 * @param s
+	 */
 	public MacList(Samples s){
 		addList(s);
 	}

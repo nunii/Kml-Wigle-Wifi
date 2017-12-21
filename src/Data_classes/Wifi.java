@@ -1,5 +1,4 @@
 package Data_classes;
-import java.util.Arrays;
 
 public class Wifi implements Comparable<Wifi> {
 	/**
