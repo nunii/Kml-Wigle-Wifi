@@ -84,8 +84,6 @@ public class Alg2 {
 	public static double calcPI(Sample empty, Sample full){
 		
 		double pi=1;
-		
-
 	
 		for(int i=0;i<empty.getMount();i++){
 			if(full.ContainsMac(empty.getWifi(i).getMac()))

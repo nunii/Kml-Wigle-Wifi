@@ -47,8 +47,11 @@ public class Samples {
 			System.exit(2);
 		}	}
 
-	public Samples(ArrayList<Sample> samp){
-		file = samp;
+	public Samples(Samples samp){
+		file = new ArrayList<Sample>();
+		for (int i = 0; i < samp.length(); i++) {
+			file.add(samp.getSample(i));
+		}
 	}
 	
 	public Samples(){

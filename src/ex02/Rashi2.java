@@ -21,8 +21,7 @@ public class Rashi2 {
 		Samples empt = new Samples(e);
 		MyPos.fillPoses(empt, full, "Ex2\\testing\\output\\Alg1_Bar-n-Amit_BM2-ts1.csv");
 		
-		Sample sis = new Sample("1,1,1,1,1,3,1,1,1,-50,1,1,1,-70,1,1,1,-90".split(","));
-		Sample sos = new Sample("1,1,1,1,1,3,1,1,1,-62,1,1,1,-79,1,1,1,-71".split(","));
+		
 		
 	}
 

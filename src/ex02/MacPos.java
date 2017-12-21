@@ -28,14 +28,13 @@ public class MacPos {
 	 * @param path
 	 */
 	public static void fillPos(Samples s, String path){
-
-		samps = s;
+		samps = new Samples(s);
 		MacList ml = new MacList(samps);
-
+		//ml.syso();
 		for (int i = 0; i < ml.size(); i++) {
 			ml.get(i).setPos(makePos(ml.get(i).getMac()));
 		}
-
+		
 		ml.toCSVfile(path);
 	}
 /**
@@ -52,6 +51,7 @@ public class MacPos {
 
 		for(int i = 0; i < samps1.length(); i++) 
 			wifiAr.add(samps1.getSample(i).FindMac(mac));
+		
 		Collections.sort(wifiAr);
 
 		if(wifiAr.size()>2)

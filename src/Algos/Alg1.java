@@ -45,12 +45,5 @@ public class Alg1 {
 		wt3=1.0/((m3.getSig()*m3.getSig()));
 	}
 	
-	/*@Test
-	public void Test() {
-		
-		double t1,t2,t3;
-		
-				
-	}*/
 
 }
