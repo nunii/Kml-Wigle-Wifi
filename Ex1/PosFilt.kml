@@ -4,7 +4,7 @@
         <Placemark>
             <name>Shai Katzir Work</name>
             <open>1</open>
-            <description>&lt;![CDATA[BSSID: &lt;b&gt;60:e3:ac:db:7d:ec&lt;/b&gt;&lt;br/&gt;Capabilities: &lt;b&gt;SECURITY&lt;/b&gt;&lt;br/&gt;Frequency: &lt;b&gt;4&lt;/b&gt;&lt;br/&gt;Timestamp: &lt;b&gt;1509528977000&lt;/b&gt;&lt;br/&gt;Date: &lt;b&gt;2017-11-05 14:39:39&lt;/b&gt;]]&gt;</description>
+            <description>&lt;![CDATA[BSSID: &lt;b&gt;60:e3:ac:db:7d:ec&lt;/b&gt;&lt;br/&gt;Capabilities: &lt;b&gt;SECURITY&lt;/b&gt;&lt;br/&gt;Frequency: &lt;b&gt;wifies[ind].getFreq()&lt;/b&gt;&lt;br/&gt;Timestamp: &lt;b&gt;1509528977000&lt;/b&gt;&lt;br/&gt;Date: &lt;b&gt;2017-11-05 14:39:39&lt;/b&gt;]]&gt;</description>
             <TimeStamp>
                 <when>2017-11-05T14:39:39Z</when>
             </TimeStamp>
@@ -15,7 +15,7 @@
         <Placemark>
             <name>nael</name>
             <open>1</open>
-            <description>&lt;![CDATA[BSSID: &lt;b&gt;48:ee:0c:3a:38:03&lt;/b&gt;&lt;br/&gt;Capabilities: &lt;b&gt;SECURITY&lt;/b&gt;&lt;br/&gt;Frequency: &lt;b&gt;9&lt;/b&gt;&lt;br/&gt;Timestamp: &lt;b&gt;1509528977000&lt;/b&gt;&lt;br/&gt;Date: &lt;b&gt;2017-11-05 14:39:41&lt;/b&gt;]]&gt;</description>
+            <description>&lt;![CDATA[BSSID: &lt;b&gt;48:ee:0c:3a:38:03&lt;/b&gt;&lt;br/&gt;Capabilities: &lt;b&gt;SECURITY&lt;/b&gt;&lt;br/&gt;Frequency: &lt;b&gt;wifies[ind].getFreq()&lt;/b&gt;&lt;br/&gt;Timestamp: &lt;b&gt;1509528977000&lt;/b&gt;&lt;br/&gt;Date: &lt;b&gt;2017-11-05 14:39:41&lt;/b&gt;]]&gt;</description>
             <TimeStamp>
                 <when>2017-11-05T14:39:41Z</when>
             </TimeStamp>
@@ -26,7 +26,7 @@
         <Placemark>
             <name>NIPPON_5834</name>
             <open>1</open>
-            <description>&lt;![CDATA[BSSID: &lt;b&gt;08:97:58:33:31:ae&lt;/b&gt;&lt;br/&gt;Capabilities: &lt;b&gt;SECURITY&lt;/b&gt;&lt;br/&gt;Frequency: &lt;b&gt;2&lt;/b&gt;&lt;br/&gt;Timestamp: &lt;b&gt;1509528977000&lt;/b&gt;&lt;br/&gt;Date: &lt;b&gt;2017-11-05 14:39:43&lt;/b&gt;]]&gt;</description>
+            <description>&lt;![CDATA[BSSID: &lt;b&gt;08:97:58:33:31:ae&lt;/b&gt;&lt;br/&gt;Capabilities: &lt;b&gt;SECURITY&lt;/b&gt;&lt;br/&gt;Frequency: &lt;b&gt;wifies[ind].getFreq()&lt;/b&gt;&lt;br/&gt;Timestamp: &lt;b&gt;1509528977000&lt;/b&gt;&lt;br/&gt;Date: &lt;b&gt;2017-11-05 14:39:43&lt;/b&gt;]]&gt;</description>
             <TimeStamp>
                 <when>2017-11-05T14:39:43Z</when>
             </TimeStamp>
@@ -37,7 +37,7 @@
         <Placemark>
             <name>Shai Katzir Work</name>
             <open>1</open>
-            <description>&lt;![CDATA[BSSID: &lt;b&gt;60:e3:ac:db:7d:ec&lt;/b&gt;&lt;br/&gt;Capabilities: &lt;b&gt;SECURITY&lt;/b&gt;&lt;br/&gt;Frequency: &lt;b&gt;4&lt;/b&gt;&lt;br/&gt;Timestamp: &lt;b&gt;1509528977000&lt;/b&gt;&lt;br/&gt;Date: &lt;b&gt;2017-11-05 14:39:45&lt;/b&gt;]]&gt;</description>
+            <description>&lt;![CDATA[BSSID: &lt;b&gt;60:e3:ac:db:7d:ec&lt;/b&gt;&lt;br/&gt;Capabilities: &lt;b&gt;SECURITY&lt;/b&gt;&lt;br/&gt;Frequency: &lt;b&gt;wifies[ind].getFreq()&lt;/b&gt;&lt;br/&gt;Timestamp: &lt;b&gt;1509528977000&lt;/b&gt;&lt;br/&gt;Date: &lt;b&gt;2017-11-05 14:39:45&lt;/b&gt;]]&gt;</description>
             <TimeStamp>
                 <when>2017-11-05T14:39:45Z</when>
             </TimeStamp>
@@ -48,7 +48,7 @@
         <Placemark>
             <name>GOLAN T</name>
             <open>1</open>
-            <description>&lt;![CDATA[BSSID: &lt;b&gt;42502_811_3956257&lt;/b&gt;&lt;br/&gt;Capabilities: &lt;b&gt;SECURITY&lt;/b&gt;&lt;br/&gt;Frequency: &lt;b&gt;0&lt;/b&gt;&lt;br/&gt;Timestamp: &lt;b&gt;1509528977000&lt;/b&gt;&lt;br/&gt;Date: &lt;b&gt;2017-11-05 14:39:47&lt;/b&gt;]]&gt;</description>
+            <description>&lt;![CDATA[BSSID: &lt;b&gt;42502_811_3956257&lt;/b&gt;&lt;br/&gt;Capabilities: &lt;b&gt;SECURITY&lt;/b&gt;&lt;br/&gt;Frequency: &lt;b&gt;wifies[ind].getFreq()&lt;/b&gt;&lt;br/&gt;Timestamp: &lt;b&gt;1509528977000&lt;/b&gt;&lt;br/&gt;Date: &lt;b&gt;2017-11-05 14:39:47&lt;/b&gt;]]&gt;</description>
             <TimeStamp>
                 <when>2017-11-05T14:39:47Z</when>
             </TimeStamp>
@@ -59,7 +59,7 @@
         <Placemark>
             <name>NIPPON_5834</name>
             <open>1</open>
-            <description>&lt;![CDATA[BSSID: &lt;b&gt;08:97:58:33:31:ae&lt;/b&gt;&lt;br/&gt;Capabilities: &lt;b&gt;SECURITY&lt;/b&gt;&lt;br/&gt;Frequency: &lt;b&gt;2&lt;/b&gt;&lt;br/&gt;Timestamp: &lt;b&gt;1509528977000&lt;/b&gt;&lt;br/&gt;Date: &lt;b&gt;2017-11-05 14:39:49&lt;/b&gt;]]&gt;</description>
+            <description>&lt;![CDATA[BSSID: &lt;b&gt;08:97:58:33:31:ae&lt;/b&gt;&lt;br/&gt;Capabilities: &lt;b&gt;SECURITY&lt;/b&gt;&lt;br/&gt;Frequency: &lt;b&gt;wifies[ind].getFreq()&lt;/b&gt;&lt;br/&gt;Timestamp: &lt;b&gt;1509528977000&lt;/b&gt;&lt;br/&gt;Date: &lt;b&gt;2017-11-05 14:39:49&lt;/b&gt;]]&gt;</description>
             <TimeStamp>
                 <when>2017-11-05T14:39:49Z</when>
             </TimeStamp>
@@ -70,7 +70,7 @@
         <Placemark>
             <name>Shai Katzir Work</name>
             <open>1</open>
-            <description>&lt;![CDATA[BSSID: &lt;b&gt;60:e3:ac:db:7d:ec&lt;/b&gt;&lt;br/&gt;Capabilities: &lt;b&gt;SECURITY&lt;/b&gt;&lt;br/&gt;Frequency: &lt;b&gt;4&lt;/b&gt;&lt;br/&gt;Timestamp: &lt;b&gt;1509528977000&lt;/b&gt;&lt;br/&gt;Date: &lt;b&gt;2017-11-05 14:39:53&lt;/b&gt;]]&gt;</description>
+            <description>&lt;![CDATA[BSSID: &lt;b&gt;60:e3:ac:db:7d:ec&lt;/b&gt;&lt;br/&gt;Capabilities: &lt;b&gt;SECURITY&lt;/b&gt;&lt;br/&gt;Frequency: &lt;b&gt;wifies[ind].getFreq()&lt;/b&gt;&lt;br/&gt;Timestamp: &lt;b&gt;1509528977000&lt;/b&gt;&lt;br/&gt;Date: &lt;b&gt;2017-11-05 14:39:53&lt;/b&gt;]]&gt;</description>
             <TimeStamp>
                 <when>2017-11-05T14:39:53Z</when>
             </TimeStamp>
@@ -81,7 +81,7 @@
         <Placemark>
             <name>YC</name>
             <open>1</open>
-            <description>&lt;![CDATA[BSSID: &lt;b&gt;2e:0e:3d:77:74:16&lt;/b&gt;&lt;br/&gt;Capabilities: &lt;b&gt;SECURITY&lt;/b&gt;&lt;br/&gt;Frequency: &lt;b&gt;11&lt;/b&gt;&lt;br/&gt;Timestamp: &lt;b&gt;1509528977000&lt;/b&gt;&lt;br/&gt;Date: &lt;b&gt;2017-11-05 14:39:55&lt;/b&gt;]]&gt;</description>
+            <description>&lt;![CDATA[BSSID: &lt;b&gt;2e:0e:3d:77:74:16&lt;/b&gt;&lt;br/&gt;Capabilities: &lt;b&gt;SECURITY&lt;/b&gt;&lt;br/&gt;Frequency: &lt;b&gt;wifies[ind].getFreq()&lt;/b&gt;&lt;br/&gt;Timestamp: &lt;b&gt;1509528977000&lt;/b&gt;&lt;br/&gt;Date: &lt;b&gt;2017-11-05 14:39:55&lt;/b&gt;]]&gt;</description>
             <TimeStamp>
                 <when>2017-11-05T14:39:55Z</when>
             </TimeStamp>
@@ -92,7 +92,7 @@
         <Placemark>
             <name>GOLAN T</name>
             <open>1</open>
-            <description>&lt;![CDATA[BSSID: &lt;b&gt;42502_811_3956257&lt;/b&gt;&lt;br/&gt;Capabilities: &lt;b&gt;SECURITY&lt;/b&gt;&lt;br/&gt;Frequency: &lt;b&gt;0&lt;/b&gt;&lt;br/&gt;Timestamp: &lt;b&gt;1509528977000&lt;/b&gt;&lt;br/&gt;Date: &lt;b&gt;2017-11-05 14:39:57&lt;/b&gt;]]&gt;</description>
+            <description>&lt;![CDATA[BSSID: &lt;b&gt;42502_811_3956257&lt;/b&gt;&lt;br/&gt;Capabilities: &lt;b&gt;SECURITY&lt;/b&gt;&lt;br/&gt;Frequency: &lt;b&gt;wifies[ind].getFreq()&lt;/b&gt;&lt;br/&gt;Timestamp: &lt;b&gt;1509528977000&lt;/b&gt;&lt;br/&gt;Date: &lt;b&gt;2017-11-05 14:39:57&lt;/b&gt;]]&gt;</description>
             <TimeStamp>
                 <when>2017-11-05T14:39:57Z</when>
             </TimeStamp>
@@ -103,7 +103,7 @@
         <Placemark>
             <name>Shai Katzir Work</name>
             <open>1</open>
-            <description>&lt;![CDATA[BSSID: &lt;b&gt;60:e3:ac:db:7d:ec&lt;/b&gt;&lt;br/&gt;Capabilities: &lt;b&gt;SECURITY&lt;/b&gt;&lt;br/&gt;Frequency: &lt;b&gt;4&lt;/b&gt;&lt;br/&gt;Timestamp: &lt;b&gt;1509528977000&lt;/b&gt;&lt;br/&gt;Date: &lt;b&gt;2017-11-05 14:39:59&lt;/b&gt;]]&gt;</description>
+            <description>&lt;![CDATA[BSSID: &lt;b&gt;60:e3:ac:db:7d:ec&lt;/b&gt;&lt;br/&gt;Capabilities: &lt;b&gt;SECURITY&lt;/b&gt;&lt;br/&gt;Frequency: &lt;b&gt;wifies[ind].getFreq()&lt;/b&gt;&lt;br/&gt;Timestamp: &lt;b&gt;1509528977000&lt;/b&gt;&lt;br/&gt;Date: &lt;b&gt;2017-11-05 14:39:59&lt;/b&gt;]]&gt;</description>
             <TimeStamp>
                 <when>2017-11-05T14:39:59Z</when>
             </TimeStamp>
@@ -114,7 +114,7 @@
         <Placemark>
             <name>Shai Katzir Work</name>
             <open>1</open>
-            <description>&lt;![CDATA[BSSID: &lt;b&gt;60:e3:ac:db:7d:ec&lt;/b&gt;&lt;br/&gt;Capabilities: &lt;b&gt;SECURITY&lt;/b&gt;&lt;br/&gt;Frequency: &lt;b&gt;4&lt;/b&gt;&lt;br/&gt;Timestamp: &lt;b&gt;1509528977000&lt;/b&gt;&lt;br/&gt;Date: &lt;b&gt;2017-11-05 14:40:01&lt;/b&gt;]]&gt;</description>
+            <description>&lt;![CDATA[BSSID: &lt;b&gt;60:e3:ac:db:7d:ec&lt;/b&gt;&lt;br/&gt;Capabilities: &lt;b&gt;SECURITY&lt;/b&gt;&lt;br/&gt;Frequency: &lt;b&gt;wifies[ind].getFreq()&lt;/b&gt;&lt;br/&gt;Timestamp: &lt;b&gt;1509528977000&lt;/b&gt;&lt;br/&gt;Date: &lt;b&gt;2017-11-05 14:40:01&lt;/b&gt;]]&gt;</description>
             <TimeStamp>
                 <when>2017-11-05T14:40:01Z</when>
             </TimeStamp>
@@ -125,7 +125,7 @@
         <Placemark>
             <name>Shai Katzir Work</name>
             <open>1</open>
-            <description>&lt;![CDATA[BSSID: &lt;b&gt;60:e3:ac:db:7d:ec&lt;/b&gt;&lt;br/&gt;Capabilities: &lt;b&gt;SECURITY&lt;/b&gt;&lt;br/&gt;Frequency: &lt;b&gt;4&lt;/b&gt;&lt;br/&gt;Timestamp: &lt;b&gt;1509528977000&lt;/b&gt;&lt;br/&gt;Date: &lt;b&gt;2017-11-05 14:40:12&lt;/b&gt;]]&gt;</description>
+            <description>&lt;![CDATA[BSSID: &lt;b&gt;60:e3:ac:db:7d:ec&lt;/b&gt;&lt;br/&gt;Capabilities: &lt;b&gt;SECURITY&lt;/b&gt;&lt;br/&gt;Frequency: &lt;b&gt;wifies[ind].getFreq()&lt;/b&gt;&lt;br/&gt;Timestamp: &lt;b&gt;1509528977000&lt;/b&gt;&lt;br/&gt;Date: &lt;b&gt;2017-11-05 14:40:12&lt;/b&gt;]]&gt;</description>
             <TimeStamp>
                 <when>2017-11-05T14:40:12Z</when>
             </TimeStamp>
@@ -136,7 +136,7 @@
         <Placemark>
             <name>Shai Katzir Work</name>
             <open>1</open>
-            <description>&lt;![CDATA[BSSID: &lt;b&gt;60:e3:ac:db:7d:ec&lt;/b&gt;&lt;br/&gt;Capabilities: &lt;b&gt;SECURITY&lt;/b&gt;&lt;br/&gt;Frequency: &lt;b&gt;4&lt;/b&gt;&lt;br/&gt;Timestamp: &lt;b&gt;1509528977000&lt;/b&gt;&lt;br/&gt;Date: &lt;b&gt;2017-11-05 14:40:27&lt;/b&gt;]]&gt;</description>
+            <description>&lt;![CDATA[BSSID: &lt;b&gt;60:e3:ac:db:7d:ec&lt;/b&gt;&lt;br/&gt;Capabilities: &lt;b&gt;SECURITY&lt;/b&gt;&lt;br/&gt;Frequency: &lt;b&gt;wifies[ind].getFreq()&lt;/b&gt;&lt;br/&gt;Timestamp: &lt;b&gt;1509528977000&lt;/b&gt;&lt;br/&gt;Date: &lt;b&gt;2017-11-05 14:40:27&lt;/b&gt;]]&gt;</description>
             <TimeStamp>
                 <when>2017-11-05T14:40:27Z</when>
             </TimeStamp>
@@ -147,7 +147,7 @@
         <Placemark>
             <name>GOLAN T</name>
             <open>1</open>
-            <description>&lt;![CDATA[BSSID: &lt;b&gt;42502_811_3956257&lt;/b&gt;&lt;br/&gt;Capabilities: &lt;b&gt;SECURITY&lt;/b&gt;&lt;br/&gt;Frequency: &lt;b&gt;0&lt;/b&gt;&lt;br/&gt;Timestamp: &lt;b&gt;1509528977000&lt;/b&gt;&lt;br/&gt;Date: &lt;b&gt;2017-11-05 14:40:45&lt;/b&gt;]]&gt;</description>
+            <description>&lt;![CDATA[BSSID: &lt;b&gt;42502_811_3956257&lt;/b&gt;&lt;br/&gt;Capabilities: &lt;b&gt;SECURITY&lt;/b&gt;&lt;br/&gt;Frequency: &lt;b&gt;wifies[ind].getFreq()&lt;/b&gt;&lt;br/&gt;Timestamp: &lt;b&gt;1509528977000&lt;/b&gt;&lt;br/&gt;Date: &lt;b&gt;2017-11-05 14:40:45&lt;/b&gt;]]&gt;</description>
             <TimeStamp>
                 <when>2017-11-05T14:40:45Z</when>
             </TimeStamp>
@@ -158,7 +158,7 @@
         <Placemark>
             <name>Shai Katzir Work</name>
             <open>1</open>
-            <description>&lt;![CDATA[BSSID: &lt;b&gt;60:e3:ac:db:7d:ec&lt;/b&gt;&lt;br/&gt;Capabilities: &lt;b&gt;SECURITY&lt;/b&gt;&lt;br/&gt;Frequency: &lt;b&gt;4&lt;/b&gt;&lt;br/&gt;Timestamp: &lt;b&gt;1509528977000&lt;/b&gt;&lt;br/&gt;Date: &lt;b&gt;2017-11-05 14:40:47&lt;/b&gt;]]&gt;</description>
+            <description>&lt;![CDATA[BSSID: &lt;b&gt;60:e3:ac:db:7d:ec&lt;/b&gt;&lt;br/&gt;Capabilities: &lt;b&gt;SECURITY&lt;/b&gt;&lt;br/&gt;Frequency: &lt;b&gt;wifies[ind].getFreq()&lt;/b&gt;&lt;br/&gt;Timestamp: &lt;b&gt;1509528977000&lt;/b&gt;&lt;br/&gt;Date: &lt;b&gt;2017-11-05 14:40:47&lt;/b&gt;]]&gt;</description>
             <TimeStamp>
                 <when>2017-11-05T14:40:47Z</when>
             </TimeStamp>
@@ -169,7 +169,7 @@
         <Placemark>
             <name>Telenor 4G-5005</name>
             <open>1</open>
-            <description>&lt;![CDATA[BSSID: &lt;b&gt;44:c3:46:fd:50:05&lt;/b&gt;&lt;br/&gt;Capabilities: &lt;b&gt;SECURITY&lt;/b&gt;&lt;br/&gt;Frequency: &lt;b&gt;1&lt;/b&gt;&lt;br/&gt;Timestamp: &lt;b&gt;1509528977000&lt;/b&gt;&lt;br/&gt;Date: &lt;b&gt;2017-11-05 14:40:57&lt;/b&gt;]]&gt;</description>
+            <description>&lt;![CDATA[BSSID: &lt;b&gt;44:c3:46:fd:50:05&lt;/b&gt;&lt;br/&gt;Capabilities: &lt;b&gt;SECURITY&lt;/b&gt;&lt;br/&gt;Frequency: &lt;b&gt;wifies[ind].getFreq()&lt;/b&gt;&lt;br/&gt;Timestamp: &lt;b&gt;1509528977000&lt;/b&gt;&lt;br/&gt;Date: &lt;b&gt;2017-11-05 14:40:57&lt;/b&gt;]]&gt;</description>
             <TimeStamp>
                 <when>2017-11-05T14:40:57Z</when>
             </TimeStamp>
@@ -180,7 +180,7 @@
         <Placemark>
             <name>Shai Katzir Work</name>
             <open>1</open>
-            <description>&lt;![CDATA[BSSID: &lt;b&gt;60:e3:ac:db:7d:ec&lt;/b&gt;&lt;br/&gt;Capabilities: &lt;b&gt;SECURITY&lt;/b&gt;&lt;br/&gt;Frequency: &lt;b&gt;4&lt;/b&gt;&lt;br/&gt;Timestamp: &lt;b&gt;1509528977000&lt;/b&gt;&lt;br/&gt;Date: &lt;b&gt;2017-11-05 14:40:59&lt;/b&gt;]]&gt;</description>
+            <description>&lt;![CDATA[BSSID: &lt;b&gt;60:e3:ac:db:7d:ec&lt;/b&gt;&lt;br/&gt;Capabilities: &lt;b&gt;SECURITY&lt;/b&gt;&lt;br/&gt;Frequency: &lt;b&gt;wifies[ind].getFreq()&lt;/b&gt;&lt;br/&gt;Timestamp: &lt;b&gt;1509528977000&lt;/b&gt;&lt;br/&gt;Date: &lt;b&gt;2017-11-05 14:40:59&lt;/b&gt;]]&gt;</description>
             <TimeStamp>
                 <when>2017-11-05T14:40:59Z</when>
             </TimeStamp>
@@ -191,7 +191,7 @@
         <Placemark>
             <name>Hagor-1</name>
             <open>1</open>
-            <description>&lt;![CDATA[BSSID: &lt;b&gt;00:18:25:16:c3:a0&lt;/b&gt;&lt;br/&gt;Capabilities: &lt;b&gt;SECURITY&lt;/b&gt;&lt;br/&gt;Frequency: &lt;b&gt;1&lt;/b&gt;&lt;br/&gt;Timestamp: &lt;b&gt;1509528977000&lt;/b&gt;&lt;br/&gt;Date: &lt;b&gt;2017-11-05 14:41:05&lt;/b&gt;]]&gt;</description>
+            <description>&lt;![CDATA[BSSID: &lt;b&gt;00:18:25:16:c3:a0&lt;/b&gt;&lt;br/&gt;Capabilities: &lt;b&gt;SECURITY&lt;/b&gt;&lt;br/&gt;Frequency: &lt;b&gt;wifies[ind].getFreq()&lt;/b&gt;&lt;br/&gt;Timestamp: &lt;b&gt;1509528977000&lt;/b&gt;&lt;br/&gt;Date: &lt;b&gt;2017-11-05 14:41:05&lt;/b&gt;]]&gt;</description>
             <TimeStamp>
                 <when>2017-11-05T14:41:05Z</when>
             </TimeStamp>
@@ -202,7 +202,7 @@
         <Placemark>
             <name>Hagor-1</name>
             <open>1</open>
-            <description>&lt;![CDATA[BSSID: &lt;b&gt;00:18:25:16:c3:a0&lt;/b&gt;&lt;br/&gt;Capabilities: &lt;b&gt;SECURITY&lt;/b&gt;&lt;br/&gt;Frequency: &lt;b&gt;1&lt;/b&gt;&lt;br/&gt;Timestamp: &lt;b&gt;1509528977000&lt;/b&gt;&lt;br/&gt;Date: &lt;b&gt;2017-11-05 14:41:15&lt;/b&gt;]]&gt;</description>
+            <description>&lt;![CDATA[BSSID: &lt;b&gt;00:18:25:16:c3:a0&lt;/b&gt;&lt;br/&gt;Capabilities: &lt;b&gt;SECURITY&lt;/b&gt;&lt;br/&gt;Frequency: &lt;b&gt;wifies[ind].getFreq()&lt;/b&gt;&lt;br/&gt;Timestamp: &lt;b&gt;1509528977000&lt;/b&gt;&lt;br/&gt;Date: &lt;b&gt;2017-11-05 14:41:15&lt;/b&gt;]]&gt;</description>
             <TimeStamp>
                 <when>2017-11-05T14:41:15Z</when>
             </TimeStamp>
@@ -213,7 +213,7 @@
         <Placemark>
             <name>GOLAN T</name>
             <open>1</open>
-            <description>&lt;![CDATA[BSSID: &lt;b&gt;42502_811_3956257&lt;/b&gt;&lt;br/&gt;Capabilities: &lt;b&gt;SECURITY&lt;/b&gt;&lt;br/&gt;Frequency: &lt;b&gt;0&lt;/b&gt;&lt;br/&gt;Timestamp: &lt;b&gt;1509528977000&lt;/b&gt;&lt;br/&gt;Date: &lt;b&gt;2017-11-05 14:41:17&lt;/b&gt;]]&gt;</description>
+            <description>&lt;![CDATA[BSSID: &lt;b&gt;42502_811_3956257&lt;/b&gt;&lt;br/&gt;Capabilities: &lt;b&gt;SECURITY&lt;/b&gt;&lt;br/&gt;Frequency: &lt;b&gt;wifies[ind].getFreq()&lt;/b&gt;&lt;br/&gt;Timestamp: &lt;b&gt;1509528977000&lt;/b&gt;&lt;br/&gt;Date: &lt;b&gt;2017-11-05 14:41:17&lt;/b&gt;]]&gt;</description>
             <TimeStamp>
                 <when>2017-11-05T14:41:17Z</when>
             </TimeStamp>
@@ -224,7 +224,7 @@
         <Placemark>
             <name>Hagor-1</name>
             <open>1</open>
-            <description>&lt;![CDATA[BSSID: &lt;b&gt;00:18:25:16:c3:a0&lt;/b&gt;&lt;br/&gt;Capabilities: &lt;b&gt;SECURITY&lt;/b&gt;&lt;br/&gt;Frequency: &lt;b&gt;1&lt;/b&gt;&lt;br/&gt;Timestamp: &lt;b&gt;1509528977000&lt;/b&gt;&lt;br/&gt;Date: &lt;b&gt;2017-11-05 14:41:23&lt;/b&gt;]]&gt;</description>
+            <description>&lt;![CDATA[BSSID: &lt;b&gt;00:18:25:16:c3:a0&lt;/b&gt;&lt;br/&gt;Capabilities: &lt;b&gt;SECURITY&lt;/b&gt;&lt;br/&gt;Frequency: &lt;b&gt;wifies[ind].getFreq()&lt;/b&gt;&lt;br/&gt;Timestamp: &lt;b&gt;1509528977000&lt;/b&gt;&lt;br/&gt;Date: &lt;b&gt;2017-11-05 14:41:23&lt;/b&gt;]]&gt;</description>
             <TimeStamp>
                 <when>2017-11-05T14:41:23Z</when>
             </TimeStamp>
@@ -235,7 +235,7 @@
         <Placemark>
             <name>GOLAN T</name>
             <open>1</open>
-            <description>&lt;![CDATA[BSSID: &lt;b&gt;42502_811_3956257&lt;/b&gt;&lt;br/&gt;Capabilities: &lt;b&gt;SECURITY&lt;/b&gt;&lt;br/&gt;Frequency: &lt;b&gt;0&lt;/b&gt;&lt;br/&gt;Timestamp: &lt;b&gt;1509528977000&lt;/b&gt;&lt;br/&gt;Date: &lt;b&gt;2017-11-05 14:41:25&lt;/b&gt;]]&gt;</description>
+            <description>&lt;![CDATA[BSSID: &lt;b&gt;42502_811_3956257&lt;/b&gt;&lt;br/&gt;Capabilities: &lt;b&gt;SECURITY&lt;/b&gt;&lt;br/&gt;Frequency: &lt;b&gt;wifies[ind].getFreq()&lt;/b&gt;&lt;br/&gt;Timestamp: &lt;b&gt;1509528977000&lt;/b&gt;&lt;br/&gt;Date: &lt;b&gt;2017-11-05 14:41:25&lt;/b&gt;]]&gt;</description>
             <TimeStamp>
                 <when>2017-11-05T14:41:25Z</when>
             </TimeStamp>
@@ -246,7 +246,7 @@
         <Placemark>
             <name>Hagor-1</name>
             <open>1</open>
-            <description>&lt;![CDATA[BSSID: &lt;b&gt;00:18:25:16:c3:a0&lt;/b&gt;&lt;br/&gt;Capabilities: &lt;b&gt;SECURITY&lt;/b&gt;&lt;br/&gt;Frequency: &lt;b&gt;1&lt;/b&gt;&lt;br/&gt;Timestamp: &lt;b&gt;1509528977000&lt;/b&gt;&lt;br/&gt;Date: &lt;b&gt;2017-11-05 14:41:27&lt;/b&gt;]]&gt;</description>
+            <description>&lt;![CDATA[BSSID: &lt;b&gt;00:18:25:16:c3:a0&lt;/b&gt;&lt;br/&gt;Capabilities: &lt;b&gt;SECURITY&lt;/b&gt;&lt;br/&gt;Frequency: &lt;b&gt;wifies[ind].getFreq()&lt;/b&gt;&lt;br/&gt;Timestamp: &lt;b&gt;1509528977000&lt;/b&gt;&lt;br/&gt;Date: &lt;b&gt;2017-11-05 14:41:27&lt;/b&gt;]]&gt;</description>
             <TimeStamp>
                 <when>2017-11-05T14:41:27Z</when>
             </TimeStamp>
@@ -257,7 +257,7 @@
         <Placemark>
             <name>BezeqFree</name>
             <open>1</open>
-            <description>&lt;![CDATA[BSSID: &lt;b&gt;72:ee:0c:3d:9f:5d&lt;/b&gt;&lt;br/&gt;Capabilities: &lt;b&gt;SECURITY&lt;/b&gt;&lt;br/&gt;Frequency: &lt;b&gt;11&lt;/b&gt;&lt;br/&gt;Timestamp: &lt;b&gt;1509528977000&lt;/b&gt;&lt;br/&gt;Date: &lt;b&gt;2017-11-05 14:41:31&lt;/b&gt;]]&gt;</description>
+            <description>&lt;![CDATA[BSSID: &lt;b&gt;72:ee:0c:3d:9f:5d&lt;/b&gt;&lt;br/&gt;Capabilities: &lt;b&gt;SECURITY&lt;/b&gt;&lt;br/&gt;Frequency: &lt;b&gt;wifies[ind].getFreq()&lt;/b&gt;&lt;br/&gt;Timestamp: &lt;b&gt;1509528977000&lt;/b&gt;&lt;br/&gt;Date: &lt;b&gt;2017-11-05 14:41:31&lt;/b&gt;]]&gt;</description>
             <TimeStamp>
                 <when>2017-11-05T14:41:31Z</when>
             </TimeStamp>
@@ -268,7 +268,7 @@
         <Placemark>
             <name>Hagor-1</name>
             <open>1</open>
-            <description>&lt;![CDATA[BSSID: &lt;b&gt;00:18:25:16:c3:a0&lt;/b&gt;&lt;br/&gt;Capabilities: &lt;b&gt;SECURITY&lt;/b&gt;&lt;br/&gt;Frequency: &lt;b&gt;1&lt;/b&gt;&lt;br/&gt;Timestamp: &lt;b&gt;1509528977000&lt;/b&gt;&lt;br/&gt;Date: &lt;b&gt;2017-11-05 14:41:33&lt;/b&gt;]]&gt;</description>
+            <description>&lt;![CDATA[BSSID: &lt;b&gt;00:18:25:16:c3:a0&lt;/b&gt;&lt;br/&gt;Capabilities: &lt;b&gt;SECURITY&lt;/b&gt;&lt;br/&gt;Frequency: &lt;b&gt;wifies[ind].getFreq()&lt;/b&gt;&lt;br/&gt;Timestamp: &lt;b&gt;1509528977000&lt;/b&gt;&lt;br/&gt;Date: &lt;b&gt;2017-11-05 14:41:33&lt;/b&gt;]]&gt;</description>
             <TimeStamp>
                 <when>2017-11-05T14:41:33Z</when>
             </TimeStamp>
@@ -279,7 +279,7 @@
         <Placemark>
             <name>adslfixlanova</name>
             <open>1</open>
-            <description>&lt;![CDATA[BSSID: &lt;b&gt;48:ee:0c:3d:9f:5c&lt;/b&gt;&lt;br/&gt;Capabilities: &lt;b&gt;SECURITY&lt;/b&gt;&lt;br/&gt;Frequency: &lt;b&gt;11&lt;/b&gt;&lt;br/&gt;Timestamp: &lt;b&gt;1509528977000&lt;/b&gt;&lt;br/&gt;Date: &lt;b&gt;2017-11-05 14:41:37&lt;/b&gt;]]&gt;</description>
+            <description>&lt;![CDATA[BSSID: &lt;b&gt;48:ee:0c:3d:9f:5c&lt;/b&gt;&lt;br/&gt;Capabilities: &lt;b&gt;SECURITY&lt;/b&gt;&lt;br/&gt;Frequency: &lt;b&gt;wifies[ind].getFreq()&lt;/b&gt;&lt;br/&gt;Timestamp: &lt;b&gt;1509528977000&lt;/b&gt;&lt;br/&gt;Date: &lt;b&gt;2017-11-05 14:41:37&lt;/b&gt;]]&gt;</description>
             <TimeStamp>
                 <when>2017-11-05T14:41:37Z</when>
             </TimeStamp>
@@ -290,7 +290,7 @@
         <Placemark>
             <name>Hagor-1</name>
             <open>1</open>
-            <description>&lt;![CDATA[BSSID: &lt;b&gt;00:18:25:16:c3:a0&lt;/b&gt;&lt;br/&gt;Capabilities: &lt;b&gt;SECURITY&lt;/b&gt;&lt;br/&gt;Frequency: &lt;b&gt;1&lt;/b&gt;&lt;br/&gt;Timestamp: &lt;b&gt;1509528977000&lt;/b&gt;&lt;br/&gt;Date: &lt;b&gt;2017-11-05 14:41:39&lt;/b&gt;]]&gt;</description>
+            <description>&lt;![CDATA[BSSID: &lt;b&gt;00:18:25:16:c3:a0&lt;/b&gt;&lt;br/&gt;Capabilities: &lt;b&gt;SECURITY&lt;/b&gt;&lt;br/&gt;Frequency: &lt;b&gt;wifies[ind].getFreq()&lt;/b&gt;&lt;br/&gt;Timestamp: &lt;b&gt;1509528977000&lt;/b&gt;&lt;br/&gt;Date: &lt;b&gt;2017-11-05 14:41:39&lt;/b&gt;]]&gt;</description>
             <TimeStamp>
                 <when>2017-11-05T14:41:39Z</when>
             </TimeStamp>
@@ -301,7 +301,7 @@
         <Placemark>
             <name>adslfixlanova</name>
             <open>1</open>
-            <description>&lt;![CDATA[BSSID: &lt;b&gt;48:ee:0c:3d:9f:5c&lt;/b&gt;&lt;br/&gt;Capabilities: &lt;b&gt;SECURITY&lt;/b&gt;&lt;br/&gt;Frequency: &lt;b&gt;11&lt;/b&gt;&lt;br/&gt;Timestamp: &lt;b&gt;1509528977000&lt;/b&gt;&lt;br/&gt;Date: &lt;b&gt;2017-11-05 14:41:43&lt;/b&gt;]]&gt;</description>
+            <description>&lt;![CDATA[BSSID: &lt;b&gt;48:ee:0c:3d:9f:5c&lt;/b&gt;&lt;br/&gt;Capabilities: &lt;b&gt;SECURITY&lt;/b&gt;&lt;br/&gt;Frequency: &lt;b&gt;wifies[ind].getFreq()&lt;/b&gt;&lt;br/&gt;Timestamp: &lt;b&gt;1509528977000&lt;/b&gt;&lt;br/&gt;Date: &lt;b&gt;2017-11-05 14:41:43&lt;/b&gt;]]&gt;</description>
             <TimeStamp>
                 <when>2017-11-05T14:41:43Z</when>
             </TimeStamp>

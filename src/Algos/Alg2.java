@@ -45,7 +45,7 @@ public class Alg2 {
 			int k=0;
 			boolean contain = false;
 			while(k < empty.getMount()&&!contain){
-				if(full.getSample(i).ContainsMac(empty.getWifi(k).getMac())){
+				if(full.getSample(i).Contains(empty.getWifi(k).getMac())){
 					contain = true;
 					cnt++;
 				}
@@ -86,7 +86,7 @@ public class Alg2 {
 		double pi=1;
 	
 		for(int i=0;i<empty.getMount();i++){
-			if(full.ContainsMac(empty.getWifi(i).getMac()))
+			if(full.Contains(empty.getWifi(i).getMac()))
 				pi *= wCalc(empty.getWifi(i).getSig(),full.FindMac(empty.getWifi(i).getMac()).getSig());
 			else
 				pi *= wCalc(empty.getWifi(i).getSig(),-120);

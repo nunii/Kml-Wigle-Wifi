@@ -1,4 +1,4 @@
-package EX03;
+package ex03;
 
 import java.awt.BorderLayout;
 import java.awt.EventQueue;
@@ -9,6 +9,7 @@ import javax.swing.border.EmptyBorder;
 import javax.swing.JTextField;
 import java.awt.SystemColor;
 import java.awt.Font;
+import javax.swing.JTextArea;
 
 public class DirPathFrame extends JFrame {
 	

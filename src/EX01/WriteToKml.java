@@ -28,7 +28,7 @@ public class WriteToKml {
 		for (int i = 0; i < samples.length(); i++) {
 				Placemark place = document.createAndAddPlacemark().withName(samples.getName(i)).withOpen(Boolean.TRUE);
 				place.withDescription("<![CDATA[BSSID: <b>"+samples.getMac(i)+"</b><br/>Capabilities: <b>SECURITY</b><br/>Frequency: <b>"+samples.getFreq(i)+"</b><br/>Timestamp: <b>1509528977000</b><br/>Date: <b>"+samples.getDate(i)+"</b>]]>")
-			   .createAndSetPoint().addToCoordinates(samples.getPos(i).PostoKml());
+			   .createAndSetPoint().addToCoordinates(samples.getPosition(i).PostoKml());
 				place.createAndSetTimeStamp().withWhen(samples.getTimestamp(i));
 		}
 		kml.setFeature(document);

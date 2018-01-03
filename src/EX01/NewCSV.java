@@ -15,23 +15,24 @@ public class NewCSV {
 	 * The class is doing it by filtering 10best wifi signals of each record.
 	 */
 
-	static ArrayList<String> FinalFile = new ArrayList<>();
+	static ArrayList<String> FinalFile;
 
-	private static void DirToCsv(File[] fileslist, String s){
-		FinalFile.add("Time,ID,Lat,Lon,Alt,#WiFi networks,SSID1,MAC1,Frequncy1,Signal1,SSID2,MAC2,Frequncy2,Signal2,SSID3,MAC3,Frequncy3,Signal3,SSID4,MAC4,Frequncy4,Signal4,SSID5,MAC5,Frequncy5,Signal5,SSID6,MAC6,Frequncy6,Signal6,SSID7,MAC7,Frequncy7,Signal7,SSID8,MAC8,Frequncy8,Signal8,SSID9,MAC9,Frequncy9,Signal9,SSID10,MAC10,Frequncy10,Signal10");
+	private static ArrayList<String> DirToCsv(File[] fileslist, String s){
+		FinalFile = new ArrayList<>();
 		for(File i:fileslist){
-			Best10(ReadCSV.CSVtoMatrix(i.getPath()+"newCSV.csv"));
+			FinalFile.addAll(Best10(ReadCSV.CSVtoMatrix(i.getPath())));
 		}
-		WriteCSV.Write(FinalFile, s);
+		return FinalFile;
 	}
 
 	/**
 	 * Takes only the relevant sample lines into a new Sample-matrix
 	 * @param mtx
 	 */
-	private static void Best10(String[][] mtx)	{
+	public static ArrayList<String> Best10(String[][] mtx)	{
+		ArrayList<String> tempFile = new ArrayList<String>();
 		if(mtx == null)
-			return;
+			return tempFile;
 		ArrayList<String[]> samp = new ArrayList<>();
 		List<Integer> sum = new ArrayList<>();
 		List<String> time = new ArrayList<>();
@@ -86,11 +87,11 @@ public class NewCSV {
 				f++;
 				c++;
 			}
-			FinalFile.add(st);
+			tempFile.add(st);
 			f++;
 			l++;
 		}
-
+		return tempFile;
 	}
 
 
@@ -139,16 +140,19 @@ public class NewCSV {
 		}	
 		return ListOfGoods;
 	}
+	
 	/**
 	 * Asks for a path to directory and starts activating the other functions of this class.
 	 */
-	public static String start() {
-		Scanner reader = new Scanner(System.in);
+	public static ArrayList<String> start(String s) {
+		/*Scanner reader = new Scanner(System.in);
 		System.out.println("Insert path to direcory: ");
-		String s = (String)reader.nextLine();
+		String s = (String)reader.nextLine();*/
 		if(!s.endsWith("\\"))
 			s+="\\";
 		File[] listOfFiles = new File[1];
+		listOfFiles = getDir(s);
+/*
 		boolean bool = true;
 		while(bool){
 			try{
@@ -162,10 +166,12 @@ public class NewCSV {
 				bool = true;
 			}
 		}
-		DirToCsv(listOfFiles, s);
-		reader.close();
+		*/
+		return DirToCsv(listOfFiles, s);
+		//reader.close();
+		//WriteCSV.Write(FinalFile, s+"newCSV.csv");
 
-		return s;
+	
 	}
 }
 
