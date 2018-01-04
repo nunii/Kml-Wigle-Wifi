@@ -23,6 +23,7 @@ public class Rashi {
 		Time ENdtime = new Time("2017-11-05  14:34:10");
 		Filter timfilt = new timeFilter(STtime.toString(),ENdtime.toString());
 		WriteToKml.write(samps.Filter(timfilt), path+"TimeFilt.kml");
+		
 	}
 
 }

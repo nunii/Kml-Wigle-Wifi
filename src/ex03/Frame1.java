@@ -6,12 +6,16 @@ import javax.swing.JFrame;
 import javax.swing.JButton;
 import javax.swing.JTextField;
 import java.awt.SystemColor;
+import java.awt.TextField;
 import java.awt.Font;
 import java.awt.Insets;
 import javax.swing.SwingConstants;
 
 import Data_classes.Samples;
 import EX01.Rashi;
+import EX01.WriteToKml;
+import Filter.Filter;
+import Filter.WifiFilter;
 import ex02.Rashi2;
 import java.awt.Color;
 import javax.swing.JList;
@@ -29,28 +33,39 @@ import java.awt.event.MouseEvent;
 import javax.swing.JDesktopPane;
 import javax.swing.JFileChooser;
 import javax.swing.JMenuBar;
+import javax.swing.JOptionPane;
 import javax.swing.JPanel;
 
 import javafx.stage.FileChooser;
 import java.io.File;
 import javax.swing.JTextArea;
+import javax.swing.ButtonGroup;
 
 public class Frame1 extends JPanel implements ActionListener{
 	
 	private String name,File,Path;
 	private JFrame frame,DirPathFrame;
-	private JTextField textFieldName, textFieldPosition;
+	private JTextField textFieldName, textFieldLat;
 	private JTextArea log;
 	private JFileChooser fc;
-	private JRadioButton radioButtonAltMax, radioButtonLonMax, radioButtonLatMax,
-				radioButtonTimeMax, radioButtonLatMin, radioButtonTimeMin,
+	private JRadioButton radioButtonAltMax, radioButtonLonMax, radioButtonLatMax, radioButtonLatMin,
 				radioButtonLonMin, radioButtonAltMin;
 	private JButton buttonAddDir, buttonAddCSV, ButtonSaveToCSV, buttonClearData,
 			ButtonFilterSubmit, buttonAlg1Submit, button;
-	private JTextPane txtpnFilters, txtpnTimeLatLon, txtpnAlgorithms;
+	private JTextPane txtpnFiltersHeader, txtpnFilters, txtpnAlgorithms;
 	private JButton buttonToKML;
 	File file,dir;
 	Samples samps = new Samples();
+	private final ButtonGroup Time = new ButtonGroup();
+	private final ButtonGroup Lat = new ButtonGroup();
+	private final ButtonGroup Lon = new ButtonGroup();
+	private final ButtonGroup Alt = new ButtonGroup();
+	private JTextField textFieldTimeStart;
+	private JTextField textFieldTimeEnd;
+	private JTextField textFieldLon;
+	private JTextField textFieldAlt;
+	private JTextPane textPanePos;
+	private JTextPane textPaneTime;
 	
 	/**
 	 * @wbp.nonvisual location=76,259
@@ -82,63 +97,63 @@ public class Frame1 extends JPanel implements ActionListener{
 		frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 		frame.getContentPane().setLayout(null);
 		
-		textFieldPosition = new JTextField();
-		textFieldPosition.setColumns(10);
-		textFieldPosition.setBounds(262, 227, 86, 20);
-		frame.getContentPane().add(textFieldPosition);
+		textFieldTimeStart = new JTextField();
+		textFieldTimeStart.setColumns(10);
+		textFieldTimeStart.setBounds(262, 227, 86, 20);
+		frame.getContentPane().add(textFieldTimeStart);
+		
+		textFieldLat = new JTextField();
+		textFieldLat.setColumns(10);
+		textFieldLat.setBounds(262, 193, 57, 20);
+		frame.getContentPane().add(textFieldLat);
 		
 		textFieldName = new JTextField();
 		textFieldName.addActionListener(this);
-		textFieldName.setBounds(262, 193, 86, 20);
+		textFieldName.setBounds(262, 158, 188, 20);
 		frame.getContentPane().add(textFieldName);
 		textFieldName.setColumns(10);
 		
 		radioButtonAltMax = new JRadioButton("Max");
+		Alt.add(radioButtonAltMax);
 		radioButtonAltMax.setFont(new Font("Times New Roman", Font.PLAIN, 11));
 		radioButtonAltMax.setBackground(SystemColor.info);
-		radioButtonAltMax.setBounds(291, 147, 57, 39);
+		radioButtonAltMax.setBounds(301, 113, 57, 39);
 		frame.getContentPane().add(radioButtonAltMax);
 		
 		radioButtonLonMax = new JRadioButton("Max");
+		Lon.add(radioButtonLonMax);
 		radioButtonLonMax.setFont(new Font("Times New Roman", Font.PLAIN, 11));
 		radioButtonLonMax.setBackground(SystemColor.info);
-		radioButtonLonMax.setBounds(301, 113, 57, 39);
+		radioButtonLonMax.setBounds(301, 78, 57, 39);
 		frame.getContentPane().add(radioButtonLonMax);
 		
 		radioButtonLatMax = new JRadioButton("Max");
+		Lat.add(radioButtonLatMax);
 		radioButtonLatMax.setFont(new Font("Times New Roman", Font.PLAIN, 11));
 		radioButtonLatMax.setBackground(SystemColor.info);
-		radioButtonLatMax.setBounds(301, 78, 57, 39);
+		radioButtonLatMax.setBounds(301, 41, 57, 39);
 		frame.getContentPane().add(radioButtonLatMax);
 		
-		radioButtonTimeMax = new JRadioButton("Max");
-		radioButtonTimeMax.setFont(new Font("Times New Roman", Font.PLAIN, 11));
-		radioButtonTimeMax.setBackground(SystemColor.info);
-		radioButtonTimeMax.setBounds(301, 40, 57, 39);
-		frame.getContentPane().add(radioButtonTimeMax);
-		
 		radioButtonLatMin = new JRadioButton("Min");
+		Lat.add(radioButtonLatMin);
 		radioButtonLatMin.setFont(new Font("Times New Roman", Font.PLAIN, 11));
 		radioButtonLatMin.setBackground(SystemColor.info);
-		radioButtonLatMin.setBounds(245, 78, 57, 39);
+		radioButtonLatMin.setBounds(245, 41, 57, 39);
 		frame.getContentPane().add(radioButtonLatMin);
 		
-		radioButtonTimeMin = new JRadioButton("Min");
-		radioButtonTimeMin.setBackground(SystemColor.info);
-		radioButtonTimeMin.setFont(new Font("Times New Roman", Font.PLAIN, 11));
-		radioButtonTimeMin.setBounds(245, 40, 57, 39);
-		frame.getContentPane().add(radioButtonTimeMin);
-		
 		radioButtonLonMin = new JRadioButton("Min");
+		Lon.add(radioButtonLonMin);
 		radioButtonLonMin.setFont(new Font("Times New Roman", Font.PLAIN, 11));
 		radioButtonLonMin.setBackground(SystemColor.info);
-		radioButtonLonMin.setBounds(245, 113, 57, 39);
+		radioButtonLonMin.setBounds(245, 78, 57, 39);
 		frame.getContentPane().add(radioButtonLonMin);
 		
+		
 		radioButtonAltMin = new JRadioButton("Min");
+		Alt.add(radioButtonAltMin);
 		radioButtonAltMin.setFont(new Font("Times New Roman", Font.PLAIN, 11));
 		radioButtonAltMin.setBackground(SystemColor.info);
-		radioButtonAltMin.setBounds(245, 147, 57, 39);
+		radioButtonAltMin.setBounds(245, 113, 57, 39);
 		frame.getContentPane().add(radioButtonAltMin);
 		
 		buttonAddDir = new JButton("Add directory");
@@ -159,6 +174,7 @@ public class Frame1 extends JPanel implements ActionListener{
 		ButtonSaveToCSV.setBounds(10, 158, 127, 39);
 		frame.getContentPane().add(ButtonSaveToCSV);
 		
+		
 		buttonClearData = new JButton("Clear data");
 		buttonClearData.setFont(new Font("Times New Roman", Font.PLAIN, 15));
 		buttonClearData.setBounds(10, 208, 127, 39);
@@ -174,28 +190,31 @@ public class Frame1 extends JPanel implements ActionListener{
 		ButtonFilterSubmit.setBounds(214, 266, 127, 39);
 		frame.getContentPane().add(ButtonFilterSubmit);
 		
+		
+		
 		buttonAlg1Submit = new JButton("Submit");
+		buttonAlg1Submit.addActionListener(this);
 		buttonAlg1Submit.setFont(new Font("Times New Roman", Font.PLAIN, 15));
 		buttonAlg1Submit.setBounds(607, 67, 127, 39);
 		frame.getContentPane().add(buttonAlg1Submit);
 		
 		
+		txtpnFiltersHeader = new JTextPane();
+		txtpnFiltersHeader.setEditable(false);
+		txtpnFiltersHeader.setForeground(new Color(0, 0, 0));
+		txtpnFiltersHeader.setFont(new Font("Times New Roman", Font.PLAIN, 18));
+		txtpnFiltersHeader.setBackground(SystemColor.info);
+		txtpnFiltersHeader.setText("Filters");
+		txtpnFiltersHeader.setBounds(245, 8, 138, 47);
+		frame.getContentPane().add(txtpnFiltersHeader);
+		
+		
 		txtpnFilters = new JTextPane();
-		txtpnFilters.setEditable(false);
-		txtpnFilters.setForeground(new Color(0, 0, 0));
-		txtpnFilters.setFont(new Font("Times New Roman", Font.PLAIN, 18));
 		txtpnFilters.setBackground(SystemColor.info);
-		txtpnFilters.setText("Filters");
-		txtpnFilters.setBounds(245, 8, 138, 47);
+		txtpnFilters.setFont(new Font("Times New Roman", Font.PLAIN, 15));
+		txtpnFilters.setText("Lat\r\n\r\nLon\r\n\r\nAlt\r\n\r\nName:\r\n\r\nPosition:\r\n\r\nTime:");
+		txtpnFilters.setBounds(204, 47, 93, 208);
 		frame.getContentPane().add(txtpnFilters);
-		
-		
-		txtpnTimeLatLon = new JTextPane();
-		txtpnTimeLatLon.setBackground(SystemColor.info);
-		txtpnTimeLatLon.setFont(new Font("Times New Roman", Font.PLAIN, 15));
-		txtpnTimeLatLon.setText("Time\r\n\r\nLat\r\n\r\nLon\r\n\r\nAlt\r\n\r\nName:\r\n\r\nPosition:");
-		txtpnTimeLatLon.setBounds(204, 47, 93, 208);
-		frame.getContentPane().add(txtpnTimeLatLon);
 		
 		txtpnAlgorithms = new JTextPane();
 		txtpnAlgorithms.setEditable(false);
@@ -203,7 +222,7 @@ public class Frame1 extends JPanel implements ActionListener{
 		txtpnAlgorithms.setForeground(Color.BLACK);
 		txtpnAlgorithms.setFont(new Font("Times New Roman", Font.PLAIN, 18));
 		txtpnAlgorithms.setBackground(SystemColor.info);
-		txtpnAlgorithms.setBounds(507, 8, 138, 47);
+		txtpnAlgorithms.setBounds(559, 8, 138, 47);
 		frame.getContentPane().add(txtpnAlgorithms);
 		
 		buttonToKML = new JButton("Dir to KML");
@@ -211,6 +230,39 @@ public class Frame1 extends JPanel implements ActionListener{
 		buttonToKML.setFont(new Font("Times New Roman", Font.PLAIN, 15));
 		buttonToKML.setBounds(10, 57, 127, 39);
 		frame.getContentPane().add(buttonToKML);
+		
+		textFieldTimeEnd = new JTextField();
+		textFieldTimeEnd.setColumns(10);
+		textFieldTimeEnd.setBounds(357, 227, 93, 20);
+		frame.getContentPane().add(textFieldTimeEnd);
+		
+		JTextPane txtpnfullName = new JTextPane();
+		txtpnfullName.setText("(Full name)\r\n");
+		txtpnfullName.setBackground(SystemColor.info);
+		txtpnfullName.setBounds(483, 158, 106, 20);
+		frame.getContentPane().add(txtpnfullName);
+		
+		textFieldLon = new JTextField();
+		textFieldLon.setColumns(10);
+		textFieldLon.setBounds(326, 193, 57, 20);
+		frame.getContentPane().add(textFieldLon);
+		
+		textFieldAlt = new JTextField();
+		textFieldAlt.setColumns(10);
+		textFieldAlt.setBounds(393, 193, 57, 20);
+		frame.getContentPane().add(textFieldAlt);
+		
+		textPanePos = new JTextPane();
+		textPanePos.setText("(Lat Lon Alt)\r\n");
+		textPanePos.setBackground(SystemColor.info);
+		textPanePos.setBounds(483, 193, 106, 20);
+		frame.getContentPane().add(textPanePos);
+		
+		textPaneTime = new JTextPane();
+		textPaneTime.setText("(Begin) (End )\r\n");
+		textPaneTime.setBackground(SystemColor.info);
+		textPaneTime.setBounds(483, 227, 106, 20);
+		frame.getContentPane().add(textPaneTime);
 		
 	}
 	
@@ -264,10 +316,19 @@ public class Frame1 extends JPanel implements ActionListener{
 			Rashi.main(s);
 		}
 		
-		if(e.getSource()==textFieldName){
+		/*if(e.getSource()==textFieldName){
 			name=textFieldName.getText();
+		}*/
+		
+		if(e.getSource()==buttonAlg1Submit) {
+			name=textFieldName.getText();
+			if(name!=null) {
+			Filter wffilt = new WifiFilter(name);
+			WriteToKml.write(samps.Filter(wffilt),Path+"PosFilt.kml");
+		}
 		}
 	}
-
-	
 }
+
+
+
