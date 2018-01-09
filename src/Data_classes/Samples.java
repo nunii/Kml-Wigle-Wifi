@@ -62,16 +62,19 @@ public class Samples {
 	}
 
 	public void add(Sample s){
-		if(!this.hasEqual(s))
+		if(!this.hasEqual(s)){
+			System.out.println("in");
 			file.add(s);
+		}
 	}
 
 	public void add(ArrayList<String> temp){
 		Sample samp;
 		for (int i = 0; i < temp.size(); i++) {
 			samp = new Sample(temp.get(i).split(","));
-			if(!this.hasEqual(samp))
+			if(!this.hasEqual(samp)){
 				file.add(samp);
+			}
 		}
 	}
 	
@@ -133,6 +136,7 @@ public class Samples {
 	}
 
 	public boolean hasEqual(Sample samp){
+		System.out.println("in hasEqual");
 		Time STtime = new Time(samp.getDate());
 		Filter f = new timeFilter(STtime.toString(),STtime.toString());
 		Samples sampls = new Samples(this.Filter(f));
@@ -140,9 +144,9 @@ public class Samples {
 		for(int j=0;j<sampls.length();j++){
 			if(sampls.getSample(j).getID().equals(samp.getID())
 				&&sampls.getSample(j).getDate().equals(samp.getDate()))
-					return false;
+					return true;
 		}
-		return true;
+		return false;
 	}
 
 	public Sample getSample(int d){

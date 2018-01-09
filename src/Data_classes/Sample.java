@@ -120,7 +120,7 @@ public class Sample {
 	}
 	
 	public String toString(){
-		String s = time+","+ID+","+pos+",";
+		String s = time+","+ID+","+pos+","+this.getMount();
 		for(int i=0;i<wifies.length;i++){
 			s+=","+wifies[i].toString();
 		}
