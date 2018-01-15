@@ -62,4 +62,25 @@ public class MacPos {
 		return macPos;
 
 	}
+	
+	public static Position makePos(Samples s, String mac) {
+
+		Position macPos;
+		List<Wifi> wifiAr = new ArrayList<Wifi>();
+		Filter wf = new WifiFilter(mac);
+		Samples samps1 = s.Filter(wf);
+
+		for(int i = 0; i < samps1.length(); i++) 
+			wifiAr.add(samps1.getSample(i).FindMac(mac));
+		
+		Collections.sort(wifiAr);
+
+		if(wifiAr.size()>2)
+			macPos = new Position(Alg1.MacNewPos(wifiAr.get(0),wifiAr.get(1),wifiAr.get(2)));
+		else 
+			macPos = new Position(wifiAr.get(0).getPos());
+
+		return macPos;
+
+	}
 }

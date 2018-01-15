@@ -18,10 +18,11 @@ import Filter.Filter;
 import Filter.WifiFilter;
 import Filter.positionFilter;
 import Filter.timeFilter;
+import ex02.MacPos;
 
 public class Data {
 	static Samples samples = new Samples(),currentData = new Samples(samples);
-	static int csvCounter=1,kmlCounter=1;
+	public static int csvCounter,kmlCounter;
 	static boolean filterFlag = false;
 	static Filter[] filters = new Filter[2];
 	static String operator;
@@ -147,7 +148,7 @@ public class Data {
 		
 		Filter tf = new timeFilter(start,end);
 		
-		if(!filterFlag){
+		if(!filterFlag||oper==null){
 			currentData = currentData.Filter(tf);
 			filters[0] = tf;
 			filterFlag = true;
@@ -169,7 +170,7 @@ public class Data {
 	public static void positionfilter(String lat, String lon, String alt, String radius, String oper){
 		Filter pf = new positionFilter(new Position(lat,lon,alt),Double.parseDouble(radius));
 		
-		if(!filterFlag){
+		if(!filterFlag||oper==null){
 			currentData = currentData.Filter(pf);
 			filters[0] = pf;
 			filterFlag = true;
@@ -191,7 +192,7 @@ public class Data {
 	public static void macFilter(String mac, String oper){
 		Filter wf = new WifiFilter(mac);
 		
-		if(!filterFlag){
+		if(!filterFlag||oper==null){
 			currentData = currentData.Filter(wf);
 			filters[0] = wf;
 			filterFlag = true;
@@ -244,6 +245,10 @@ public class Data {
 		if(samples.length()<1)
 			return "0";
 		return String.valueOf(samples.length());
+	}
+	
+	public static String getPositionAlg1(String mac){
+		return MacPos.makePos(samples,mac).toString();
 	}
 	
 }

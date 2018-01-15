@@ -46,6 +46,8 @@ import java.util.concurrent.ForkJoinPool;
 import javax.swing.JTextArea;
 import javax.swing.ButtonGroup;
 import javax.swing.border.LineBorder;
+import javax.swing.event.ListSelectionEvent;
+import javax.swing.event.ListSelectionListener;
 import javax.swing.UIManager;
 import javax.swing.JMenuItem;
 import javax.swing.JSpinner;
@@ -54,12 +56,15 @@ import javax.swing.JComboBox;
 import java.awt.List;
 import java.awt.ScrollPane;
 import javax.swing.ListSelectionModel;
+import javax.swing.border.SoftBevelBorder;
+import javax.swing.border.BevelBorder;
+import java.awt.Panel;
 
 public class Frame1 extends JPanel implements ActionListener{
 
-	private String name,File,Path,lat,alt,lon,radius,start,end,operator;
+	private String mac=null,name,File,Path,lat,alt,lon,radius,start,end,operator;
 	private JFrame frame,DirPathFrame;
-	private JTextField textFieldName, textFieldLat;
+	private JTextField textFieldLat;
 	private JTextArea log;
 	private JFileChooser fc;
 	private JButton buttonAddDir, buttonAddCSV, ButtonSaveToCSV, btnFilterdDataTo,
@@ -76,12 +81,13 @@ public class Frame1 extends JPanel implements ActionListener{
 	private JTextField textFieldTimeEnd;
 	private JTextField textFieldLon;
 	private JTextField textFieldAlt;
-	private JTextPane textPanePos;
+	private JTextPane textPanePos, textPaneMacPos;
 	private JTextPane textPaneTime;
 	private JTextField textFieldRad;
 	private JRadioButton rdbtnOr, rdbtnAnd;
 	private JButton btnClearFilters;
-	private JList list;
+	private JList list, list_1;
+	private JScrollPane scrollPane, scrollPane_1;
 
 	/**
 	 * @wbp.nonvisual location=76,259
@@ -99,7 +105,8 @@ public class Frame1 extends JPanel implements ActionListener{
 	 * Initialize the contents of the frame.
 	 */
 	private void initialize() {
-
+		Data.csvCounter = 1;
+		Data.kmlCounter = 1;
 		log = new JTextArea(5, 20);
 		log.setMargin(new Insets(5, 5, 5, 5));
 		log.setEditable(false);
@@ -124,12 +131,6 @@ public class Frame1 extends JPanel implements ActionListener{
 		textFieldLat.setBounds(280, 107, 37, 20);
 		frame.getContentPane().add(textFieldLat);
 
-		textFieldName = new JTextField();
-		textFieldName.addActionListener(this);
-		textFieldName.setBounds(280, 67, 188, 20);
-		frame.getContentPane().add(textFieldName);
-		textFieldName.setColumns(10);
-
 		buttonAddDir = new JButton("Add directory");
 		buttonAddDir.addActionListener(this);
 		buttonAddDir.setFont(new Font("Times New Roman", Font.PLAIN, 15));
@@ -139,7 +140,7 @@ public class Frame1 extends JPanel implements ActionListener{
 		buttonAddCSV = new JButton("Add CSV file");
 		buttonAddCSV.addActionListener(this);
 		buttonAddCSV.setFont(new Font("Times New Roman", Font.PLAIN, 15));
-		buttonAddCSV.setBounds(10, 107, 127, 39);
+		buttonAddCSV.setBounds(10, 53, 127, 39);
 		frame.getContentPane().add(buttonAddCSV);
 
 		ButtonSaveToCSV = new JButton("Data to CSV file");
@@ -156,7 +157,7 @@ public class Frame1 extends JPanel implements ActionListener{
 
 		btnAlgo = new JButton("Algo 2 - Submit");
 		btnAlgo.setFont(new Font("Times New Roman", Font.PLAIN, 15));
-		btnAlgo.setBounds(607, 230, 127, 39);
+		btnAlgo.setBounds(607, 176, 127, 39);
 		frame.getContentPane().add(btnAlgo);
 
 		ButtonFilterSubmit = new JButton("Submit Filters");
@@ -170,7 +171,7 @@ public class Frame1 extends JPanel implements ActionListener{
 		buttonAlg1Submit = new JButton("Algo 1 - Submit");
 		buttonAlg1Submit.addActionListener(this);
 		buttonAlg1Submit.setFont(new Font("Times New Roman", Font.PLAIN, 15));
-		buttonAlg1Submit.setBounds(607, 57, 127, 39);
+		buttonAlg1Submit.setBounds(607, 45, 127, 39);
 		frame.getContentPane().add(buttonAlg1Submit);
 
 
@@ -203,7 +204,7 @@ public class Frame1 extends JPanel implements ActionListener{
 		buttonToKML = new JButton("Dir to KML");
 		buttonToKML.addActionListener(this);
 		buttonToKML.setFont(new Font("Times New Roman", Font.PLAIN, 15));
-		buttonToKML.setBounds(10, 57, 127, 39);
+		buttonToKML.setBounds(10, 107, 127, 39);
 		frame.getContentPane().add(buttonToKML);
 
 		textFieldTimeEnd = new JTextField();
@@ -215,7 +216,7 @@ public class Frame1 extends JPanel implements ActionListener{
 		txtpnfullName.setEditable(false);
 		txtpnfullName.setText("(Full name)\r\n");
 		txtpnfullName.setBackground(SystemColor.info);
-		txtpnfullName.setBounds(483, 72, 106, 20);
+		txtpnfullName.setBounds(483, 72, 67, 20);
 		frame.getContentPane().add(txtpnfullName);
 
 		textFieldLon = new JTextField();
@@ -239,7 +240,7 @@ public class Frame1 extends JPanel implements ActionListener{
 		textPaneTime.setEditable(false);
 		textPaneTime.setText("(Begin) (End )\r\n");
 		textPaneTime.setBackground(SystemColor.info);
-		textPaneTime.setBounds(495, 144, 106, 20);
+		textPaneTime.setBounds(483, 144, 81, 20);
 		frame.getContentPane().add(textPaneTime);
 
 		textFieldRad = new JTextField();
@@ -316,12 +317,80 @@ public class Frame1 extends JPanel implements ActionListener{
 		frame.getContentPane().add(btnClearFilters);
 		
 		list = new JList();
+		list.setSelectionMode(ListSelectionModel.SINGLE_SELECTION);
 		list.setValueIsAdjusting(true);
 		list.setDragEnabled(true);
+		list.addListSelectionListener(new ListSelectionListener(){
+			@Override
+			public void valueChanged(ListSelectionEvent e) {
+			    if (e.getValueIsAdjusting() == true) {
+
+			        if (list.getSelectedIndex() != -1) {
+			        //No selection, disable fire button.
+			        	mac = (String)list.getSelectedValue(); 
+			        }
+			        else
+			        	mac = null;
+			    }
+			}	
+		});
 		list.setBorder(new LineBorder(new Color(0, 0, 0)));
 		list.setBackground(new Color(255, 255, 255));
-		list.setBounds(617, 126, 117, 20);
+		list.setBounds(617, 145, 117, 20);
 		frame.getContentPane().add(list);
+		
+		scrollPane = new JScrollPane(list);
+		scrollPane.setBounds(607, 107, 127, 21);
+		frame.getContentPane().add(scrollPane);
+		scrollPane.setHorizontalScrollBarPolicy(JScrollPane.HORIZONTAL_SCROLLBAR_NEVER);
+		
+		JTextPane txtpnMacAdresses = new JTextPane();
+		txtpnMacAdresses.setBackground(SystemColor.info);
+		txtpnMacAdresses.setText("Mac Adresses:");
+		txtpnMacAdresses.setBounds(607, 84, 127, 20);
+		frame.getContentPane().add(txtpnMacAdresses);
+		
+		JTextPane txtpnPosition = new JTextPane();
+		txtpnPosition.setBackground(SystemColor.info);
+		txtpnPosition.setText("Position:");
+		txtpnPosition.setBounds(607, 126, 127, 20);
+		frame.getContentPane().add(txtpnPosition);
+		
+		textPaneMacPos = new JTextPane();
+		textPaneMacPos.setBorder(new LineBorder(new Color(0, 0, 0)));
+		textPaneMacPos.setBackground(Color.WHITE);
+		textPaneMacPos.setBounds(579, 144, 155, 20);
+		frame.getContentPane().add(textPaneMacPos);
+		
+		list_1 = new JList();
+		list_1.setSelectionMode(ListSelectionModel.SINGLE_SELECTION);
+		list_1.setValueIsAdjusting(true);
+		list_1.setDragEnabled(true);
+		list_1.addListSelectionListener(new ListSelectionListener(){
+			@Override
+			public void valueChanged(ListSelectionEvent e) {
+			    if (e.getValueIsAdjusting() == true) {
+			    	System.out.println("i'm in");
+			        if (list_1.getSelectedIndex() != -1) {
+			        //No selection, disable fire button.
+			        	name = (String)list_1.getSelectedValue(); 
+			        	System.out.println("name: "+name);
+			        }
+			        else{
+			        	name = null;
+			        }
+			    }
+			}	
+		});
+		list_1.setBorder(new LineBorder(new Color(0, 0, 0)));
+		list_1.setBackground(new Color(255, 255, 255));
+		list_1.setBounds(275, 61, 174, 27);
+		frame.getContentPane().add(list_1);
+		
+		scrollPane_1 = new JScrollPane(list_1);
+		scrollPane_1.setBounds(280, 66, 180, 20);
+		frame.getContentPane().add(scrollPane_1);
+		scrollPane_1.setHorizontalScrollBarPolicy(JScrollPane.HORIZONTAL_SCROLLBAR_NEVER);
 		
 	}
 
@@ -355,6 +424,7 @@ public class Frame1 extends JPanel implements ActionListener{
 				log.append("Open command cancelled by user.");
 			}
 			list.setListData(Data.myVector);
+			list_1.setListData(Data.myVector);
 		}
 		if(e.getSource()==buttonAddCSV){
 			fc.setFileSelectionMode(JFileChooser.FILES_ONLY);
@@ -368,6 +438,7 @@ public class Frame1 extends JPanel implements ActionListener{
 				log.append("Open command cancelled by user.");
 			}
 			list.setListData(Data.myVector);
+			list_1.setListData(Data.myVector);
 		}
 		
 		if(e.getSource()==ButtonSaveToCSV){
@@ -376,9 +447,9 @@ public class Frame1 extends JPanel implements ActionListener{
 			if (returnVal == JFileChooser.APPROVE_OPTION){
 				dir = fc.getSelectedFile();
 				Data.toCSV(dir.getPath());
-				log.append("Opening: " + file.getName() + ".");
+				//log.append("Opening: " + file.getName() + ".");
 			} else {
-				log.append("Open command cancelled by user.");
+				//log.append("Open command cancelled by user.");
 			}
 		}
 		
@@ -388,9 +459,9 @@ public class Frame1 extends JPanel implements ActionListener{
 			if (returnVal == JFileChooser.APPROVE_OPTION){
 				dir = fc.getSelectedFile();
 				Data.FilterstoCSV(dir.getPath());
-				log.append("Opening: " + file.getName() + ".");
+				//log.append("Opening: " + file.getName() + ".");
 			} else {
-				log.append("Open command cancelled by user.");
+				//log.append("Open command cancelled by user.");
 			}
 		}
 		
@@ -404,14 +475,14 @@ public class Frame1 extends JPanel implements ActionListener{
 		
 		// Submitting filters
 		if(e.getSource()==ButtonFilterSubmit) {
-			name=textFieldName.getText();
 			lat=textFieldLat.getText();
 			lon=textFieldLon.getText();
 			alt=textFieldAlt.getText();
 			radius=textFieldRad.getText();
 			start=textFieldTimeStart.getText();
 			end=textFieldTimeEnd.getText();
-			
+			System.out.println("name: "+name+" lat:"+lat+" lon:"+lon+" radius:"+radius+" start:"+start);
+			System.out.println((name==null)+","+(lat==null)+","+(radius==null)+","+(start==null));
 			if(rdbtnAnd.isSelected())
 				operator = "And";
 			else
@@ -424,8 +495,8 @@ public class Frame1 extends JPanel implements ActionListener{
 				Data.macFilter(name,operator);
 			}
 			//filter by position
-			if(lat!=null && lon!=null){
-				if(alt==null){
+			if(!lat.equals("") && !lon.equals("")){
+				if(alt.equals("")){
 					Data.positionfilter(lat, lon, "0", radius, operator);
 				}
 				else {
@@ -433,11 +504,19 @@ public class Frame1 extends JPanel implements ActionListener{
 				}
 			}
 			//filter by time
-			if(start!=null&&end!=null){
+			if(start.equals("")&&!end.equals("")){
 				Data.Timefilter(start, end, operator);
 			}
-
 		}
+		
+		if(e.getSource()==buttonAlg1Submit){
+			System.out.println("i'm here");
+			if(mac!=null){
+				textPaneMacPos.setText(Data.getPositionAlg1(mac));
+				System.out.println("i'm here");
+			}
+		}
+		
 	}
 }
 
