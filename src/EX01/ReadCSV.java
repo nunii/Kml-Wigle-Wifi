@@ -1,6 +1,7 @@
 package EX01;
 
 import java.io.BufferedReader;
+import java.io.File;
 import java.io.FileReader;
 import java.io.IOException;
 
@@ -17,7 +18,6 @@ public class ReadCSV {
 		raws = 11;
 		lines = LCtr(fileName);
 		String[][] mtx = new String[lines][raws];
-		
 		
 		try {
 			FileReader fr = new FileReader(fileName);
@@ -36,6 +36,9 @@ public class ReadCSV {
 			System.out.print("Error reading file\n" + ex);
 			System.exit(2);
 		}
+		File file = new File(fileName);
+		mtx[0][0] = fileName;
+		mtx[0][1] = String.valueOf(file.lastModified());
 		return mtx;
 	}
 	

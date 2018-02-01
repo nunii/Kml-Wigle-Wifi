@@ -33,6 +33,8 @@ import javax.swing.JRadioButton;
 import javax.swing.JScrollPane;
 import java.awt.event.MouseAdapter;
 import java.awt.event.MouseEvent;
+import java.awt.event.MouseListener;
+
 import javax.swing.JDesktopPane;
 import javax.swing.JFileChooser;
 import javax.swing.JMenuBar;
@@ -262,7 +264,7 @@ public class Frame1 extends JPanel implements ActionListener{
 		textPane.setBounds(345, 164, 138, 20);
 		frame.getContentPane().add(textPane);
 		
-		btnFilterdDataTo = new JButton("Filterd data\r\nto CSV file");
+		btnFilterdDataTo = new JButton("Filterd data\r \nto CSV file");
 		btnFilterdDataTo.addActionListener(this);
 		btnFilterdDataTo.setFont(new Font("Times New Roman", Font.PLAIN, 14));
 		btnFilterdDataTo.setBounds(10, 208, 127, 39);
@@ -374,7 +376,7 @@ public class Frame1 extends JPanel implements ActionListener{
 			        if (list_1.getSelectedIndex() != -1) {
 			        //No selection, disable fire button.
 			        	name = (String)list_1.getSelectedValue(); 
-			        	System.out.println("name: "+name);
+			        	//System.out.println("name: "+name);
 			        }
 			        else{
 			        	name = null;
@@ -391,7 +393,7 @@ public class Frame1 extends JPanel implements ActionListener{
 		scrollPane_1.setBounds(280, 66, 180, 20);
 		frame.getContentPane().add(scrollPane_1);
 		scrollPane_1.setHorizontalScrollBarPolicy(JScrollPane.HORIZONTAL_SCROLLBAR_NEVER);
-		
+	
 	}
 
 	/**
@@ -413,6 +415,7 @@ public class Frame1 extends JPanel implements ActionListener{
 	@Override
 	public void actionPerformed(ActionEvent e) {
 		// TODO Auto-generated method stub
+		
 		if(e.getSource()==buttonAddDir){
 			fc.setFileSelectionMode(JFileChooser.DIRECTORIES_ONLY);
 			int returnVal = fc.showOpenDialog(buttonAddDir);
@@ -472,7 +475,6 @@ public class Frame1 extends JPanel implements ActionListener{
 			Data.ClearFilters();
 			
 		
-		
 		// Submitting filters
 		if(e.getSource()==ButtonFilterSubmit) {
 			lat=textFieldLat.getText();
@@ -481,8 +483,8 @@ public class Frame1 extends JPanel implements ActionListener{
 			radius=textFieldRad.getText();
 			start=textFieldTimeStart.getText();
 			end=textFieldTimeEnd.getText();
-			System.out.println("name: "+name+" lat:"+lat+" lon:"+lon+" radius:"+radius+" start:"+start);
-			System.out.println((name==null)+","+(lat==null)+","+(radius==null)+","+(start==null));
+//			System.out.println("name: "+name+" lat:"+lat+" lon:"+lon+" radius:"+radius+" start:"+start);
+//			System.out.println((name==null)+","+(lat==null)+","+(radius==null)+","+(start==null));
 			if(rdbtnAnd.isSelected())
 				operator = "And";
 			else
@@ -504,17 +506,17 @@ public class Frame1 extends JPanel implements ActionListener{
 				}
 			}
 			//filter by time
-			if(start.equals("")&&!end.equals("")){
+			if(!start.equals("")&&!end.equals("")){
 				Data.Timefilter(start, end, operator);
 			}
+			list_1.clearSelection();
 		}
 		
 		if(e.getSource()==buttonAlg1Submit){
-			System.out.println("i'm here");
 			if(mac!=null){
 				textPaneMacPos.setText(Data.getPositionAlg1(mac));
-				System.out.println("i'm here");
 			}
+			list.clearSelection();
 		}
 		
 	}

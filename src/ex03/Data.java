@@ -1,6 +1,7 @@
 package ex03;
 
 import java.io.BufferedReader;
+import java.io.File;
 import java.io.FileReader;
 import java.io.IOException;
 import java.util.ArrayList;
@@ -28,7 +29,7 @@ public class Data {
 	static String operator;
 	static MacList ml = new MacList(samples);
 	static Vector<String> myVector = new Vector<String>();
-	
+	static ArrayList<String> modified = new ArrayList<>();
 	private static void setVector(){
 		for (int i = 0; i < ml.size(); i++) {
 			myVector.add(ml.get(i).getMac());
@@ -37,6 +38,11 @@ public class Data {
 	
 	public static void addDir(String path){
 		ArrayList<String> al = NewCSV.start(path);
+		String[] mod = al.get(0).split(";");
+		for (int i = 0; i < mod.length; i++) {
+			modified.add(mod[i]);
+		}
+		al.remove(0);
 		samples.add(al);
 		if(!filterFlag)
 			currentData = new Samples(samples);
@@ -69,6 +75,8 @@ public class Data {
 				//here should pop up msg of wrong file type
 				throw new IOException(FilePath);
 			}
+			File file = new File(FilePath);
+			modified.add(FilePath+","+file.lastModified());
 			str = br.readLine();
 			while(str!=null){
 				samples.add(new Sample(str.split(",")));
@@ -104,6 +112,8 @@ public class Data {
 	
 	public static void addWglFile(String filepath){
 		ArrayList<String> al = NewCSV.Best10(ReadCSV.CSVtoMatrix(filepath));
+		File file = new File(filepath);
+		modified.add(filepath+","+file.lastModified());
 		samples.add(al);
 		if(!filterFlag)
 			currentData = new Samples(samples);
@@ -149,11 +159,14 @@ public class Data {
 		Filter tf = new timeFilter(start,end);
 		
 		if(!filterFlag||oper==null){
-			currentData = currentData.Filter(tf);
+			currentData = samples.Filter(tf);
 			filters[0] = tf;
+			filters[1] = null;
 			filterFlag = true;
 		}
 		else{
+			if(filters[1]!=null)
+				return ;
 			operator = oper;
 			filters[1] = tf;
 			if(operator.equals("OR")){

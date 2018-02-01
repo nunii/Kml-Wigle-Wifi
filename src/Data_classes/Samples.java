@@ -63,7 +63,7 @@ public class Samples {
 
 	public void add(Sample s){
 		if(!this.hasEqual(s)){
-			System.out.println("in");
+			//System.out.println("in");
 			file.add(s);
 		}
 	}
@@ -136,7 +136,7 @@ public class Samples {
 	}
 
 	public boolean hasEqual(Sample samp){
-		System.out.println("in hasEqual");
+		//System.out.println("in hasEqual");
 		Time STtime = new Time(samp.getDate());
 		Filter f = new timeFilter(STtime.toString(),STtime.toString());
 		Samples sampls = new Samples(this.Filter(f));

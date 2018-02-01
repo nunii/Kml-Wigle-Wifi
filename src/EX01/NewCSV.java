@@ -19,9 +19,19 @@ public class NewCSV {
 
 	private static ArrayList<String> DirToCsv(File[] fileslist, String s){
 		FinalFile = new ArrayList<>();
+		String [][] mtx;
+		ArrayList<String> changes = new ArrayList<>();
+		String modi = "";
 		for(File i:fileslist){
-			FinalFile.addAll(Best10(ReadCSV.CSVtoMatrix(i.getPath())));
+			mtx = (ReadCSV.CSVtoMatrix(i.getPath()));
+			if(mtx!=null){
+				modi += ";"+mtx[0][0]+","+mtx[0][1];
+				/*changes.add(mtx[0][0]);
+				changes.add(mtx[0][1]);*/
+			}
+			FinalFile.addAll(Best10(mtx));
 		}
+		FinalFile.add(0, modi);
 		return FinalFile;
 	}
 
@@ -140,7 +150,7 @@ public class NewCSV {
 		}	
 		return ListOfGoods;
 	}
-	
+
 	/**
 	 * Asks for a path to directory and starts activating the other functions of this class.
 	 */
@@ -152,7 +162,7 @@ public class NewCSV {
 			s+="\\";
 		File[] listOfFiles = new File[1];
 		listOfFiles = getDir(s);
-/*
+		/*
 		boolean bool = true;
 		while(bool){
 			try{
@@ -166,12 +176,12 @@ public class NewCSV {
 				bool = true;
 			}
 		}
-		*/
+		 */
 		return DirToCsv(listOfFiles, s);
 		//reader.close();
 		//WriteCSV.Write(FinalFile, s+"newCSV.csv");
 
-	
+
 	}
 }
 
