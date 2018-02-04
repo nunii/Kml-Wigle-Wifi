@@ -10,8 +10,7 @@ import java.awt.TextField;
 import java.awt.Font;
 import java.awt.Insets;
 import javax.swing.SwingConstants;
-import java.util.Timer;
-import java.util.TimerTask;
+
 import Data_classes.Position;
 import Data_classes.Samples;
 import EX01.Rashi;
@@ -44,7 +43,6 @@ import javax.swing.JPanel;
 
 import javafx.stage.FileChooser;
 import java.io.File;
-import java.util.ArrayList;
 import java.util.concurrent.ForkJoinPool;
 
 import javax.swing.JTextArea;
@@ -66,9 +64,8 @@ import java.awt.Panel;
 
 public class Frame1 extends JPanel implements ActionListener{
 
-	public Data data;
 	private String mac=null,name,File,Path,lat,alt,lon,radius,start,end,operator;
-	public JFrame frame,DirPathFrame;
+	private JFrame frame,DirPathFrame;
 	private JTextField textFieldLat;
 	private JTextArea log;
 	private JFileChooser fc;
@@ -117,7 +114,8 @@ public class Frame1 extends JPanel implements ActionListener{
 	 * Initialize the contents of the frame.
 	 */
 	private void initialize() {
-		data = new Data();
+		Data.csvCounter = 1;
+		Data.kmlCounter = 1;
 		log = new JTextArea(5, 20);
 		log.setMargin(new Insets(5, 5, 5, 5));
 		log.setEditable(false);
@@ -291,7 +289,7 @@ public class Frame1 extends JPanel implements ActionListener{
 		textPane_2.setFont(new Font("Times New Roman", Font.PLAIN, 15));
 		textPane_2.setBackground(Color.WHITE);
 		textPane_2.setBounds(280, 195, 200, 20);
-		textPane_2.setText(data.currentFilter());
+		textPane_2.setText(Data.currentFilter());
 		frame.getContentPane().add(textPane_2);
 		
 		JTextPane txtpnToAddFilter = new JTextPane();
@@ -461,7 +459,7 @@ public class Frame1 extends JPanel implements ActionListener{
 
 	/**
 	 * Launch the application.
-	 *//*
+	 */
 	public static void main(String[] args) {
 		EventQueue.invokeLater(new Runnable() {
 			public void run() {
@@ -474,7 +472,7 @@ public class Frame1 extends JPanel implements ActionListener{
 			}
 		});
 	}
-*/
+
 	@Override
 	public void actionPerformed(ActionEvent e) {
 		// TODO Auto-generated method stub
@@ -484,27 +482,27 @@ public class Frame1 extends JPanel implements ActionListener{
 			int returnVal = fc.showOpenDialog(buttonAddDir);
 			if (returnVal == JFileChooser.APPROVE_OPTION){
 				dir = fc.getSelectedFile();
-				data.addDir(dir.getPath());
+				Data.addDir(dir.getPath());
 				log.append("Opening: " + dir.getPath() + ".");
 			} else {
 				log.append("Open command cancelled by user.");
 			}
-			list.setListData(data.myVector);
-			list_1.setListData(data.myVector);
+			list.setListData(Data.myVector);
+			list_1.setListData(Data.myVector);
 		}
 		if(e.getSource()==buttonAddCSV){
 			fc.setFileSelectionMode(JFileChooser.FILES_ONLY);
 			int returnVal = fc.showOpenDialog(buttonAddCSV);
 			if (returnVal == JFileChooser.APPROVE_OPTION) {
 				file = fc.getSelectedFile();
-				data.addCSV(file.getPath());
+				Data.addCSV(file.getPath());
 				//This is where a real application would open the file.
 				log.append("Opening: " + file.getName() + ".");
 			} else {
 				log.append("Open command cancelled by user.");
 			}
-			list.setListData(data.myVector);
-			list_1.setListData(data.myVector);
+			list.setListData(Data.myVector);
+			list_1.setListData(Data.myVector);
 		}
 		
 		if(e.getSource()==ButtonSaveToCSV){
@@ -512,7 +510,7 @@ public class Frame1 extends JPanel implements ActionListener{
 			int returnVal = fc.showOpenDialog(buttonAddDir);
 			if (returnVal == JFileChooser.APPROVE_OPTION){
 				dir = fc.getSelectedFile();
-				data.toCSV(dir.getPath());
+				Data.toCSV(dir.getPath());
 				//log.append("Opening: " + file.getName() + ".");
 			} else {
 				//log.append("Open command cancelled by user.");
@@ -524,7 +522,7 @@ public class Frame1 extends JPanel implements ActionListener{
 			int returnVal = fc.showOpenDialog(buttonAddDir);
 			if (returnVal == JFileChooser.APPROVE_OPTION){
 				dir = fc.getSelectedFile();
-				data.FilterstoCSV(dir.getPath());
+				Data.FilterstoCSV(dir.getPath());
 				//log.append("Opening: " + file.getName() + ".");
 			} else {
 				//log.append("Open command cancelled by user.");
@@ -532,10 +530,10 @@ public class Frame1 extends JPanel implements ActionListener{
 		}
 		
 		if(e.getSource()==buttonClearData)
-			data.ClearData();
+			Data.ClearData();
 		
 		if(e.getSource()==btnClearFilters)
-			data.ClearFilters();
+			Data.ClearFilters();
 			
 		
 		// Submitting filters
@@ -557,27 +555,27 @@ public class Frame1 extends JPanel implements ActionListener{
 					operator = null;
 			//wifi filter by mac name
 			if(name!=null) {
-				data.macFilter(name,operator);
+				Data.macFilter(name,operator);
 			}
 			//filter by position
 			if(!lat.equals("") && !lon.equals("")){
 				if(alt.equals("")){
-					data.positionfilter(lat, lon, "0", radius, operator);
+					Data.positionfilter(lat, lon, "0", radius, operator);
 				}
 				else {
-					data.positionfilter(lat, lon, alt, radius, operator);
+					Data.positionfilter(lat, lon, alt, radius, operator);
 				}
 			}
 			//filter by time
 			if(!start.equals("")&&!end.equals("")){
-				data.Timefilter(start, end, operator);
+				Data.Timefilter(start, end, operator);
 			}
 			list_1.clearSelection();
 		}
 		
 		if(e.getSource()==buttonAlg1Submit){
 			if(mac!=null){
-				textPaneMacPos.setText(data.getPositionAlg1(mac));
+				textPaneMacPos.setText(Data.getPositionAlg1(mac));
 			}
 			list.clearSelection();
 		}
@@ -589,32 +587,8 @@ public class Frame1 extends JPanel implements ActionListener{
 			user = User.getText();
 			pass = Password.getText();
 			Data.addSQLtable(ip, url, user, pass);
-			list.setListData(data.myVector);
-			list_1.setListData(data.myVector);
-		}
-	}
-
-	public void ifModified(){
-		System.out.println("1");
-		int size = data.modified.size();
-		String[] file = new String[2];
-		for (int i = 0; i < size; i++) {
-			file = data.modified.get(i).split(",");
-			File newfile = new File(file[0]);
-			if(!newfile.exists()||!String.valueOf(newfile.lastModified()).equals(file[1])){
-				System.out.println("2");
-				if(!newfile.exists())
-					data.modified.remove(i);
-				ArrayList<String> mod = new ArrayList<String>();
-				mod.addAll(data.modified);
-				data.ClearData();
-				for (int j = 0; j < mod.size(); j++) {
-					System.out.println("s");
-					file = mod.get(j).split(",");
-					data.addCSV(file[0]);
-				}
-				i = size;
-			}
+			list.setListData(Data.myVector);
+			list_1.setListData(Data.myVector);
 		}
 	}
 }
