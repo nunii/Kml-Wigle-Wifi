@@ -7,7 +7,6 @@ import java.io.IOException;
 import java.text.DateFormat;
 import java.text.SimpleDateFormat;
 import java.util.ArrayList;
-import java.util.Arrays;
 import java.util.Date;
 import java.util.Vector;
 
@@ -26,22 +25,36 @@ import dataBase.MySQL;
 import ex02.MacPos;
 
 public class Data {
-	static Samples samples = new Samples(),currentData = new Samples(samples);
-	public static int csvCounter,kmlCounter;
-	static boolean filterFlag = false;
-	static Filter[] filters = new Filter[2];
-	static String operator;
-	static MacList ml = new MacList(samples);
-	static Vector<String> myVector = new Vector<String>();
-	static ArrayList<String> modified = new ArrayList<>();
+	private Samples samples;
+	public Samples currentData;
+	public int csvCounter,kmlCounter;
+	private boolean filterFlag;
+	private Filter[] filters;
+	private String operator;
+	private MacList ml;
+	public Vector<String> myVector;
+	public ArrayList<String> modified;
 	static Date time = new Date();
+
+	public Data(){
+		samples = new Samples();
+		currentData = new Samples(samples);
+		filters = new Filter[2];
+		ml = new MacList(samples);
+		myVector = new Vector<String>();
+		modified = new ArrayList<>();
+		csvCounter = 1;
+		kmlCounter = 1;
+		filterFlag = false;
+	}
+	
 	private static void setVector(){
 		for (int i = 0; i < ml.size(); i++) {
 			myVector.add(ml.get(i).getMac());
 		}
 	}
 	
-	public static void addDir(String path){
+	public void addDir(String path){
 		ArrayList<String> al = NewCSV.start(path);
 		String[] mod = al.get(0).split(";");
 		for (int i = 0; i < mod.length; i++) {
@@ -70,7 +83,7 @@ public class Data {
 		setVector();
 	}
 	
-	public static void addCSV(String FilePath){
+	public void addCSV(String FilePath){
 		try {
 			FileReader fr = new FileReader(FilePath);
 			BufferedReader br = new BufferedReader(fr);
@@ -115,7 +128,7 @@ public class Data {
 		setVector();
 	}
 	
-	public static void addWglFile(String filepath){
+	public void addWglFile(String filepath){
 		ArrayList<String> al = NewCSV.Best10(ReadCSV.CSVtoMatrix(filepath));
 		File file = new File(filepath);
 		modified.add(filepath+","+file.lastModified());
@@ -166,26 +179,26 @@ public class Data {
 	}
 	
 	
-	public static void toCSV(String path){
+	public void toCSV(String path){
 		DateFormat f = new SimpleDateFormat("dd-MM-yyyy HH-mm-ss");
 		samples.toCSV(path+"\\newCsvFile-"+f.format(time.getTime()).toString()+".csv");
 		csvCounter++;
 	}
 	
-	public static void FilterstoCSV(String path){
+	public void FilterstoCSV(String path){
 		currentData.toCSV(path+"\\newFilterdCsvFile-"+csvCounter+".csv");
 		csvCounter++;
 	}
 	
-	public static void toKML(String path){
+	public void toKML(String path){
 		WriteToKml.write(currentData, path+"\\newKMLfile-"+kmlCounter+".kml");
 	}
 	
-	public static Samples CurrentData(){
+	public  Samples CurrentData(){
 		return currentData;
 	}
 	
-	public static void Timefilter(String start, String end, String oper){
+	public  void Timefilter(String start, String end, String oper){
 		
 		Filter tf = new timeFilter(start,end);
 		
@@ -211,7 +224,7 @@ public class Data {
 		}
 	}
 	
-	public static void positionfilter(String lat, String lon, String alt, String radius, String oper){
+	public  void positionfilter(String lat, String lon, String alt, String radius, String oper){
 		Filter pf = new positionFilter(new Position(lat,lon,alt),Double.parseDouble(radius));
 		
 		if(!filterFlag||oper==null){
@@ -233,7 +246,7 @@ public class Data {
 		}
 	}
 	
-	public static void macFilter(String mac, String oper){
+	public  void macFilter(String mac, String oper){
 		Filter wf = new WifiFilter(mac);
 		
 		if(!filterFlag||oper==null){
@@ -255,7 +268,7 @@ public class Data {
 		}
 	}
 
-	public static String currentFilter(){
+	public  String currentFilter(){
 		String f1="",f2="";
 		if(filters[0]!=null)
 			f1=filters[0].toString();
@@ -264,34 +277,38 @@ public class Data {
 		return f1 + operator + f2;
 	}
 	
-	public static void ClearData(){
+	public  void ClearData(){
 		samples = new Samples();
 		currentData = new Samples(samples);
-		filters[0] = null;
-		filters[1] = null;
-		operator = null;
+		filters = new Filter[2];
+		ml = new MacList(samples);
+		myVector = new Vector<String>();
+		modified = new ArrayList<>();
+		csvCounter = 1;
+		kmlCounter = 1;
+		filterFlag = false;
 	}
 	
-	public static void ClearFilters(){
+	public  void ClearFilters(){
 		currentData = new Samples(samples);
 		filters[0] = null;
 		filters[1] = null;
 		operator = null;
 	}
 	
-	public static String MacMount(){
+	public  String MacMount(){
 		if(ml.size()<1)
 			return "0";
 		return String.valueOf(ml.size());
 	}
 	
-	public static String SamplesMount(){
+	public  String SamplesMount(){
 		if(samples.length()<1)
 			return "0";
 		return String.valueOf(samples.length());
 	}
 	
-	public static String getPositionAlg1(String mac){
+	public  String getPositionAlg1(String mac){
 		return MacPos.makePos(samples,mac).toString();
 	}
 	
