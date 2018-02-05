@@ -1,10 +1,9 @@
-package test.java.Algos;
+package main.java.algos;
 
 import static org.junit.Assert.*;
 
 import org.junit.Test;
 
-import main.java.algos.*;
 import main.java.data_classes.Sample;
 
 public class Alg2Test {

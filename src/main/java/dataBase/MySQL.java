@@ -1,4 +1,4 @@
-package dataBase;
+package main.java.dataBase;
 
 /** 
  * This is a very simple example representing how to work with MySQL 
@@ -19,11 +19,7 @@ import java.util.Date;
 import java.util.logging.Level;
 import java.util.logging.Logger;
 
-import Data_classes.*;
-//import Tools.Point3D;
-//import WiFi_data.WiFi_AP;
-//import WiFi_data.WiFi_Scan;
-//import WiFi_data.WiFi_Scans;
+import main.java.data_classes.*;
 
 import java.sql.Statement;
 
@@ -53,7 +49,6 @@ public class MySQL {
 	public ArrayList<String> readTable() {
 		Statement st = null;
 		ResultSet rs = null;
-		int max_id = -1;
 
 		try {     
 			con = DriverManager.getConnection(url, user, password);
@@ -65,7 +60,6 @@ public class MySQL {
 
 			PreparedStatement pst = con.prepareStatement("SELECT * FROM ex4_db");
 			rs = pst.executeQuery();
-			int ind=0;
 			int size,len;
 			String line ="";
 			while (rs.next()) {
@@ -80,7 +74,6 @@ public class MySQL {
 				line = line.substring(0, line.length()-1);
 				table.add(line);
 				System.out.println(line);
-				ind++;
 			}
 		} catch (SQLException ex) {
 			Logger lgr = Logger.getLogger(MySQL.class.getName());

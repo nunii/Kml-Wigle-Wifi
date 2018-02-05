@@ -1,4 +1,4 @@
-package test.java.Algos;
+package main.java.algos;
 
 import static org.junit.Assert.*;
 
