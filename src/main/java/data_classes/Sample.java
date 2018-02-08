@@ -1,6 +1,5 @@
 package main.java.data_classes;
 
-import java.util.Arrays;
 
 public class Sample {
 	/**

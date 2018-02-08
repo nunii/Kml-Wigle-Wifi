@@ -15,17 +15,20 @@ import java.sql.DriverManager;
 import java.sql.ResultSet;
 import java.sql.SQLException;
 import java.util.ArrayList;
-import java.util.Date;
 import java.util.logging.Level;
 import java.util.logging.Logger;
 
-import main.java.data_classes.*;
 
 import java.sql.Statement;
 
 
 public class MySQL {
-
+	/**
+		 * @author amit nuni bar janach
+		 * this is taken from boaz's git.
+		 * implemented to our code.
+		 */
+	
 	private String ip;// = "5.29.193.52";
 	private String url;// = "jdbc:mysql://"+ip+":3306/oop_course_ariel";
 	private String user;// = "oop1";
@@ -41,11 +44,7 @@ public class MySQL {
 		table = new ArrayList<String>();
 	}
 
-/*	 public static void main(String[] args) {
-		 ArrayList<String> max_id = readTable();
-	  //  	insert_table1(max_id);
-	    }
-	*/
+
 	public ArrayList<String> readTable() {
 		Statement st = null;
 		ResultSet rs = null;

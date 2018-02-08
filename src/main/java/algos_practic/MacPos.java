@@ -5,14 +5,12 @@ import main.java.filters.WifiFilter;
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;
-import java.util.Scanner;
 
 import main.java.algos.Alg1;
 import main.java.data_classes.MacList;
 import main.java.data_classes.Position;
 import main.java.data_classes.Samples;
 import main.java.data_classes.Wifi;
-import main.java.filters.Filter.*;
 
 
 public class MacPos {

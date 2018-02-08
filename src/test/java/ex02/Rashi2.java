@@ -1,4 +1,4 @@
-package test.java.ex02;
+/*package test.java.ex02;
 
 import main.java.algos.Alg2;
 import main.java.algos_practic.*;
@@ -7,10 +7,10 @@ import main.java.data_classes.Samples;
 public class Rashi2 {
 	
 	
-	/**
+	*//**
 	 * @author Amit Nuni, Bar Janach
 	 * This is the executing class of Ex2
-	 */
+	 *//*
 
 	public static void main(String[] args) {
 		String s = "Ex2\\testing\\_comb_all_BM2_.csv";
@@ -25,3 +25,4 @@ public class Rashi2 {
 	}
 
 }
+*/

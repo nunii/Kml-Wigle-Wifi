@@ -1,10 +1,12 @@
 package test.java.filters;
 
 import static org.junit.Assert.*;
+import org.junit.Test;
 
 import main.java.data_classes.Position;
-import main.java.filters.*;
-import org.junit.Test;
+import main.java.filters.positionFilter;
+
+
 
 public class positionFilterTest {
 

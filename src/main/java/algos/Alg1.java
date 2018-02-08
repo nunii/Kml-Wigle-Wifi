@@ -1,7 +1,5 @@
 package main.java.algos;
 
-import org.junit.Test;
-
 import main.java.data_classes.Position;
 import main.java.data_classes.Wifi;
 

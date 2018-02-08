@@ -26,6 +26,13 @@ import main.java.data_classes.Sample;
 import main.java.data_classes.Samples;
 
 public class Data {
+	
+	/**
+		 * @author amit nuni bar janach
+		 * the data implementaion of the gui.
+		 * 
+		 */
+	
 	private Samples samples;
 	public Samples currentData;
 	public int csvCounter,kmlCounter;

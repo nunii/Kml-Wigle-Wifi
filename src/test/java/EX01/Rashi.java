@@ -1,4 +1,4 @@
-package test.java.EX01;
+/*package test.java.EX01;
 
 import main.java.filters.Filter;
 import main.java.filters.positionFilter;
@@ -32,3 +32,4 @@ public class Rashi {
 	}
 
 }
+*/

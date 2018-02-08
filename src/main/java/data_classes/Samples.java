@@ -8,7 +8,6 @@ import java.io.BufferedReader;
 import java.io.FileReader;
 import java.io.IOException;
 import java.util.ArrayList;
-import java.util.List;
 
 
 
@@ -141,7 +140,6 @@ public class Samples {
 		Time STtime = new Time(samp.getDate());
 		Filter f = new timeFilter(STtime.toString(),STtime.toString());
 		Samples sampls = new Samples(this.Filter(f));
-		int size = samp.getMount();
 		for(int j=0;j<sampls.length();j++){
 			if(sampls.getSample(j).getID().equals(samp.getID())
 				&&sampls.getSample(j).getDate().equals(samp.getDate()))

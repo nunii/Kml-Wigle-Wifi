@@ -1,6 +1,5 @@
 package main.java.algos_practic;
 
-import java.util.ArrayList;
 
 import main.java.algos.Alg2;
 import main.java.data_classes.Position;

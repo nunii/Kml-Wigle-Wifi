@@ -1,13 +1,16 @@
 package main.java.data_classes;
 
 import java.util.ArrayList;
-import java.util.Collections;
 
 import main.java.io_pack.WriteCSV;
 
 public class MacList extends ArrayList<Wifi> {
 
 	
+	/**
+	 * 
+	 */
+	private static final long serialVersionUID = 1L;
 	/**
 	 * @author Bar Janach, Amit Nuni
 	 * Class used for making a filtered wifiList which removes duplicates.

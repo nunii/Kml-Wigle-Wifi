@@ -1,7 +1,6 @@
 package main.java.filters;
 
 import main.java.data_classes.Sample;
-import main.java.data_classes.Wifi;
 
 public class WifiFilter implements Filter {
 	/**

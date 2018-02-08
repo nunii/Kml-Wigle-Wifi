@@ -3,7 +3,6 @@ package main.java.io_pack;
 
 import java.io.File;
 import java.util.List;
-import java.util.Scanner;
 import java.util.ArrayList;
 
 

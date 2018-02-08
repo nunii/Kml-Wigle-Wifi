@@ -1,75 +1,47 @@
 package main.java.gui_pack;
 
-import java.awt.EventQueue;
-
-import javax.swing.JFrame;
-import javax.swing.JButton;
-import javax.swing.JTextField;
-import java.awt.SystemColor;
-import java.awt.TextField;
-import java.awt.Font;
-import java.awt.Insets;
-import javax.swing.SwingConstants;
-import java.util.Timer;
-import java.util.TimerTask;
-
-import main.java.algos_practic.Rashi2;
-import main.java.data_classes.Position;
-import main.java.data_classes.Samples;
-import main.java.filters.Filter;
-import main.java.filters.WifiFilter;
-import main.java.filters.positionFilter;
-import main.java.filters.positionFilterTest;
-import main.java.io_pack.Rashi;
-import main.java.io_pack.WriteToKml;
 
 import java.awt.Color;
-import javax.swing.JList;
-import javax.swing.JToggleButton;
-import java.awt.event.ActionListener;
+import java.awt.Font;
+import java.awt.Insets;
+import java.awt.SystemColor;
 import java.awt.event.ActionEvent;
-import javax.swing.JTextPane;
-import javax.swing.DropMode;
-import javax.swing.JInternalFrame;
-import javax.swing.JSplitPane;
-import javax.swing.JRadioButton;
-import javax.swing.JScrollPane;
-import java.awt.event.MouseAdapter;
-import java.awt.event.MouseEvent;
-import java.awt.event.MouseListener;
-
-import javax.swing.JDesktopPane;
-import javax.swing.JFileChooser;
-import javax.swing.JMenuBar;
-import javax.swing.JOptionPane;
-import javax.swing.JPanel;
-
-import javafx.stage.FileChooser;
+import java.awt.event.ActionListener;
 import java.io.File;
 import java.util.ArrayList;
-import java.util.concurrent.ForkJoinPool;
 
-import javax.swing.JTextArea;
 import javax.swing.ButtonGroup;
+import javax.swing.JButton;
+import javax.swing.JFileChooser;
+import javax.swing.JFrame;
+import javax.swing.JList;
+import javax.swing.JPanel;
+import javax.swing.JRadioButton;
+import javax.swing.JScrollPane;
+import javax.swing.JTextArea;
+import javax.swing.JTextField;
+import javax.swing.JTextPane;
+import javax.swing.ListSelectionModel;
+import javax.swing.UIManager;
 import javax.swing.border.LineBorder;
 import javax.swing.event.ListSelectionEvent;
 import javax.swing.event.ListSelectionListener;
-import javax.swing.UIManager;
-import javax.swing.JMenuItem;
-import javax.swing.JSpinner;
-import javax.swing.JScrollBar;
-import javax.swing.JComboBox;
-import java.awt.List;
-import java.awt.ScrollPane;
-import javax.swing.ListSelectionModel;
-import javax.swing.border.SoftBevelBorder;
-import javax.swing.border.BevelBorder;
-import java.awt.Panel;
+
+import main.java.data_classes.Samples;
 
 public class Frame1 extends JPanel implements ActionListener{
 
+	/**
+	 * 
+	 */
+	private static final long serialVersionUID = 7605024166767458056L;
+	/**
+		 * @author amit nuni bar janach
+		 * this class is the implemention of the gui.
+		 */
+	
 	public Data data;
-	private String mac=null,name,File,Path,lat,alt,lon,radius,start,end,operator;
+	private String mac=null,name,lat,alt,lon,radius,start,end,operator;
 	public JFrame frame,DirPathFrame;
 	private JTextField textFieldLat;
 	private JTextArea log;
@@ -461,25 +433,15 @@ public class Frame1 extends JPanel implements ActionListener{
 	
 	}
 
-	/**
-	 * Launch the application.
-	 *//*
-	public static void main(String[] args) {
-		EventQueue.invokeLater(new Runnable() {
-			public void run() {
-				try {
-					Frame1 window = new Frame1();
-					window.frame.setVisible(true);
-				} catch (Exception e) {
-					e.printStackTrace();
-				}
-			}
-		});
-	}
-*/
+	
 	@Override
 	public void actionPerformed(ActionEvent e) {
 		// TODO Auto-generated method stub
+		
+		/**
+				 * @author amit nuni bar janach
+				 * this func reacting according to actions preformed on the frame.
+				 */
 		
 		if(e.getSource()==buttonAddDir){
 			fc.setFileSelectionMode(JFileChooser.DIRECTORIES_ONLY);
@@ -596,6 +558,11 @@ public class Frame1 extends JPanel implements ActionListener{
 		}
 	}
 
+	/**
+		 * @author amit nuni bar janach
+		 * always checking if files has been changed.
+		 */
+	
 	public void ifModified(){
 		System.out.println("1");
 		int size = data.modified.size();
